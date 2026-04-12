@@ -30,9 +30,9 @@ favicon <- ggplot() +
     ) +
     # Add J
     geom_text(
-      aes(x = 0, y = 0, label = 'j'), 
+      aes(x = 0, y = 0, label = 'D'), 
       hjust = 0.5, 
-      nudge_y = 0.4,
+      nudge_y = 0.7,
       size = 90,
       family = 'Raleway', 
       fontface = 'bold', 

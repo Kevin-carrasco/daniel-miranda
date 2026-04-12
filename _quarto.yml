@@ -6,22 +6,11 @@ project:
     browser: true
   render:
     - "index.qmd"
-    - "about.qmd"
-    - "lab.qmd"
     - "cv.qmd"
-    - "research.qmd"
-    - "projects.qmd"
-    - "teaching.qmd"
-    - "blog/index.qmd"
-    - "blog/**/*.qmd"
-    - "research/**/*.qmd"
-    - "charts.qmd"
-    - "good-eats.qmd"
-    - "dogs.qmd"
-    - "404.qmd"
-    - "da-faq.qmd"
-    - "slides.qmd"
-    - "workshops.qmd"
+    - "investigacion.qmd"
+    - "proyectos.qmd"
+    - "docencia.qmd"
+    - "investigacion/**/*.qmd"
     - "!research/template.qmd"
   resources:
     - "content/"
@@ -30,12 +19,12 @@ project:
     - "static/"
 
 website:
-  title: "jhelvy.com"
-  description: "The personal website of John Paul Helveston"
-  image: images/lab/john_helveston_circle.png
-  site-url: https://www.jhelvy.com
+  title: "danielmiranda.com"
+  description: "Daniel Miranda"
+  image: images/Daniel_Miranda_Fuenzalida.jpg
+  site-url: https://www.danielmiranda.com
   favicon: images/favicon/favicon.ico
-  repo-url: https://github.com/jhelvy/jhelvy_quarto
+  repo-url: https://github.com/kevin-carrasco/danielmiranda
   search:
     location: navbar
     type: overlay
@@ -43,31 +32,25 @@ website:
   google-analytics: "G-HQNG5WQE3X"
   open-graph:
     locale: es_ES
-    site-name: https://jhelvy.com
-  twitter-card:
-    creator: "@johnhelveston"
-    site: "@johnhelveston"
-    image: images/lab/john_helveston_circle.png
-    card-style: summary  
-    image-height: 150
-    image-width: 150
+    site-name: https://danielmiranda.com
+
   navbar:
     right:
-      - text: "About"
-        href: about.qmd
-      - text: "Lab"
-        href: lab.qmd
-      - text: "Research"
-        href: research.qmd
-      - text: "Teaching"
-        href: teaching.qmd
-      - text: "Projects"
-        href: projects.qmd
-      - text: "Blog"
-        href: blog/index.qmd
+      - text: "Investigación"
+        menu:
+          - text: "Publicaciones"
+            href: papers.qmd
+          - text: "Capítulos de libro"
+            href: capitulos.qmd
+          - text: "Presentaciones"
+            href: presentaciones.qmd
+      - text: "Docencia"
+        href: docencia.qmd
+      - text: "Proyectos"
+        href: proyectos.qmd
   page-footer:
     center:
-      - text: "<a href='https://www.jhelvy.com/cv.html'>CV</a> &nbsp;<a href='https://github.com/jhelvy' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://bsky.app/profile/jhelvy.bsky.social' target='blank'><i class='fa fa-brands fa-bluesky'></i></a> &nbsp;<a href='https://www.linkedin.com/in/jhelvy' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com/citations?user=DY2D56IAAAAJ' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/John_Helveston' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a href='https://orcid.org/0000-0002-2657-9191' target='blank'><i class='ai ai-orcid fa-lg'></i></a><br>Site made with <i class='bi bi-heart-fill'></i>, <a href='https://github.com/jhelvy/jhelvy_quarto' target='_blank'><i class='bi bi-git'></i></a>, and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2024 John Paul Helveston"
+      - text: "<a href='https://www.danielmiranda.com/cv.html'>CV</a> &nbsp;<a href='https://github.com/danielmiranda' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://www.linkedin.com/in/daniel-miranda-a0677921/' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com/citations?user=vdF2kZcAAAAJ' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/Daniel-Miranda-13' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a href='https://orcid.org/0000-0002-3143-8502' target='blank'><i class='ai ai-orcid fa-lg'></i></a><br>Site made with <a href='https://github.com/danielmiranda/danielmiranda' target='_blank'><i class='bi bi-git'></i></a>, and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2026 Daniel Miranda"
 
 format:
   html:
