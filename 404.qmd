@@ -5,9 +5,7 @@ execute:
   warning: false
 ---
 
-```{r setup}
-source("_common.R")
-```
+
 
 :::float-left
 
@@ -22,11 +20,6 @@ source("_common.R")
 
 <br>
 
-```{r}
-icon_link(
-    text = "Return to home",
-    url  = "https://www.jhelvy.com"
-)
-```
+
 
 :::

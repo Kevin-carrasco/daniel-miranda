@@ -1,9 +1,6 @@
 project:
   type: website
   output-dir: "docs"
-  preview:
-    port: 5896
-    browser: true
   render:
     - "*.qmd"
   resources:
@@ -18,7 +15,7 @@ website:
   image: images/Daniel_Miranda_Fuenzalida.jpg
   site-url: https://www.danielmiranda.com
   favicon: images/favicon/favicon.ico
-  repo-url: https://github.com/kevin-carrasco/danielmiranda
+  repo-url: https://github.com/kevin-carrasco/daniel-miranda
   search:
     location: navbar
     type: overlay
