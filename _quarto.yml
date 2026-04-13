@@ -23,6 +23,7 @@ website:
     site-name: https://danielmiranda.com
 
   navbar:
+    background: "#163754"
     right:
       - text: "Investigación"
         menu:

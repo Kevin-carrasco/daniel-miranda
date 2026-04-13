@@ -1,5 +1,5 @@
 ---
-title : "La Importancia de La Invarianza M{'e}trica Para La Investigaci{'o}n En Sociolog{'i}a"
+title : "La Importancia de La Invarianza Metrica Para La Investigacion En Sociologia"
 date : "2022-08-01"
 author : "Miranda, Daniel & Iturra, Julio"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Miranda, Daniel & Iturra, Julio (2022). *La Importancia de La Invarianza M{'e}trica Para La Investigaci{'o}n En Sociolog{'i}a*. Revista de Sociolog{'i}a, 37(1) [https://doi.org/10.5354/0719-529X.2022.68153](https://doi.org/10.5354/0719-529X.2022.68153)
+Miranda, Daniel & Iturra, Julio (2022). *La Importancia de La Invarianza Metrica Para La Investigacion En Sociologia*. Revista de Sociolog{'i}a, 37(1) [https://doi.org/10.5354/0719-529X.2022.68153](https://doi.org/10.5354/0719-529X.2022.68153)
 
 :::
 

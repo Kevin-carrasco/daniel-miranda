@@ -1,5 +1,5 @@
 ---
-title : "Ethnicity or Policy? The Conditioning of {{Intergroup Trust}} in the {{Context}} of {{Ethnic Conflict}}"
+title : "Ethnicity or Policy? The Conditioning of Intergroup Trust in the Context of Ethnic Conflict"
 date : "2022-04-01"
 author : "Carlin, Ryan E.; Gonzalez, Roberto; Love, Gregory J.; Miranda, Daniel Andres & Navia, Patricio D."
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Carlin, Ryan E.; Gonzalez, Roberto; Love, Gregory J.; Miranda, Daniel Andres & Navia, Patricio D. (2022). *Ethnicity or Policy? The Conditioning of {{Intergroup Trust}} in the {{Context}} of {{Ethnic Conflict}}*. Political Psychology, 43(2) 201--220  [https://doi.org/10.1111/pops.12747](https://doi.org/10.1111/pops.12747)
+Carlin, Ryan E.; Gonzalez, Roberto; Love, Gregory J.; Miranda, Daniel Andres & Navia, Patricio D. (2022). *Ethnicity or Policy? The Conditioning of Intergroup Trust in the Context of Ethnic Conflict*. Political Psychology, 43(2) 201--220  [https://doi.org/10.1111/pops.12747](https://doi.org/10.1111/pops.12747)
 
 :::
 

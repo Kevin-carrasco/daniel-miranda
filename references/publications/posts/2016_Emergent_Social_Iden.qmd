@@ -1,5 +1,5 @@
 ---
-title : "Emergent Social Identity and Observing Social Support Predict Social Support Provided by Survivors in a Disaster: {{Solidarity}} in the 2010 {{Chile}} Earthquake"
+title : "Emergent Social Identity and Observing Social Support Predict Social Support Provided by Survivors in a Disaster: Solidarity in the 2010 Chile Earthquake"
 date : "2016-03-01"
 author : "Drury, John; Brown, Rupert; Gonzalez, Roberto & Miranda, Daniel"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Drury, John; Brown, Rupert; Gonzalez, Roberto & Miranda, Daniel (2016). *Emergent Social Identity and Observing Social Support Predict Social Support Provided by Survivors in a Disaster: {{Solidarity}} in the 2010 {{Chile}} Earthquake*. European Journal of Social Psychology, 46(2) 209--223  [https://doi.org/10.1002/ejsp.2146](https://doi.org/10.1002/ejsp.2146)
+Drury, John; Brown, Rupert; Gonzalez, Roberto & Miranda, Daniel (2016). *Emergent Social Identity and Observing Social Support Predict Social Support Provided by Survivors in a Disaster: Solidarity in the 2010 Chile Earthquake*. European Journal of Social Psychology, 46(2) 209--223  [https://doi.org/10.1002/ejsp.2146](https://doi.org/10.1002/ejsp.2146)
 
 :::
 

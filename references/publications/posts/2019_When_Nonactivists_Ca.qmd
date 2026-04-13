@@ -1,5 +1,5 @@
 ---
-title : "When Nonactivists Care: {{Group}} Efficacy Mediates the Effect of Social Identification and Perceived Instability on the Legitimacy of Collective Action"
+title : "When Nonactivists Care: Group Efficacy Mediates the Effect of Social Identification and Perceived Instability on the Legitimacy of Collective Action"
 date : "2019-06-01"
 author : "Jimenez-Moya, Gloria; Miranda, Daniel; Drury, John; Saavedra, Patricio & Gonzalez, Roberto"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Jimenez-Moya, Gloria; Miranda, Daniel; Drury, John; Saavedra, Patricio & Gonzalez, Roberto (2019). *When Nonactivists Care: {{Group}} Efficacy Mediates the Effect of Social Identification and Perceived Instability on the Legitimacy of Collective Action*. Group Processes & Intergroup Relations, 22(4) 563--577  [https://doi.org/10.1177/1368430217751631](https://doi.org/10.1177/1368430217751631)
+Jimenez-Moya, Gloria; Miranda, Daniel; Drury, John; Saavedra, Patricio & Gonzalez, Roberto (2019). *When Nonactivists Care: Group Efficacy Mediates the Effect of Social Identification and Perceived Instability on the Legitimacy of Collective Action*. Group Processes & Intergroup Relations, 22(4) 563--577  [https://doi.org/10.1177/1368430217751631](https://doi.org/10.1177/1368430217751631)
 
 :::
 

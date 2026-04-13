@@ -1,5 +1,5 @@
 ---
-title : "Socio-Economic Inequalities of Families and Their Differential Impact on Types of Political Participation in the New Generation of 24 Countries ( {{{emph{Desigualdades}}}}{emph{ Socio-Econ{'o}micas Familiares y Su Impacto Diferencial Sobre Tipos de Participaci{'o}n Pol{'i}tica de Nuevas Generaciones En 24 Pa{'i}ses}} )"
+title : "Socio-Economic Inequalities of Families and Their Differential Impact on Types of Political Participation in the New Generation of 24 Countries (Desigualdades Socio-Economicas Familiares y Su Impacto Diferencial Sobre Tipos de Participacion Politica de Nuevas Generaciones En 24 Paises)"
 date : "2023-10-01"
 author : "Miranda, Daniel"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Miranda, Daniel (2023). *Socio-Economic Inequalities of Families and Their Differential Impact on Types of Political Participation in the New Generation of 24 Countries ( {{{emph{Desigualdades}}}}{emph{ Socio-Econ{'o}micas Familiares y Su Impacto Diferencial Sobre Tipos de Participaci{'o}n Pol{'i}tica de Nuevas Generaciones En 24 Pa{'i}ses}} )*. International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 38(3) 602--641  [https://doi.org/10.1080/02134748.2023.2239576](https://doi.org/10.1080/02134748.2023.2239576)
+Miranda, Daniel (2023). *Socio-Economic Inequalities of Families and Their Differential Impact on Types of Political Participation in the New Generation of 24 Countries (Desigualdades Socio-Economicas Familiares y Su Impacto Diferencial Sobre Tipos de Participacion Politica de Nuevas Generaciones En 24 Paises)*. International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 38(3) 602--641  [https://doi.org/10.1080/02134748.2023.2239576](https://doi.org/10.1080/02134748.2023.2239576)
 
 :::
 

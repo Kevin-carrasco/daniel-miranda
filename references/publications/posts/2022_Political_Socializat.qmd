@@ -1,5 +1,5 @@
 ---
-title : "Political Socialization and Legitimation of Radical Actions in Adolescents: Evidence from {{Chile}} ( {{{emph{Socializaci{'o}n}}}}{emph{ Pol{'i}tica y Legitimaci{'o}n de Acciones Radicales En Adolescentes: Evidencia Desde }}{{{emph{Chile}}}} )"
+title : "Political Socialization and Legitimation of Radical Actions in Adolescents: Evidence from {{Chile}} (Socializacion Politica y Legitimacion de Acciones Radicales En Adolescentes: Evidencia Desde Chile)"
 date : "2022-10-01"
 author : "Sanchez-Barria, Felipe & Miranda, Daniel"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Sanchez-Barria, Felipe & Miranda, Daniel (2022). *Political Socialization and Legitimation of Radical Actions in Adolescents: Evidence from {{Chile}} ( {{{emph{Socializaci{'o}n}}}}{emph{ Pol{'i}tica y Legitimaci{'o}n de Acciones Radicales En Adolescentes: Evidencia Desde }}{{{emph{Chile}}}} )*. International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 37(3) 554--585  [https://doi.org/10.1080/02134748.2022.2096255](https://doi.org/10.1080/02134748.2022.2096255)
+Sanchez-Barria, Felipe & Miranda, Daniel (2022). *Political Socialization and Legitimation of Radical Actions in Adolescents: Evidence from {{Chile}} (Socializacion Politica y Legitimacion de Acciones Radicales En Adolescentes: Evidencia Desde Chile)*. International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 37(3) 554--585  [https://doi.org/10.1080/02134748.2022.2096255](https://doi.org/10.1080/02134748.2022.2096255)
 
 :::
 

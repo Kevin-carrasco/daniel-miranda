@@ -1,5 +1,5 @@
 ---
-title : "Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth. {{Norms}} and {{Contact}}"
+title : "Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth. Norms and Contact"
 date : "2017-05-01"
 author : "Gonzalez, Roberto; Lickel, Brian; Gupta, Manisha; Tropp, Linda R; Kanacri, Bernadette P Luengo; Mora, Eduardo; De Tezanos-Pinto, Pablo; Berger, Christian; Valdenegro, Daniel; Cayul, Oscar; Miranda, Daniel; Saavedra, Patricio & Bernardino, Michelle"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Gonzalez, Roberto; Lickel, Brian; Gupta, Manisha; Tropp, Linda R; Kanacri, Bernadette P Luengo; Mora, Eduardo; De Tezanos-Pinto, Pablo; Berger, Christian; Valdenegro, Daniel; Cayul, Oscar; Miranda, Daniel; Saavedra, Patricio & Bernardino, Michelle (2017). *Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth. {{Norms}} and {{Contact}}*. Child Development, 88(3) 743--760  [https://doi.org/10.1111/cdev.12788](https://doi.org/10.1111/cdev.12788)
+Gonzalez, Roberto; Lickel, Brian; Gupta, Manisha; Tropp, Linda R; Kanacri, Bernadette P Luengo; Mora, Eduardo; De Tezanos-Pinto, Pablo; Berger, Christian; Valdenegro, Daniel; Cayul, Oscar; Miranda, Daniel; Saavedra, Patricio & Bernardino, Michelle (2017). *Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth. Norms and Contact*. Child Development, 88(3) 743--760  [https://doi.org/10.1111/cdev.12788](https://doi.org/10.1111/cdev.12788)
 
 :::
 

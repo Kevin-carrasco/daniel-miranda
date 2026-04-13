@@ -1,5 +1,5 @@
 ---
-title : "Can Group-based Strategies Increase Community Resilience? {{Longitudinal}} Predictors of Sustained Participation in {{Covid}}-19 Mutual Aid and Community Support Groups"
+title : "Can Group-based Strategies Increase Community Resilience? Longitudinal Predictors of Sustained Participation in Covid-19 Mutual Aid and Community Support Groups"
 date : "2023-11-01"
 author : "Perach, Rotem; Fernandes-Jesus, Maria; Miranda, Daniel; Mao, Guanlan; Ntontis, Evangelos; Cocking, Chris; McTague, Michael; Semlyen, Joanna & Drury, John"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Perach, Rotem; Fernandes-Jesus, Maria; Miranda, Daniel; Mao, Guanlan; Ntontis, Evangelos; Cocking, Chris; McTague, Michael; Semlyen, Joanna & Drury, John (2023). *Can Group-based Strategies Increase Community Resilience? {{Longitudinal}} Predictors of Sustained Participation in {{Covid}}-19 Mutual Aid and Community Support Groups*. Journal of Applied Social Psychology, 53(11) 1059--1075  [https://doi.org/10.1111/jasp.12995](https://doi.org/10.1111/jasp.12995)
+Perach, Rotem; Fernandes-Jesus, Maria; Miranda, Daniel; Mao, Guanlan; Ntontis, Evangelos; Cocking, Chris; McTague, Michael; Semlyen, Joanna & Drury, John (2023). *Can Group-based Strategies Increase Community Resilience? Longitudinal Predictors of Sustained Participation in Covid-19 Mutual Aid and Community Support Groups*. Journal of Applied Social Psychology, 53(11) 1059--1075  [https://doi.org/10.1111/jasp.12995](https://doi.org/10.1111/jasp.12995)
 
 :::
 

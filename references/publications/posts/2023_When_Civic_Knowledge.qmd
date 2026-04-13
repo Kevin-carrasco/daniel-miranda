@@ -1,5 +1,5 @@
 ---
-title : "When Civic Knowledge Matters but Is Not Enough: {{The}} Role of Classroom Climate and Citizenship Self-Efficacy on Different Facets of Civic Engagement"
+title : "When Civic Knowledge Matters but Is Not Enough: The Role of Classroom Climate and Citizenship Self-Efficacy on Different Facets of Civic Engagement"
 date : "2023-03-01"
 author : "Luengo-Kanacri, Bernadette Paula; Jimenez-Moya, Gloria; Miranda, Daniel & Marinovic, Alejandra"
 categories : ["Journal Article"]
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Luengo-Kanacri, Bernadette Paula; Jimenez-Moya, Gloria; Miranda, Daniel & Marinovic, Alejandra (2023). *When Civic Knowledge Matters but Is Not Enough: {{The}} Role of Classroom Climate and Citizenship Self-Efficacy on Different Facets of Civic Engagement*. Citizenship Teaching & Learning, 18(1) 119--140  [https://doi.org/10.1386/ctl_00113_1](https://doi.org/10.1386/ctl_00113_1)
+Luengo-Kanacri, Bernadette Paula; Jimenez-Moya, Gloria; Miranda, Daniel & Marinovic, Alejandra (2023). *When Civic Knowledge Matters but Is Not Enough: The Role of Classroom Climate and Citizenship Self-Efficacy on Different Facets of Civic Engagement*. Citizenship Teaching & Learning, 18(1) 119--140  [https://doi.org/10.1386/ctl_00113_1](https://doi.org/10.1386/ctl_00113_1)
 
 :::
 
