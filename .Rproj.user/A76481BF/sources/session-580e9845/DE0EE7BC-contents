@@ -1,0 +1,36 @@
+---
+title: "Daniel Miranda"
+image: "images/Daniel_Miranda_Fuenzalida.jpg"
+execute: 
+  echo: false
+  warning: false
+about:
+  id: hero-heading
+  template: trestles
+  links:
+    - icon: envelope
+      href: mailto:damiranda@uchile.cl
+    - text: '<i class="ai ai-cv fa-lg"></i>'
+      href: https://danielmiranda.com/cv
+    - icon: github
+      href: https://github.com/damiranda
+    - icon: linkedin
+      href: https://www.linkedin.com/in/daniel-miranda-a0677921/
+    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
+      href: https://scholar.google.com/citations?user=vdF2kZcAAAAJ
+    - text: '<i class="ai ai-researchgate fa-lg"></i>'
+      href: https://www.researchgate.net/profile/Daniel-Miranda-13
+    - text: '<i class="ai ai-orcid fa-lg"></i>'
+      href: https://orcid.org/0000-0002-3143-8502
+---
+
+:::{#hero-heading}
+
+Académico de la Escuela de Psicología de la Universidad de Chile. Psicólogo de la Universidad de Talca, Magíster en Psicología Social-Comunitaria y Doctor en Sociología en la Pontificia Universidad Católica de Chile. Está a cargo del Fondecyt Regular “Actitudes y comportamiento político juvenil: desigualdad, estilos de socialización escolar e influencias intergeneracionales».
+
+Sus intereses se centran en la socialización política y desigualdad, participación política juvenil, relaciones intergrupales, opinión pública, métodos cuantitativos, modelos de ecuaciones estructurales y modelos multinivel.
+
+:::
+
+
+
