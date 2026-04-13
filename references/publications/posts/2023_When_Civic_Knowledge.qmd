@@ -1,0 +1,23 @@
+---
+title : "When Civic Knowledge Matters but Is Not Enough: {{The}} Role of Classroom Climate and Citizenship Self-Efficacy on Different Facets of Civic Engagement"
+date : "2023-03-01"
+author : "Luengo-Kanacri, Bernadette Paula; Jimenez-Moya, Gloria; Miranda, Daniel & Marinovic, Alejandra"
+categories : ["Journal Article"]
+publication : "Citizenship Teaching & Learning, 18(1) 119--140  [https://doi.org/10.1386/ctl_00113_1](https://doi.org/10.1386/ctl_00113_1)"
+publication_short : "Citizenship Teaching & Learning, 18(1) 119--140  [https://doi.org/10.1386/ctl_00113_1](https://doi.org/10.1386/ctl_00113_1)"
+abstract : "The global need to reverse political disaffection has motivated researchers to seek ways of fostering citizenship engagement. This study focuses on the role adolescents' citizenship self-efficacy plays in linking civic knowledge and classroom climate to civic engagement. We use data from 4838 Chilean students (               M               age               = 14.16) who participated in the International Civic and Citizenship Study (ICCS). Using structural equation modelling, a mediational model with multilevel clustering showed that civic knowledge positively affects formal participation, but not civil participation, while an open classroom climate increases both forms of engagement during adolescence. Citizenship self-efficacy mediates the relation between classroom climate and both types of participation. We discuss the implications of these findings for the design citizenship education curricula for youth who live in contexts of inequality."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Luengo-Kanacri, Bernadette Paula; Jimenez-Moya, Gloria; Miranda, Daniel & Marinovic, Alejandra (2023). *When Civic Knowledge Matters but Is Not Enough: {{The}} Role of Classroom Climate and Citizenship Self-Efficacy on Different Facets of Civic Engagement*. Citizenship Teaching & Learning, 18(1) 119--140  [https://doi.org/10.1386/ctl_00113_1](https://doi.org/10.1386/ctl_00113_1)
+
+:::
+

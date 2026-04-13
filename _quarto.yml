@@ -1,17 +1,11 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: "docs"
   preview:
     port: 5896
     browser: true
   render:
-    - "index.qmd"
-    - "cv.qmd"
-    - "investigacion.qmd"
-    - "proyectos.qmd"
-    - "docencia.qmd"
-    - "investigacion/**/*.qmd"
-    - "!research/template.qmd"
+    - "*.qmd"
   resources:
     - "content/"
     - "css"
@@ -39,11 +33,11 @@ website:
       - text: "Investigación"
         menu:
           - text: "Publicaciones"
-            href: papers.qmd
+            href: references/publications/index.qmd
           - text: "Capítulos de libro"
-            href: capitulos.qmd
+            href: references/chapters/index.qmd
           - text: "Presentaciones"
-            href: presentaciones.qmd
+            href: references/presentations/index.qmd
       - text: "Docencia"
         href: docencia.qmd
       - text: "Proyectos"

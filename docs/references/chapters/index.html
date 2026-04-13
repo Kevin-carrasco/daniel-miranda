@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Thesis – danielmiranda.com</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0f88ccfd9321633e31a94b79170b52db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HQNG5WQE3X"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HQNG5WQE3X', { 'anonymize_ip': true});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- academic icons -->
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+
+<!-- altmetric icons -->
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+<!-- fontawesome icons -->
+
+<script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Thesis – danielmiranda.com">
+<meta property="og:image" content="https://www.danielmiranda.com/references/chapters/images/Daniel_Miranda_Fuenzalida.jpg">
+<meta property="og:site_name" content="https://danielmiranda.com">
+<meta property="og:locale" content="es_ES">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">danielmiranda.com</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-investigación" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Investigación</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-investigación">    
+        <li>
+    <a class="dropdown-item" href="../../references/publications/index.html">
+ <span class="dropdown-text">Publicaciones</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../references/chapters/index.html">
+ <span class="dropdown-text">Capítulos de libro</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../references/presentations/index.html">
+ <span class="dropdown-text">Presentaciones</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../docencia.html"> 
+<span class="menu-text">Docencia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../proyectos.html"> 
+<span class="menu-text">Proyectos</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Thesis</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Qm9vaw==">Book <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Qm9vayUyMFNlY3Rpb24=">Book Section <span class="quarto-category-count">(11)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Qm9vaw==" data-listing-date-sort="1672542000000" data-listing-file-modified-sort="1776047207676" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52" data-listing-categories-sort="Book" data-listing-title-sort="Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: {{Children}} and {{Youth}} in {{Diverse International Contexts}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2023_Contestations_of_{{C.html" class="no-external">Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: {{Children}} and {{Youth}} in {{Diverse International Contexts}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2023_Contestations_of_{{C.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2023
+</div>
+<div class="listing-author">
+NA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Qm9vaw==" data-listing-date-sort="1669863600000" data-listing-file-modified-sort="1776047207746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49" data-listing-categories-sort="Book" data-listing-title-sort="Citizens of the {{World}}: {{Political Engagement}} and {{Policy Attitudes}} of {{Millennials}} across the {{Globe}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2022_Citizens_of_the_{{Wo.html" class="no-external">Citizens of the {{World}}: {{Political Engagement}} and {{Policy Attitudes}} of {{Millennials}} across the {{Globe}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2022_Citizens_of_the_{{Wo.html" class="no-external">
+<div class="listing-date">
+Dec 1, 2022
+</div>
+<div class="listing-author">
+Rouse, Stella M.; McDonald, Jared; Engstrom, Richard N.; Hanmer, Michael J.; Gonzalez, Roberto; Lay, Siugmin &amp; Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1646103600000" data-listing-file-modified-sort="1776047207733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-categories-sort="Book Section" data-listing-title-sort="Trust in {{Political Institutions}} and {{Support}} for {{Authoritarianism}}: {{Latin American Students}} -- {{Does Civic Knowledge Make}} a {{Difference}}?">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2022_Trust_in_{{Political.html" class="no-external">Trust in {{Political Institutions}} and {{Support}} for {{Authoritarianism}}: {{Latin American Students}} – {{Does Civic Knowledge Make}} a {{Difference}}?</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2022_Trust_in_{{Political.html" class="no-external">
+<div class="listing-date">
+Mar 1, 2022
+</div>
+<div class="listing-author">
+Miranda, Daniel; Castillo, Juan Carlos; Miranda, Catalina &amp; Conejeros, Jose Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1641006000000" data-listing-file-modified-sort="1776047207669" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36" data-listing-categories-sort="Book Section" data-listing-title-sort="Contestations of {{Citizenship}}: {{An Introduction}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2022_Contestations_of_{{C.html" class="no-external">Contestations of {{Citizenship}}: {{An Introduction}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2022_Contestations_of_{{C.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2022
+</div>
+<div class="listing-author">
+Kubow, Patricia K.; Webster, Nicole; Strong, Krystal &amp; Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1641006000000" data-listing-file-modified-sort="1776047207640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-categories-sort="Book Section" data-listing-title-sort="How Can {{Covid Mutual Aid Groups}} Be {{Sustained Over Time}}? {{The UK Experience}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2022_How_Can_{{Covid_Mutu.html" class="no-external">How Can {{Covid Mutual Aid Groups}} Be {{Sustained Over Time}}? {{The UK Experience}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2022_How_Can_{{Covid_Mutu.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2022
+</div>
+<div class="listing-author">
+Drury, John; Fernandes-Jesus, Maria; Mao, Guanlan; Ntontis, Evangelos; Perach, Rotem &amp; Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1641006000000" data-listing-file-modified-sort="1776047207685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38" data-listing-categories-sort="Book Section" data-listing-title-sort="New {{Directions}} for {{Citizenship}}, {{Democracy}}, and {{Education}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2022_New_{{Directions}}_f.html" class="no-external">New {{Directions}} for {{Citizenship}}, {{Democracy}}, and {{Education}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2022_New_{{Directions}}_f.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2022
+</div>
+<div class="listing-author">
+Kubow, Patricia K.; Webster, Nicole; Strong, Krystal &amp; Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1609470000000" data-listing-file-modified-sort="1776047207781" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56" data-listing-categories-sort="Book Section" data-listing-title-sort="Invariance of {{Socioeconomic Status Scales}} in {{International Studies}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2021_Invariance_of_{{Soci.html" class="no-external">Invariance of {{Socioeconomic Status Scales}} in {{International Studies}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2021_Invariance_of_{{Soci.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2021
+</div>
+<div class="listing-author">
+Trevino, Ernesto; Sandoval-Hernandez, Andres; Miranda, Daniel; Rutkowski, David &amp; Matta, Tyler
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1609470000000" data-listing-file-modified-sort="1776047207693" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-categories-sort="Book Section" data-listing-title-sort="Latin {{American Political Culture}} and {{Citizenship Norms}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2021_Latin_{{American_Pol.html" class="no-external">Latin {{American Political Culture}} and {{Citizenship Norms}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2021_Latin_{{American_Pol.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2021
+</div>
+<div class="listing-author">
+Miranda, Daniel; Miranda, Catalina &amp; Munoz, Loreto
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1609470000000" data-listing-file-modified-sort="1776047207628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57" data-listing-categories-sort="Book Section" data-listing-title-sort="Measuring {{Attitudes Towards Gender Equality}} in {{International Tests}}: {{Implications}} for {{Their Validity}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2021_Measuring_{{Attitude.html" class="no-external">Measuring {{Attitudes Towards Gender Equality}} in {{International Tests}}: {{Implications}} for {{Their Validity}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2021_Measuring_{{Attitude.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2021
+</div>
+<div class="listing-author">
+Castillo, Juan Carlos; Miranda, Daniel &amp; Bonilla, Angelica
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1609470000000" data-listing-file-modified-sort="1776047207764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-categories-sort="Book Section" data-listing-title-sort="The {{Landscape}} and {{Recent Developments}} of {{Civic}} and {{Citizenship Education Across}} the {{Latin American Region}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2021_The_{{Landscape}}_an.html" class="no-external">The {{Landscape}} and {{Recent Developments}} of {{Civic}} and {{Citizenship Education Across}} the {{Latin American Region}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2021_The_{{Landscape}}_an.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2021
+</div>
+<div class="listing-author">
+Sandoval-Hernandez, Andres &amp; Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="Qm9vaw==" data-listing-date-sort="1609470000000" data-listing-file-modified-sort="1776047207619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-listing-categories-sort="Book" data-listing-title-sort="{Saltar el torniquete: reflexiones desde las juventudes de octubre}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2021_{Saltar_el_torniquet.html" class="no-external">{Saltar el torniquete: reflexiones desde las juventudes de octubre}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2021_{Saltar_el_torniquet.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2021
+</div>
+<div class="listing-author">
+NA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1514775600000" data-listing-file-modified-sort="1776047207755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53" data-listing-categories-sort="Book Section" data-listing-title-sort="How {{Do We Assess Civic Attitudes Toward Equal Rights}}? {{Data}} and {{Methodology}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2018_How_{{Do_We_Assess_C.html" class="no-external">How {{Do We Assess Civic Attitudes Toward Equal Rights}}? {{Data}} and {{Methodology}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2018_How_{{Do_We_Assess_C.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2018
+</div>
+<div class="listing-author">
+Sandoval-Hernandez, Andres; Miranda, Daniel &amp; Isac, Maria Magdalena
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1514775600000" data-listing-file-modified-sort="1776047207703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52" data-listing-categories-sort="Book Section" data-listing-title-sort="Measurement {{Model}} and {{Invariance Testing}} of {{Scales Measuring Egalitarian Values}} in {{ICCS}} 2009">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2018_Measurement_{{Model}.html" class="no-external">Measurement {{Model}} and {{Invariance Testing}} of {{Scales Measuring Egalitarian Values}} in {{ICCS}} 2009</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2018_Measurement_{{Model}.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2018
+</div>
+<div class="listing-author">
+Miranda, Daniel &amp; Castillo, Juan Carlos
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="Qm9vaw==" data-listing-date-sort="1514775600000" data-listing-file-modified-sort="1776047207771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-listing-categories-sort="Book" data-listing-title-sort="Teaching {{Tolerance}} in a {{Globalized World}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2018_Teaching_{{Tolerance.html" class="no-external">Teaching {{Tolerance}} in a {{Globalized World}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2018_Teaching_{{Tolerance.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2018
+</div>
+<div class="listing-author">
+NA
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1514775600000" data-listing-file-modified-sort="1776047207711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53" data-listing-categories-sort="Book Section" data-listing-title-sort="The {{Political Socialization}} of {{Attitudes Toward Equal Rights}} from a {{Comparative Perspective}}">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../references/chapters/posts/2018_The_{{Political_Soci.html" class="no-external">The {{Political Socialization}} of {{Attitudes Toward Equal Rights}} from a {{Comparative Perspective}}</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMFNlY3Rpb24='); return false;">Book Section</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../references/chapters/posts/2018_The_{{Political_Soci.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2018
+</div>
+<div class="listing-author">
+Miranda, Daniel; Castillo, Juan Carlos &amp; Cumsille, Patricio
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.danielmiranda\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a href="https://www.danielmiranda.com/cv.html">CV</a> &nbsp;<a href="https://github.com/danielmiranda" target="blank"><i class="bi bi-github"></i></a> &nbsp;<a href="https://www.linkedin.com/in/daniel-miranda-a0677921/" target="blank"><i class="bi bi-linkedin"></i></a> &nbsp;<a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ" target="blank"><i class="ai ai-google-scholar fa-lg"></i></a> &nbsp;<a href="https://www.researchgate.net/profile/Daniel-Miranda-13" target="blank"><i class="ai ai-researchgate fa-lg"></i></a> &nbsp;<a href="https://orcid.org/0000-0002-3143-8502" target="blank"><i class="ai ai-orcid fa-lg"></i></a><br>Site made with <a href="https://github.com/danielmiranda/danielmiranda" target="_blank"><i class="bi bi-git"></i></a>, and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/favicon.png" width="12"> quarto</a><br>© 2026 Daniel Miranda
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

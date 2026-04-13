@@ -1,0 +1,23 @@
+---
+title : "How {{Do We Assess Civic Attitudes Toward Equal Rights}}? {{Data}} and {{Methodology}}"
+date : "2018-01-01"
+author : "Sandoval-Hernandez, Andres; Miranda, Daniel & Isac, Maria Magdalena"
+categories : ["Book Section"]
+publication : "  In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching {{Tolerance}} in a {{Globalized World}} 11--17 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_2](https://doi.org/10.1007/978-3-319-78692-6_2). ISBN: 978-3-319-78692-6"
+publication_short : "  In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching {{Tolerance}} in a {{Globalized World}} 11--17 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_2](https://doi.org/10.1007/978-3-319-78692-6_2). ISBN: 978-3-319-78692-6"
+abstract : "Analyzing tolerance in youth may help educators to identify strategies to promote tolerance. This chapter describes the IEA's International Civic and Citizenship Education Study (ICCS) 2009, outlining the main objectives of the survey and the assessment design. Specific variables were selected from the ICCS data for the five empirical studies in this report. After assessing the variables used in the different chapters, the methodological features common to the different analytical chapters of this book are discussed in greater detail."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andres; Miranda, Daniel & Isac, Maria Magdalena (2018). *How {{Do We Assess Civic Attitudes Toward Equal Rights}}? {{Data}} and {{Methodology}}*.   In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching {{Tolerance}} in a {{Globalized World}} 11--17 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_2](https://doi.org/10.1007/978-3-319-78692-6_2). ISBN: 978-3-319-78692-6
+
+:::
+

@@ -1,0 +1,23 @@
+---
+title : "Political Socialization and Legitimation of Radical Actions in Adolescents: Evidence from {{Chile}} ( {{{emph{Socializaci{'o}n}}}}{emph{ Pol{'i}tica y Legitimaci{'o}n de Acciones Radicales En Adolescentes: Evidencia Desde }}{{{emph{Chile}}}} )"
+date : "2022-10-01"
+author : "Sanchez-Barria, Felipe & Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 37(3) 554--585  [https://doi.org/10.1080/02134748.2022.2096255](https://doi.org/10.1080/02134748.2022.2096255)"
+publication_short : "International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 37(3) 554--585  [https://doi.org/10.1080/02134748.2022.2096255](https://doi.org/10.1080/02134748.2022.2096255)"
+abstract : "Can exposure to mass events with the presence of radical actions influence the legitimation of this type of protest in adolescents? How are changes in legitimation levels conditioned by socioeconomic status or by political socialization at home and school? To answer these questions, we used a sample of 1,203 students in their second year of secondary school in Chile who were surveyed as part of the School Citizenship Panel (Panel de Ciudadan{'i}a Escolar, PACES). In the middle of fieldwork in this study, the event known as the estallido social (`social outburst') stood out for its mass and presence of violence. We compare the students surveyed before and after this event. Contrary to our expectations, the students had similar levels of legitimation of radical actions before and after the estallido. We also found a trend towards moderation in students with a higher socioeconomic status, who had more frequent political conversations with their parents, and in students from schools that conduct civic education activities. In short, experiences of family and school political socialization can help lower an adolescent's support of radical actions in radicalized contexts."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sanchez-Barria, Felipe & Miranda, Daniel (2022). *Political Socialization and Legitimation of Radical Actions in Adolescents: Evidence from {{Chile}} ( {{{emph{Socializaci{'o}n}}}}{emph{ Pol{'i}tica y Legitimaci{'o}n de Acciones Radicales En Adolescentes: Evidencia Desde }}{{{emph{Chile}}}} )*. International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 37(3) 554--585  [https://doi.org/10.1080/02134748.2022.2096255](https://doi.org/10.1080/02134748.2022.2096255)
+
+:::
+

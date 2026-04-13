@@ -1,0 +1,23 @@
+---
+title : "Teaching {{Tolerance}} in a {{Globalized World}}"
+date : "2018-01-01"
+author : "NA"
+categories : ["Book"]
+publication : "  In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: , 4. Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6](https://doi.org/10.1007/978-3-319-78692-6). ISBN: 978-3-319-78691-9 978-3-319-78692-6"
+publication_short : "  In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: , 4. Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6](https://doi.org/10.1007/978-3-319-78692-6). ISBN: 978-3-319-78691-9 978-3-319-78692-6"
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+NA (2018). *Teaching {{Tolerance}} in a {{Globalized World}}*.   In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: , 4. Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6](https://doi.org/10.1007/978-3-319-78692-6). ISBN: 978-3-319-78691-9 978-3-319-78692-6
+
+:::
+

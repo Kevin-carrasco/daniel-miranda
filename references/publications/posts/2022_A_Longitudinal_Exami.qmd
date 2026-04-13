@@ -1,0 +1,23 @@
+---
+title : "A Longitudinal Examination of the Factors That Facilitate and Hinder Support for Conservative and Progressive Social Movements"
+date : "2022-12-01"
+author : "Gonzalez, Roberto; Chayinska, Maria; Plaza, Alejandro; Bargsted, Matias & Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "European Journal of Social Psychology, 52(7) 1031--1046  [https://doi.org/10.1002/ejsp.2893](https://doi.org/10.1002/ejsp.2893)"
+publication_short : "European Journal of Social Psychology, 52(7) 1031--1046  [https://doi.org/10.1002/ejsp.2893](https://doi.org/10.1002/ejsp.2893)"
+abstract : "Abstract                            This paper examines social-psychological factors that can facilitate and hinder public support for conservative agendas over time. Using four waves of longitudinal panel data from Chile (               N               ~=~2,394), we estimated the between-person and within-person associations among individuals' self-reported conservative ideologies, political disaffection, civic behaviour, political attitudes towards democracy and social change, and their support for conservative (vs progressive) social movements over time. As expected, between-person increases in social dominance orientation (SDO), right-wing authoritarianism (RWA), right-wing self-categorization, and political disaffection correlated positively with support for conservative social movements. Between-person increases in people's social change beliefs, support for democracy, and civic participation predicted less support for conservative social movements over time. Within-person increases in RWA and SDO correlated positively with conservative social movement support, whereas civic participation correlated negatively with it. Results provide novel evidence for the dynamic processes underlying support for conservative/progressive agendas."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Gonzalez, Roberto; Chayinska, Maria; Plaza, Alejandro; Bargsted, Matias & Miranda, Daniel (2022). *A Longitudinal Examination of the Factors That Facilitate and Hinder Support for Conservative and Progressive Social Movements*. European Journal of Social Psychology, 52(7) 1031--1046  [https://doi.org/10.1002/ejsp.2893](https://doi.org/10.1002/ejsp.2893)
+
+:::
+

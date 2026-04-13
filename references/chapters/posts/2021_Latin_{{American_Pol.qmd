@@ -1,0 +1,23 @@
+---
+title : "Latin {{American Political Culture}} and {{Citizenship Norms}}"
+date : "2021-01-01"
+author : "Miranda, Daniel; Miranda, Catalina & Munoz, Loreto"
+categories : ["Book Section"]
+publication : "  In Ernesto Treviño, Diego Carrasco, Ellen Claes & Kerry J. Kennedy: Good {{Citizenship}} for the {{Next Generation}}, 12 89--105 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-75746-5_6](https://doi.org/10.1007/978-3-030-75746-5_6). ISBN: 978-3-030-75745-8 978-3-030-75746-5"
+publication_short : "  In Ernesto Treviño, Diego Carrasco, Ellen Claes & Kerry J. Kennedy: Good {{Citizenship}} for the {{Next Generation}}, 12 89--105 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-75746-5_6](https://doi.org/10.1007/978-3-030-75746-5_6). ISBN: 978-3-030-75745-8 978-3-030-75746-5"
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Miranda, Catalina & Munoz, Loreto (2021). *Latin {{American Political Culture}} and {{Citizenship Norms}}*.   In Ernesto Treviño, Diego Carrasco, Ellen Claes & Kerry J. Kennedy: Good {{Citizenship}} for the {{Next Generation}}, 12 89--105 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-75746-5_6](https://doi.org/10.1007/978-3-030-75746-5_6). ISBN: 978-3-030-75745-8 978-3-030-75746-5
+
+:::
+

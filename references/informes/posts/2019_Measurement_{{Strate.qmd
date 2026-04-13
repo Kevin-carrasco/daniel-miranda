@@ -1,0 +1,23 @@
+---
+title : "Measurement {{Strategy}} for {{SDG Global Indicator}} 4.7.1 and {{Themat}} Ic {{Indicators}} 4.7.4 and 4.7.5 Using {{International Large}} - {{Scale Assessments}} in {{Education}}"
+date : "2019-01-01"
+author : "Sandoval-Hernandez, Andres; Miranda, Daniel & Isac, Maria Magdalena"
+categories : ["Report"]
+publication : " "
+publication_short : " "
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andres; Miranda, Daniel & Isac, Maria Magdalena (2019). *Measurement {{Strategy}} for {{SDG Global Indicator}} 4.7.1 and {{Themat}} Ic {{Indicators}} 4.7.4 and 4.7.5 Using {{International Large}} - {{Scale Assessments}} in {{Education}}*.  
+
+:::
+

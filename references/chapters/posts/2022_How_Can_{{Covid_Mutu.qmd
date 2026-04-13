@@ -1,0 +1,23 @@
+---
+title : "How Can {{Covid Mutual Aid Groups}} Be {{Sustained Over Time}}? {{The UK Experience}}"
+date : "2022-01-01"
+author : "Drury, John; Fernandes-Jesus, Maria; Mao, Guanlan; Ntontis, Evangelos; Perach, Rotem & Miranda, Daniel"
+categories : ["Book Section"]
+publication : " Psychosocial {{Perspectives}} on {{Community Responses}} to {{Covid-19}}: Routledge"
+publication_short : " Psychosocial {{Perspectives}} on {{Community Responses}} to {{Covid-19}}: Routledge"
+abstract : "Mutual aid and other community support groups have been an essential part of the public response to the Covid-19 pandemic. The pandemic and the community needs associated with it -- in particular for practical and financial support for self-isolation -- extended for many months. Therefore, it is important to understand the factors that enable Covid mutual aid groups to be sustained over time, particularly when initial community solidarity declines. As well as the stressors that can arise from volunteering during a pandemic, participants could gain a sense of achievement from acting in line with their values, which contributed to wellbeing. Organisers of Covid mutual aid groups indicated that they used various strategies to keep volunteers involved like fostering a culture of care, holding social events, building a sense of group belonging, flexible leadership structure, and regular communication. Participation in Covid mutual aid groups also motivated volunteers to continue and led to empowerment, skills development, and a sense of community cohesion. Based on these findings, we provide a set of recommendations on how to facilitate the continued activities of mutual aid groups in response to Covid and beyond."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Drury, John; Fernandes-Jesus, Maria; Mao, Guanlan; Ntontis, Evangelos; Perach, Rotem & Miranda, Daniel (2022). *How Can {{Covid Mutual Aid Groups}} Be {{Sustained Over Time}}? {{The UK Experience}}*.  Psychosocial {{Perspectives}} on {{Community Responses}} to {{Covid-19}}: Routledge
+
+:::
+

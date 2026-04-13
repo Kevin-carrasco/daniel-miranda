@@ -1,0 +1,23 @@
+---
+title : "Exploring {{ICCS}} 2016 to Measure Progress toward Target 4.7 - {{UNESCO Digital Library}}"
+date : "2018-01-01"
+author : "Sandoval-Hernandez & Miranda, Daniel"
+categories : ["Report"]
+publication : " "
+publication_short : " "
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez & Miranda, Daniel (2018). *Exploring {{ICCS}} 2016 to Measure Progress toward Target 4.7 - {{UNESCO Digital Library}}*.  
+
+:::
+

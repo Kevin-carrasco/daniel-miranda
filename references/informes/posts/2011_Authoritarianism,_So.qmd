@@ -1,0 +1,23 @@
+---
+title : "Authoritarianism, Social Dominance, and Trust in Public Institutions."
+date : "2011-01-01"
+author : "Castillo, Juan; Miranda, Daniel & Torres, Pablo"
+categories : ["Report"]
+publication : " "
+publication_short : " "
+abstract : "Trust in public institutions plays a key role in democratic societies. To the extent to which individuals rely on institutions such as the government and the parliament, they would be more willing to participate and get involved in public life; therefore, trust in institutions impacts in the legitimacy and stability of democratic regimes. To date there are several approaches to this area that usually compare general trust levels by using country surveys, nevertheless the emphasis so far is mostly descriptive and based on cross sectional data. The present paper attempts to overcome some of these limitations by proposing an explanatory model of trust in public institutions to be estimated in a longitudinal framework. The central hypothesis guiding the analysis is that high levels of social dominance (SDO) and authoritarianism (RWA) are important predictors of trust in three types of public institutions: the government, political parties and armed forces. The analyses are based on a panel survey (n=1,800) of university students from the P. Universidad Cat{'o}lica de Chile. Results from structural equation models support the hypotheses, even though there are relevant differences between SDO and RWA in terms of predictive power according to the type of institution in which individuals trust."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan; Miranda, Daniel & Torres, Pablo (2011). *Authoritarianism, Social Dominance, and Trust in Public Institutions.*.  
+
+:::
+

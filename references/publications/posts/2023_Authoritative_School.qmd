@@ -1,0 +1,23 @@
+---
+title : "Authoritative School Climate as a Context for Civic Socialization"
+date : "2023-04-01"
+author : "Encina, Yonatan; Berger, Christian & Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "International Journal of Educational Development, 98 102752  [https://doi.org/10.1016/j.ijedudev.2023.102752](https://doi.org/10.1016/j.ijedudev.2023.102752)"
+publication_short : "International Journal of Educational Development, 98 102752  [https://doi.org/10.1016/j.ijedudev.2023.102752](https://doi.org/10.1016/j.ijedudev.2023.102752)"
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Encina, Yonatan; Berger, Christian & Miranda, Daniel (2023). *Authoritative School Climate as a Context for Civic Socialization*. International Journal of Educational Development, 98 102752  [https://doi.org/10.1016/j.ijedudev.2023.102752](https://doi.org/10.1016/j.ijedudev.2023.102752)
+
+:::
+

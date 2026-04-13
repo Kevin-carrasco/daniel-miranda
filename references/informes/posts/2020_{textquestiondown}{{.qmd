@@ -1,0 +1,23 @@
+---
+title : "{textquestiondown}{{Cu{'a}nto}} Aportan Las Escuelas En Diversos Aspectos de La Formaci{'o}n Ciudadana?: Evidencias Desde {{ICCS}}"
+date : "2020-01-01"
+author : "Miranda, Daniel & Carrasco, Diego"
+categories : ["Report"]
+publication : " "
+publication_short : " "
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Carrasco, Diego (2020). *{textquestiondown}{{Cu{'a}nto}} Aportan Las Escuelas En Diversos Aspectos de La Formaci{'o}n Ciudadana?: Evidencias Desde {{ICCS}}*.  
+
+:::
+

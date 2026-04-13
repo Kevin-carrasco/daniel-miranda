@@ -1,0 +1,23 @@
+---
+title : "Contestations of {{Citizenship}}: {{An Introduction}}"
+date : "2022-01-01"
+author : "Kubow, Patricia K.; Webster, Nicole; Strong, Krystal & Miranda, Daniel"
+categories : ["Book Section"]
+publication : " Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: Routledge"
+publication_short : " Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: Routledge"
+abstract : "Citizenship is being contested, rethought, and redefined by, and for, children and youth amid globalization, nationalism, conflict migration, and displacement. This chapter overview contests citizenship's current global-local framing, as reflected in citizenship discourses at large and in the field of comparative and international education in particular. The chapters in this book challenge citizenship's taken-for-granted assumptions rooted in notions of locale, liberalism, and longevity. Citizenship's meanings among youth are explored in relation to three areas that form the sections of the book, namely: the tensions and expansions in how citizenship is conceptually framed; the diverse spatial contexts in which citizenship is being enacted; and youths' negotiation of citizenship and difference in light of monumental social and political change transnationally. Implications for formal global citizenship education are also considered."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Kubow, Patricia K.; Webster, Nicole; Strong, Krystal & Miranda, Daniel (2022). *Contestations of {{Citizenship}}: {{An Introduction}}*.  Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: Routledge
+
+:::
+

@@ -1,0 +1,23 @@
+---
+title : "Citizens of the {{World}}: {{Political Engagement}} and {{Policy Attitudes}} of {{Millennials}} across the {{Globe}}"
+date : "2022-12-01"
+author : "Rouse, Stella M.; McDonald, Jared; Engstrom, Richard N.; Hanmer, Michael J.; Gonzalez, Roberto; Lay, Siugmin & Miranda, Daniel"
+categories : ["Book"]
+publication : " : Oxford University PressNew York [https://doi.org/10.1093/oso/9780197599372.001.0001](https://doi.org/10.1093/oso/9780197599372.001.0001). ISBN: 978-0-19-759937-2 978-0-19-759941-9"
+publication_short : " : Oxford University PressNew York [https://doi.org/10.1093/oso/9780197599372.001.0001](https://doi.org/10.1093/oso/9780197599372.001.0001). ISBN: 978-0-19-759937-2 978-0-19-759941-9"
+abstract : "Abstract             The Millennial Generation, the age cohort born between the early 1980s and the late 1990s, is the most educated, digitally connected, and globalized in the history of the world. Around the globe, Millennials encompass 1.8 billion people, a quarter of the population. The size of the Millennial Generation means that they will soon produce a majority of political, economic, and social leaders. It is therefore important to understand how the Millennial Generation may respond in an era of rapid change and uncertainty, shaped by factors such as a global pandemic, economic hardship, demands for racial justice, and the retrenchment of the United States from the global stage. Making sense of what is to come requires a deeper understanding of what defines the Millennial Generation's persona, their attachment to various identities, how they perceive the need for change, and the tools they will utilize to bring about change. Citizens of the World explores the political attitudes and behaviors of Millennials relative to older adults across eight countries: Australia, Chile, Mexico, New Zealand, South Africa, South Korea, the United Kingdom, and the United States. The book argues that Millennials share a core persona, one that differentiates between a traditional and an emerging global identity that shapes news consumption, political attitudes, civic engagement, public service, and beliefs about the ability to enact political change. In this first-of-its-kind comparative analysis, the authors find that Millennials are unique in a variety of ways that have important implications for domestic and international politics."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Rouse, Stella M.; McDonald, Jared; Engstrom, Richard N.; Hanmer, Michael J.; Gonzalez, Roberto; Lay, Siugmin & Miranda, Daniel (2022). *Citizens of the {{World}}: {{Political Engagement}} and {{Policy Attitudes}} of {{Millennials}} across the {{Globe}}*.  : Oxford University PressNew York [https://doi.org/10.1093/oso/9780197599372.001.0001](https://doi.org/10.1093/oso/9780197599372.001.0001). ISBN: 978-0-19-759937-2 978-0-19-759941-9
+
+:::
+

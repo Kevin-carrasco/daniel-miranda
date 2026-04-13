@@ -1,0 +1,23 @@
+---
+title : "Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth. {{Norms}} and {{Contact}}"
+date : "2017-05-01"
+author : "Gonzalez, Roberto; Lickel, Brian; Gupta, Manisha; Tropp, Linda R; Kanacri, Bernadette P Luengo; Mora, Eduardo; De Tezanos-Pinto, Pablo; Berger, Christian; Valdenegro, Daniel; Cayul, Oscar; Miranda, Daniel; Saavedra, Patricio & Bernardino, Michelle"
+categories : ["Journal Article"]
+publication : "Child Development, 88(3) 743--760  [https://doi.org/10.1111/cdev.12788](https://doi.org/10.1111/cdev.12788)"
+publication_short : "Child Development, 88(3) 743--760  [https://doi.org/10.1111/cdev.12788](https://doi.org/10.1111/cdev.12788)"
+abstract : "Abstract             This article tests a longitudinal model of the antecedents and consequences of changes in identification with indigenous (Mapuche) among indigenous and nonindigenous youth in Chilean school contexts over a 6-month period (633 nonindigenous and 270 Mapuche students, Mages = 12.47 and 12.80 years, respectively). Results revealed that in-group norms supporting contact and quality of intergroup contact at Time 1 predicted student's changes in Mapuche identification at Time 2, which in turn predicted changes in support for adoption of Chilean culture and maintenance of Mapuche culture at Time 2; some of the relationships between these variables were found to be moderated by age and ethnicity. Conceptual and policy implications are addressed in the Discussion."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Gonzalez, Roberto; Lickel, Brian; Gupta, Manisha; Tropp, Linda R; Kanacri, Bernadette P Luengo; Mora, Eduardo; De Tezanos-Pinto, Pablo; Berger, Christian; Valdenegro, Daniel; Cayul, Oscar; Miranda, Daniel; Saavedra, Patricio & Bernardino, Michelle (2017). *Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth. {{Norms}} and {{Contact}}*. Child Development, 88(3) 743--760  [https://doi.org/10.1111/cdev.12788](https://doi.org/10.1111/cdev.12788)
+
+:::
+

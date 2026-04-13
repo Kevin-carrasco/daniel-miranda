@@ -1,0 +1,23 @@
+---
+title : "Son Los Chilenos Igualmente Solidarios? La Influencia de Los Recursos Personales En Las Donaciones de Dinero"
+date : "2012-06-01"
+author : "Castillo, Juan Carlos; Leal, Paola; Madero, Ignacio & Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "Opini{~a}o P{'u}blica, 18(1) 154--176  [https://doi.org/10.1590/S0104-62762012000100008](https://doi.org/10.1590/S0104-62762012000100008)"
+publication_short : "Opini{~a}o P{'u}blica, 18(1) 154--176  [https://doi.org/10.1590/S0104-62762012000100008](https://doi.org/10.1590/S0104-62762012000100008)"
+abstract : "En el discurso p{'u}blico com{'u}nmente se asume que Chile es un pa{'i}s solidario, un supuesto que se confunde con la idea de una cierta homogeneidad en lo que respecta a valores solidarios y conductas de ayuda en el pa{'i}s. El presente trabajo apunta a cuestionar esta idea de homogeneidad respecto de solidaridad, proponiendo que las conductas solidarias se relacionan con los recursos que las personas poseen, los que a su vez se asocian al lugar que las personas ocupan en la estructura de estratificaci{'o}n social. Tomando los datos de la Encuesta de Solidaridad realizada en 2009 por el Centro de Medici{'o}n MIDE UC de la Pontificia Universidad Cat{'o}lica de Chile, el trabajo se centra en un tipo de conducta de ayuda particular: las donaciones en dinero. El an{'a}lisis se focaliza en la influencia de recursos personales como ingreso, educaci{'o}n y pertenencia a redes sobre este tipo de donaciones. Los resultados indican que los individuos con mayores recursos son m{'a}s proclives a las donaciones, donde el nivel educacional alcanzado juega un papel preponderante.           ,              In the public discourse it is commonly assumed that Chile is a solidary country, an assumption that is mixed with the idea of homogeneity in the country as far as helping behavior and solidarity values is concerned. The present paper is aimed at challenging this homogeneity assumption by proposing that helping behavior is associated to personal resources, which at the same time are linked to the position in the social stratification structure. Using data from the Solidarity Survey implemented by the assessment center MIDE UC of the Pontificia Universidad Cat{'o}lica de Chile in 2009, the paper focuses on a specific type of helping behavior: money donations. The analysis centers on the influence of personal resources such as income, education and networks on this kind of donations. Results indicate that individuals with greater resources are more given to donate, whereby the educational level plays a key role."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Leal, Paola; Madero, Ignacio & Miranda, Daniel (2012). *Son Los Chilenos Igualmente Solidarios? La Influencia de Los Recursos Personales En Las Donaciones de Dinero*. Opini{~a}o P{'u}blica, 18(1) 154--176  [https://doi.org/10.1590/S0104-62762012000100008](https://doi.org/10.1590/S0104-62762012000100008)
+
+:::
+

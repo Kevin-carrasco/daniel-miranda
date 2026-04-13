@@ -1,0 +1,23 @@
+---
+title : "A Longitudinal Study of the Bidirectional Causal Relationships between Online Political Participation and Offline Collective Action"
+date : "2021-08-01"
+author : "Chayinska, Maria; Miranda, Daniel & Gonzalez, Roberto"
+categories : ["Journal Article"]
+publication : "Computers in Human Behavior, 121 106810  [https://doi.org/10.1016/j.chb.2021.106810](https://doi.org/10.1016/j.chb.2021.106810)"
+publication_short : "Computers in Human Behavior, 121 106810  [https://doi.org/10.1016/j.chb.2021.106810](https://doi.org/10.1016/j.chb.2021.106810)"
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Chayinska, Maria; Miranda, Daniel & Gonzalez, Roberto (2021). *A Longitudinal Study of the Bidirectional Causal Relationships between Online Political Participation and Offline Collective Action*. Computers in Human Behavior, 121 106810  [https://doi.org/10.1016/j.chb.2021.106810](https://doi.org/10.1016/j.chb.2021.106810)
+
+:::
+

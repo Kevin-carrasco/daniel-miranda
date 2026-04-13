@@ -1,0 +1,23 @@
+---
+title : "{Back to the drawing board. Can we compare socioeconomic background scales?}"
+date : "2019-01-01"
+author : "Sandoval-Hernandez, Andres; Rutkowski, David; Matta, Tyler & Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "Revista de Educacion(383). ES: Secretaria General Tecnica. Subdireccion General de Documentacion y Publicaciones [https://doi.org/10.4438/1988-592X-RE-2019-383-400](https://doi.org/10.4438/1988-592X-RE-2019-383-400)"
+publication_short : "Revista de Educacion(383). ES: Secretaria General Tecnica. Subdireccion General de Documentacion y Publicaciones [https://doi.org/10.4438/1988-592X-RE-2019-383-400](https://doi.org/10.4438/1988-592X-RE-2019-383-400)"
+abstract : "Using data from international large-scale assessments (ILSA), we evaluate the issue of country-level model-data consistency of background socio-economic scales, as well as the invariance across countries. To that end, we use data from PISA, TERCE, and TIMSS, as they operationalize socio-economic status somewhat differently. As part of our analysis, we examine whether TERCE, a Latin American study -- with measures that are regionally developed -- exhibits better psychometric properties than measures that are designed to function across a larger and more diverse number of educational systems. We also examine TIMSS, a trends focused study -- that has historically emphasized consistency and comparison. Finally, we include PISA which has the largest number of participants and has changed and conceptualized a great deal of its background questionnaire depending on the study's major domain and focus. Our findings suggest that none of the socioeconomic background scales we analyzed are fully invariant in any of the three studies, and therefore comparisons across countries should be done with caution. The different levels of equivalence reached by each scale in each study and the type of comparisons that can be made given these results (e.g., comparison of average scale scores, comparison of relationships between the tested scales and other variables) are discussed in the full paper."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andres; Rutkowski, David; Matta, Tyler & Miranda, Daniel (2019). *{Back to the drawing board. Can we compare socioeconomic background scales?}*. Revista de Educacion(383). ES: Secretaria General Tecnica. Subdireccion General de Documentacion y Publicaciones [https://doi.org/10.4438/1988-592X-RE-2019-383-400](https://doi.org/10.4438/1988-592X-RE-2019-383-400)
+
+:::
+

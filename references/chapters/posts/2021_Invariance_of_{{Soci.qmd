@@ -1,0 +1,23 @@
+---
+title : "Invariance of {{Socioeconomic Status Scales}} in {{International Studies}}"
+date : "2021-01-01"
+author : "Trevino, Ernesto; Sandoval-Hernandez, Andres; Miranda, Daniel; Rutkowski, David & Matta, Tyler"
+categories : ["Book Section"]
+publication : "  In Jorge Manzi, María Rosa García & Sandy Taut: Validity of {{Educational Assessments}} in {{Chile}} and {{Latin America}} 235--257 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-78390-7_10](https://doi.org/10.1007/978-3-030-78390-7_10). ISBN: 978-3-030-78389-1 978-3-030-78390-7"
+publication_short : "  In Jorge Manzi, María Rosa García & Sandy Taut: Validity of {{Educational Assessments}} in {{Chile}} and {{Latin America}} 235--257 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-78390-7_10](https://doi.org/10.1007/978-3-030-78390-7_10). ISBN: 978-3-030-78389-1 978-3-030-78390-7"
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Trevino, Ernesto; Sandoval-Hernandez, Andres; Miranda, Daniel; Rutkowski, David & Matta, Tyler (2021). *Invariance of {{Socioeconomic Status Scales}} in {{International Studies}}*.   In Jorge Manzi, María Rosa García & Sandy Taut: Validity of {{Educational Assessments}} in {{Chile}} and {{Latin America}} 235--257 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-78390-7_10](https://doi.org/10.1007/978-3-030-78390-7_10). ISBN: 978-3-030-78389-1 978-3-030-78390-7
+
+:::
+

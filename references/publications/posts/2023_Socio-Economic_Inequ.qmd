@@ -1,0 +1,23 @@
+---
+title : "Socio-Economic Inequalities of Families and Their Differential Impact on Types of Political Participation in the New Generation of 24 Countries ( {{{emph{Desigualdades}}}}{emph{ Socio-Econ{'o}micas Familiares y Su Impacto Diferencial Sobre Tipos de Participaci{'o}n Pol{'i}tica de Nuevas Generaciones En 24 Pa{'i}ses}} )"
+date : "2023-10-01"
+author : "Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 38(3) 602--641  [https://doi.org/10.1080/02134748.2023.2239576](https://doi.org/10.1080/02134748.2023.2239576)"
+publication_short : "International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 38(3) 602--641  [https://doi.org/10.1080/02134748.2023.2239576](https://doi.org/10.1080/02134748.2023.2239576)"
+abstract : "Equal participation of all citizens in the public space is a fundamental principle of democracy. However, empirical evidence gathered over several decades has consistently demonstrated that unequal resources leads to unequal participation, even in youth, indicating that the principle is far from being fulfilled. Nevertheless, how different socioeconomic resources relate to different participation types and the socialization mechanism still need attention. This paper aims to evaluate both aspects, using a representative sample of 93,000 students from the 24 countries that participated in the International Civic and Citizenship Education Study 2016. Multilevel estimations demonstrate that socioeconomic gaps are replicated in formal citizen participation. However, differentiated patterns are observed when other forms of participation, such as community participation and activism, are considered. Additionally, results showed important differences in the mechanisms of socialization. The paper discusses the implications of considering different aspects of socioeconomic background, types of participation and their socialization mechanisms that can lead to the development of political inequality."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2023). *Socio-Economic Inequalities of Families and Their Differential Impact on Types of Political Participation in the New Generation of 24 Countries ( {{{emph{Desigualdades}}}}{emph{ Socio-Econ{'o}micas Familiares y Su Impacto Diferencial Sobre Tipos de Participaci{'o}n Pol{'i}tica de Nuevas Generaciones En 24 Pa{'i}ses}} )*. International Journal of Social Psychology: Revista de Psicolog{'i}a Social, 38(3) 602--641  [https://doi.org/10.1080/02134748.2023.2239576](https://doi.org/10.1080/02134748.2023.2239576)
+
+:::
+

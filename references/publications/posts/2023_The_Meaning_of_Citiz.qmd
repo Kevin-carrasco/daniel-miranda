@@ -1,0 +1,23 @@
+---
+title : "The Meaning of Citizenship: {{Identifying}} the Beliefs of Teachers Responsible for Citizenship Education in {{Chile}}"
+date : "2023-07-01"
+author : "Ibarra, Camila Jara; Bachmann, Macarena Sanchez; Cox, Cristian & Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "Theory & Research in Social Education, 51(3) 464--485  [https://doi.org/10.1080/00933104.2022.2150590](https://doi.org/10.1080/00933104.2022.2150590)"
+publication_short : "Theory & Research in Social Education, 51(3) 464--485  [https://doi.org/10.1080/00933104.2022.2150590](https://doi.org/10.1080/00933104.2022.2150590)"
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Ibarra, Camila Jara; Bachmann, Macarena Sanchez; Cox, Cristian & Miranda, Daniel (2023). *The Meaning of Citizenship: {{Identifying}} the Beliefs of Teachers Responsible for Citizenship Education in {{Chile}}*. Theory & Research in Social Education, 51(3) 464--485  [https://doi.org/10.1080/00933104.2022.2150590](https://doi.org/10.1080/00933104.2022.2150590)
+
+:::
+

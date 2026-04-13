@@ -1,0 +1,23 @@
+---
+title : "New {{Directions}} for {{Citizenship}}, {{Democracy}}, and {{Education}}"
+date : "2022-01-01"
+author : "Kubow, Patricia K.; Webster, Nicole; Strong, Krystal & Miranda, Daniel"
+categories : ["Book Section"]
+publication : " Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: Routledge"
+publication_short : " Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: Routledge"
+abstract : "This concluding chapter provides summative reflections on youth, education, and democracy in an era of global change and suggests new directions for citizenship studies in the field of comparative and international education. Citizenship's convergences and divergences unearthed through the contributions in this book enabled the identification of key conceptual categories in pursuit of a critical democratic global citizenship and education for the field. The conceptual categories present a new grammar for citizenship studies and offer a research agenda to guide future comparative inquiry. By valuing youth voice; viewing the global as local; and acknowledging diverse actors, theoretical perspectives, and citizenship spaces, we contest existing citizenship discourses rooted in locale, liberalism, and longevity to reimagine citizenship and citizenship education anew."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Kubow, Patricia K.; Webster, Nicole; Strong, Krystal & Miranda, Daniel (2022). *New {{Directions}} for {{Citizenship}}, {{Democracy}}, and {{Education}}*.  Contestations of {{Citizenship}}, {{Education}}, and {{Democracy}} in an {{Era}} of {{Global Change}}: Routledge
+
+:::
+

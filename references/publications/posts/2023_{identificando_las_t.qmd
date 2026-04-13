@@ -1,0 +1,23 @@
+---
+title : "{identificando las trayectorias de cambio terapeutico en psicoterapia breve en pacientes chilenos}"
+date : "2023-04-01"
+author : "Fuentes, Valeria; Errazuriz, Paula; Campos, Susana & Miranda, Daniel"
+categories : ["Journal Article"]
+publication : "Terapia Psicol{'o}gica, 41(1) 1--18 "
+publication_short : "Terapia Psicol{'o}gica, 41(1) 1--18 "
+abstract : "Background: Identifying subgroups of patients that may show distinct trajectories of change during psychotherapy in realistic settings is relevant for the development of personalized therapeutic processes. Aims: The present study sought to (a) identify trajectories of change in Chilean patients; (b) explore variables that may predict the likelihood of belonging to certain trajectories; and (c) examine whether these different trajectories result in differences in treatment outcomes. Method: Growth mixture modeling (GMM) and multinomial logistic regression analysis were carried out on the data of 400 patients receiving psychotherapy at a private outpatient clinic in Chile. Results: Three trajectories of change were identified: (a) moderate initial dysfunction with slight deterioration, (b) mild initial dysfunction with favorable change, and (c) high initial dysfunction with rapid favorable change. Patient's age was found to be a significant predictor of trajectory assigned, suggesting a poorer prognosis for older patients. Moreover, the trajectories were significant predictors of treatment outcome. Conclusions: These results can be used to develop patient-specific therapeutic interventions based on the trajectories they exhibit."
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Fuentes, Valeria; Errazuriz, Paula; Campos, Susana & Miranda, Daniel (2023). *{identificando las trayectorias de cambio terapeutico en psicoterapia breve en pacientes chilenos}*. Terapia Psicol{'o}gica, 41(1) 1--18 
+
+:::
+

@@ -1,0 +1,23 @@
+---
+title : "Measuring {{Attitudes Towards Gender Equality}} in {{International Tests}}: {{Implications}} for {{Their Validity}}"
+date : "2021-01-01"
+author : "Castillo, Juan Carlos; Miranda, Daniel & Bonilla, Angelica"
+categories : ["Book Section"]
+publication : "  In Jorge Manzi, María Rosa García & Sandy Taut: Validity of {{Educational Assessments}} in {{Chile}} and {{Latin America}} 259--280 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-78390-7_11](https://doi.org/10.1007/978-3-030-78390-7_11). ISBN: 978-3-030-78389-1 978-3-030-78390-7"
+publication_short : "  In Jorge Manzi, María Rosa García & Sandy Taut: Validity of {{Educational Assessments}} in {{Chile}} and {{Latin America}} 259--280 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-78390-7_11](https://doi.org/10.1007/978-3-030-78390-7_11). ISBN: 978-3-030-78389-1 978-3-030-78390-7"
+abstract : "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+  links:
+    - icon: NA
+      href: NA
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel & Bonilla, Angelica (2021). *Measuring {{Attitudes Towards Gender Equality}} in {{International Tests}}: {{Implications}} for {{Their Validity}}*.   In Jorge Manzi, María Rosa García & Sandy Taut: Validity of {{Educational Assessments}} in {{Chile}} and {{Latin America}} 259--280 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-030-78390-7_11](https://doi.org/10.1007/978-3-030-78390-7_11). ISBN: 978-3-030-78389-1 978-3-030-78390-7
+
+:::
+
