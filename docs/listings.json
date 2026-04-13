@@ -1,37 +1,5 @@
 [
   {
-    "listing": "/references/informes/index.html",
-    "items": [
-      "/references/informes/posts/2023_Radiograf{'i}a_Del_{.html",
-      "/references/informes/posts/2022_Radiograf{'i}a_Del_{.html",
-      "/references/informes/posts/2020_{textquestiondown}{{.html",
-      "/references/informes/posts/2019_Is_Democracy_Overrat.html",
-      "/references/informes/posts/2019_Measurement_{{Strate.html",
-      "/references/informes/posts/2018_Exploring_{{ICCS}}_2.html",
-      "/references/informes/posts/2011_Authoritarianism,_So.html"
-    ]
-  },
-  {
-    "listing": "/references/chapters/index.html",
-    "items": [
-      "/references/chapters/posts/2023_Contestations_of_{{C.html",
-      "/references/chapters/posts/2022_Citizens_of_the_{{Wo.html",
-      "/references/chapters/posts/2022_Trust_in_{{Political.html",
-      "/references/chapters/posts/2022_Contestations_of_{{C.html",
-      "/references/chapters/posts/2022_How_Can_{{Covid_Mutu.html",
-      "/references/chapters/posts/2022_New_{{Directions}}_f.html",
-      "/references/chapters/posts/2021_Invariance_of_{{Soci.html",
-      "/references/chapters/posts/2021_Latin_{{American_Pol.html",
-      "/references/chapters/posts/2021_Measuring_{{Attitude.html",
-      "/references/chapters/posts/2021_The_{{Landscape}}_an.html",
-      "/references/chapters/posts/2021_{Saltar_el_torniquet.html",
-      "/references/chapters/posts/2018_How_{{Do_We_Assess_C.html",
-      "/references/chapters/posts/2018_Measurement_{{Model}.html",
-      "/references/chapters/posts/2018_Teaching_{{Tolerance.html",
-      "/references/chapters/posts/2018_The_{{Political_Soci.html"
-    ]
-  },
-  {
     "listing": "/references/publications/index.html",
     "items": [
       "/references/publications/posts/2025_Curricular_Guideline.html",
@@ -59,5 +27,41 @@
       "/references/publications/posts/2012_Son_Los_Chilenos_Igu.html",
       "/references/publications/posts/2012_Percepcion_de_Desigu.html"
     ]
+  },
+  {
+    "listing": "/references/chapters/index.html",
+    "items": [
+      "/references/chapters/posts/2023_Contestations_of_{{C.html",
+      "/references/chapters/posts/2022_Citizens_of_the_{{Wo.html",
+      "/references/chapters/posts/2022_Trust_in_{{Political.html",
+      "/references/chapters/posts/2022_Contestations_of_{{C.html",
+      "/references/chapters/posts/2022_How_Can_{{Covid_Mutu.html",
+      "/references/chapters/posts/2022_New_{{Directions}}_f.html",
+      "/references/chapters/posts/2021_Invariance_of_{{Soci.html",
+      "/references/chapters/posts/2021_Latin_{{American_Pol.html",
+      "/references/chapters/posts/2021_Measuring_{{Attitude.html",
+      "/references/chapters/posts/2021_The_{{Landscape}}_an.html",
+      "/references/chapters/posts/2021_{Saltar_el_torniquet.html",
+      "/references/chapters/posts/2018_How_{{Do_We_Assess_C.html",
+      "/references/chapters/posts/2018_Measurement_{{Model}.html",
+      "/references/chapters/posts/2018_Teaching_{{Tolerance.html",
+      "/references/chapters/posts/2018_The_{{Political_Soci.html"
+    ]
+  },
+  {
+    "listing": "/references/informes/index.html",
+    "items": [
+      "/references/informes/posts/2023_Radiograf{'i}a_Del_{.html",
+      "/references/informes/posts/2022_Radiograf{'i}a_Del_{.html",
+      "/references/informes/posts/2020_{textquestiondown}{{.html",
+      "/references/informes/posts/2019_Is_Democracy_Overrat.html",
+      "/references/informes/posts/2019_Measurement_{{Strate.html",
+      "/references/informes/posts/2018_Exploring_{{ICCS}}_2.html",
+      "/references/informes/posts/2011_Authoritarianism,_So.html"
+    ]
+  },
+  {
+    "listing": "/references/presentations/index.html",
+    "items": []
   }
 ]
