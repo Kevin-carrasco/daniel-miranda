@@ -42,7 +42,8 @@ website:
 
 format:
   html:
-    theme: [default, css/theme.scss]
+    theme: default
+    css: css/theme.scss
     anchor-sections: true
     smooth-scroll: true
     link-external-newwindow: true
