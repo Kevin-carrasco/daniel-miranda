@@ -10,7 +10,9 @@ abstract_short: ""
 about:
   template: marquee
 ---
-https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/IV-congreso-evaluacion-medicion.jpg
+
+![](https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/IV-congreso-evaluacion-medicion.jpg)
+
 
 
 ::: {.callout-note title="How to cite this work"}

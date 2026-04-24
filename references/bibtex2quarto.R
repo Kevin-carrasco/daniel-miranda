@@ -1,41 +1,3 @@
-# The function: bibtex_2academic
-clean_bibtex_text <- function(x) {
-    x <- as.character(x)
-    x[is.na(x)] <- ""
-    x <- enc2utf8(x)
-    
-    # Comandos LaTeX frecuentes en BibTeX/Zotero
-    x <- stringr::str_replace_all(x, "\\\\textquestiondown", "¿")
-    x <- stringr::str_replace_all(x, "\\\\textexclamdown", "¡")
-    
-    # Acentos LaTeX
-    x <- stringr::str_replace_all(x, "\\\\'\\{?a\\}?", "á")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?e\\}?", "é")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?i\\}?", "í")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?o\\}?", "ó")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?u\\}?", "ú")
-    x <- stringr::str_replace_all(x, "\\\\~\\{?n\\}?", "ñ")
-    
-    x <- stringr::str_replace_all(x, "\\\\'\\{?A\\}?", "Á")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?E\\}?", "É")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?I\\}?", "Í")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?O\\}?", "Ó")
-    x <- stringr::str_replace_all(x, "\\\\'\\{?U\\}?", "Ú")
-    x <- stringr::str_replace_all(x, "\\\\~\\{?N\\}?", "Ñ")
-    
-    # Otros escapes comunes
-    x <- stringr::str_replace_all(x, "\\\\&", "&")
-    x <- stringr::str_replace_all(x, "\\\\_", "_")
-    x <- stringr::str_replace_all(x, "\\\\%", "%")
-    x <- stringr::str_replace_all(x, "\\\\#", "#")
-    
-    # Luego sí: limpiar llaves y backslashes residuales
-    x <- stringr::str_replace_all(x, "[{}]", "")
-    x <- stringr::str_replace_all(x, "\\\\", "")
-    
-    stringr::str_squish(x)
-}
-
 bibtex_2academic <- function(bibfile,
                              outfold,
                              abstract = TRUE,
@@ -99,6 +61,22 @@ bibtex_2academic <- function(bibfile,
             stringr::str_sub(1, 60)
     }
     
+    extract_image_urls <- function(annotation) {
+        annotation <- as.character(annotation)
+        
+        if (is.na(annotation) || annotation == "") {
+            return(character(0))
+        }
+        
+        stringr::str_extract_all(
+            annotation,
+            stringr::regex(
+                "https?://[^\\s\"'<>]+\\.(jpg|jpeg|png|gif|webp)(\\?[^\\s\"'<>]*)?",
+                ignore_case = TRUE
+            )
+        )[[1]]
+    }
+    
     invert_author_names <- function(author_string) {
         if (is.null(author_string) || is.na(author_string) || author_string == "") {
             return("")
@@ -120,11 +98,14 @@ bibtex_2academic <- function(bibfile,
                 comma_parts <- unlist(strsplit(author_name, ",", fixed = TRUE))
                 surname <- trimws(comma_parts[1])
                 given_names <- trimws(paste(comma_parts[-1], collapse = " "))
+                
                 if (given_names == "") return(surname)
+                
                 return(paste0(surname, ", ", given_names))
             }
             
             parts <- unlist(strsplit(author_name, "\\s+", perl = TRUE))
+            
             if (length(parts) < 2) return(author_name)
             
             idx <- length(parts)
@@ -132,6 +113,7 @@ bibtex_2academic <- function(bibfile,
             
             while (idx > 1) {
                 prev_token <- tolower(parts[idx - 1])
+                
                 if (prev_token %in% surname_particles) {
                     surname_idx <- idx - 1
                     idx <- idx - 1
@@ -169,7 +151,11 @@ bibtex_2academic <- function(bibfile,
     
     fncols <- function(data, cname) {
         add <- cname[!cname %in% names(data)]
-        if (length(add) != 0) data[add] <- NA
+        
+        if (length(add) != 0) {
+            data[add] <- NA
+        }
+        
         data
     }
     
@@ -214,16 +200,22 @@ bibtex_2academic <- function(bibfile,
     )
     
     for (field in url_fields) {
-        mypubs[[field]] <- str_extract(
+        mypubs[[field]] <- stringr::str_extract(
             mypubs$annotation,
             paste0(field, ':\\s*"([^"]+)"')
         )
-        mypubs[[field]] <- str_replace_all(
+        
+        mypubs[[field]] <- stringr::str_replace_all(
             mypubs[[field]],
             paste0(field, ':\\s*"'),
             ""
         )
-        mypubs[[field]] <- str_replace_all(mypubs[[field]], '"$', "")
+        
+        mypubs[[field]] <- stringr::str_replace_all(
+            mypubs[[field]],
+            '"$',
+            ""
+        )
     }
     
     url_pattern <- paste0(
@@ -232,7 +224,7 @@ bibtex_2academic <- function(bibfile,
         "):\\s*\"[^\"]*\""
     )
     
-    mypubs$annotation <- str_remove_all(mypubs$annotation, url_pattern)
+    mypubs$annotation <- stringr::str_remove_all(mypubs$annotation, url_pattern)
     
     mypubs$editor <- gsub(" and ", ", ", mypubs$editor)
     mypubs$editor <- stringi::stri_replace_last_fixed(mypubs$editor, ",", " &")
@@ -246,7 +238,7 @@ bibtex_2academic <- function(bibfile,
                 bibtype == "Journal Article" ~ "Journal Article",
                 bibtype == "Article in Press" ~ "Journal Article",
                 
-                bibtype == "InProceedings" & str_detect(outfold, "presentations") ~ "Presentation",
+                bibtype == "InProceedings" & stringr::str_detect(outfold, "presentations") ~ "Presentation",
                 bibtype == "InProceedings" ~ "Conference paper",
                 bibtype == "Proceedings" ~ "Conference paper",
                 bibtype == "Conference" ~ "Conference paper",
@@ -262,7 +254,7 @@ bibtex_2academic <- function(bibfile,
                 bibtype == "InBook" ~ "Book Section",
                 
                 bibtype == "Presentation" ~ "Presentation",
-                bibtype == "Misc" & str_detect(outfold, "presentations") ~ "Presentation",
+                bibtype == "Misc" & stringr::str_detect(outfold, "presentations") ~ "Presentation",
                 bibtype == "Misc" ~ "Report",
                 
                 bibtype == "Preprint" ~ "Manuscript",
@@ -272,8 +264,17 @@ bibtex_2academic <- function(bibfile,
     
     create_md <- function(x) {
         
-        year <- ifelse(!is.na(x[["year"]]) && x[["year"]] != "", x[["year"]], "2999")
-        month <- ifelse(!is.na(x[["month"]]) && x[["month"]] != "", x[["month"]], "jan")
+        year <- ifelse(
+            !is.na(x[["year"]]) && x[["year"]] != "",
+            x[["year"]],
+            "2999"
+        )
+        
+        month <- ifelse(
+            !is.na(x[["month"]]) && x[["month"]] != "",
+            x[["month"]],
+            "jan"
+        )
         
         date2 <- paste0(year, "-", month, "-01")
         
@@ -288,6 +289,20 @@ bibtex_2academic <- function(bibfile,
         
         if (file.exists(fileConn) && !overwrite) {
             return(invisible(NULL))
+        }
+        
+        image_urls <- extract_image_urls(x[["annotation"]])
+        
+        if (length(image_urls) > 0) {
+            for (img in image_urls) {
+                x[["annotation"]] <- stringr::str_replace_all(
+                    x[["annotation"]],
+                    stringr::fixed(img),
+                    ""
+                )
+            }
+            
+            x[["annotation"]] <- stringr::str_squish(x[["annotation"]])
         }
         
         publication <- x[["mainref"]]
@@ -370,7 +385,7 @@ bibtex_2academic <- function(bibfile,
             perl = TRUE
         )
         
-        matches <- str_match_all(
+        matches <- stringr::str_match_all(
             x[["annotation"]],
             "- icon: ([^\\n]+)\\s*\\n\\s*(icon_pack: [^\\n]+\\s*\\n)?\\s*(name: [^\\n]+\\s*\\n)?\\s*(web:|href:) ([^\\n]+)"
         )[[1]]
@@ -464,6 +479,12 @@ bibtex_2academic <- function(bibfile,
         
         write("---", fileConn, append = TRUE)
         
+        if (length(image_urls) > 0) {
+            write("", fileConn, append = TRUE)
+            write(paste0("![](", image_urls[1], ")"), fileConn, append = TRUE)
+            write("", fileConn, append = TRUE)
+        }
+        
         if (!is.na(x[["annotation"]]) && x[["annotation"]] != "") {
             write(x[["annotation"]], fileConn, append = TRUE)
         }
@@ -487,7 +508,6 @@ bibtex_2academic <- function(bibfile,
         
         invisible(fileConn)
     }
-    
     
     invisible(lapply(seq_len(nrow(mypubs)), function(i) {
         try(create_md(mypubs[i, ]), silent = TRUE)

@@ -10,7 +10,9 @@ abstract_short: ""
 about:
   template: marquee
 ---
-https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/xv-comparative-education-world-congress-wcce-2013.jpg
+
+![](https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/xv-comparative-education-world-congress-wcce-2013.jpg)
+
 
 
 ::: {.callout-note title="How to cite this work"}

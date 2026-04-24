@@ -10,7 +10,9 @@ abstract_short: ""
 about:
   template: marquee
 ---
-https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/no-imagen.jpg
+
+![](https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/no-imagen.jpg)
+
 
 
 ::: {.callout-note title="How to cite this work"}

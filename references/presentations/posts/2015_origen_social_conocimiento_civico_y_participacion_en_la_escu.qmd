@@ -10,7 +10,9 @@ abstract_short: ""
 about:
   template: marquee
 ---
-https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/I-congreso-internacional-investigacion-sobre-educacion-y-pobreza-ciep-2015.jpg
+
+![](https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/I-congreso-internacional-investigacion-sobre-educacion-y-pobreza-ciep-2015.jpg)
+
 
 
 ::: {.callout-note title="How to cite this work"}

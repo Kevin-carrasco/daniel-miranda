@@ -10,7 +10,9 @@ abstract_short: ""
 about:
   template: marquee
 ---
-https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/II-Congreso-interdisciplinario-de-investigacion-en-educacion-CIIE-2012.jpg
+
+![](https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/II-Congreso-interdisciplinario-de-investigacion-en-educacion-CIIE-2012.jpg)
+
 
 
 ::: {.callout-note title="How to cite this work"}

@@ -10,7 +10,9 @@ abstract_short: ""
 about:
   template: marquee
 ---
-https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Primer-congreso-ciencias-sociales.jpg
+
+![](https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Primer-congreso-ciencias-sociales.jpg)
+
 
 
 ::: {.callout-note title="How to cite this work"}
