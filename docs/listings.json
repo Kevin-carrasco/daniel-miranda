@@ -1,8 +1,19 @@
 [
   {
+    "listing": "/references/presentations/index.html",
+    "items": []
+  },
+  {
     "listing": "/references/publications/index.html",
     "items": [
+      "/references/publications/posts/2026_when_do_prosocial_persons_become_civic_activists_intergroup_.html",
+      "/references/publications/posts/2026_medicion_de_la_autoeficacia_digital_en_evaluaciones_internac.html",
+      "/references/publications/posts/2026_what_is_left_after_the_protest_wave_tracing_generational_pat.html",
+      "/references/publications/posts/2025_civic_education_as_a_tool_to_mitigate_social_inequalities_in.html",
       "/references/publications/posts/2025_curricular_guidelines_and_citizenship_attitudes_in_latin_ame.html",
+      "/references/publications/posts/2025_the_political_participation_of_latin_american_school_age_stu.html",
+      "/references/publications/posts/2025_comparative_analysis_using_iccs_2016_data.html",
+      "/references/publications/posts/2025_inequalities_on_willingness_to_act_pro_environmentally.html",
       "/references/publications/posts/2023_can_group_based_strategies_increase_community_resilience_lon.html",
       "/references/publications/posts/2023_socio_economic_inequalities_of_families_and_their_differenti.html",
       "/references/publications/posts/2023_the_meaning_of_citizenship_identifying_the_beliefs_of_teache.html",
@@ -51,9 +62,5 @@
       "/references/publications/posts/2012_percepcion_de_desigualdad_economica_en_chile_medicion_difere.html",
       "/references/publications/posts/2011_authoritarianism_social_dominance_and_trust_in_public_instit.html"
     ]
-  },
-  {
-    "listing": "/references/presentations/index.html",
-    "items": []
   }
 ]
