@@ -22,6 +22,31 @@ about:
       href: https://www.researchgate.net/profile/Daniel-Miranda-13
     - text: '<i class="ai ai-orcid fa-lg"></i>'
       href: https://orcid.org/0000-0002-3143-8502
+
+listing:
+- id: publications
+  contents: 
+    - references/publications/posts/*.qmd
+  sort: date desc
+  type: default
+  fields: [title, date, author]
+  max-items: 5
+  categories: false
+  sort-ui: false
+  feed: false
+  page-size: 500
+
+- id: presentations
+  contents: 
+    - references/presentations/posts/*.qmd
+  sort: date desc
+  type: default
+  fields: [title, date, author]
+  max-items: 5
+  categories: false
+  sort-ui: false
+  feed: false
+  page-size: 500
 ---
 
 :::{#hero-heading}
@@ -32,5 +57,50 @@ Sus intereses se centran en la socialización política y desigualdad, participa
 
 :::
 
+## Últimas publicaciones
+
+::: {.section-text}
+::: {.section-container}
+::: {.section-block}
+::: {style="text-align: left;"}
+<br>
+
+::: {#references/publications}
+:::
 
 
+:::{#publications}
+:::
+
+::: {.button}
+[Todas las publicaciones](references/publications/index.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::
+:::
+:::
+
+## Últimas presentaciones
+
+::: {.section-text}
+::: {.section-container}
+::: {.section-block}
+::: {style="text-align: left;"}
+<br>
+
+::: {#references/presentations}
+:::
+
+
+:::{#presentations}
+:::
+
+::: {.button}
+[Todas las presentaciones](references/presentations/index.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::
+:::
+:::

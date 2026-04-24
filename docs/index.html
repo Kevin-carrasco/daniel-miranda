@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -66,6 +68,63 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-presentations .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-presentations'] = new List('listing-presentations', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HQNG5WQE3X"></script>
 
 <script type="text/javascript">
@@ -99,6 +158,35 @@ gtag('config', 'G-HQNG5WQE3X', { 'anonymize_ip': true});
 
 
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="css/theme.scss">
 <meta property="og:title" content="Daniel Miranda – danielmiranda.com">
@@ -209,9 +297,226 @@ gtag('config', 'G-HQNG5WQE3X', { 'anonymize_ip': true});
 </div></div>
 </div>
 
+<section id="últimas-publicaciones" class="level2">
+<h2 data-anchor-id="últimas-publicaciones">Últimas publicaciones</h2>
+<div class="section-text">
+<div class="section-container">
+<div class="section-block">
+<div style="text-align: left;">
+<p><br></p>
+<div class="{#references/publications}">
+
+</div>
+<div id="listing-publications" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1777608000000" data-listing-file-modified-sort="1777000491539" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/publications/posts/2026_when_do_prosocial_persons_become_civic_activists_intergroup_.html" class="no-external">When Do Prosocial Persons Become Civic Activists? Intergroup Trust as a Moderator of the Relationship between Prosocial Behaviors and Civic Participation.</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/publications/posts/2026_when_do_prosocial_persons_become_civic_activists_intergroup_.html" class="no-external">
+<div class="listing-date">
+May 1, 2026
+</div>
+<div class="listing-author">
+Marinovic, Alejandra; Zava, Federica; Miranda, Daniel &amp; Kanacri, Bernadette Paula Luengo
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1772334000000" data-listing-file-modified-sort="1777000493486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/publications/posts/2026_medicion_de_la_autoeficacia_digital_en_evaluaciones_internac.html" class="no-external">Medición de la autoeficacia digital en evaluaciones internacionales a gran escala: una comparación internacional entre ICILS y PISA</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/publications/posts/2026_medicion_de_la_autoeficacia_digital_en_evaluaciones_internac.html" class="no-external">
+<div class="listing-date">
+Mar 1, 2026
+</div>
+<div class="listing-author">
+Miranda, Daniel; Castillo, Juan Carlos; Urzúa, Tomás; Tobar, Nicolás &amp; Aguayo, Ismael
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1772334000000" data-listing-file-modified-sort="1777000488354" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/publications/posts/2026_what_is_left_after_the_protest_wave_tracing_generational_pat.html" class="no-external">What Is Left After the Protest Wave? Tracing Generational Patterns of Political Engagement in the Wake of Chile’s Student Movement</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/publications/posts/2026_what_is_left_after_the_protest_wave_tracing_generational_pat.html" class="no-external">
+<div class="listing-date">
+Mar 1, 2026
+</div>
+<div class="listing-author">
+Donoso, Sofía; Miranda, Daniel &amp; Pavlic, Rodolfo Disi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Qm9vayUyMFNlY3Rpb24=" data-listing-date-sort="1746072000000" data-listing-file-modified-sort="1777000492133" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/publications/posts/2025_civic_education_as_a_tool_to_mitigate_social_inequalities_in.html" class="no-external">Civic Education as a Tool to Mitigate Social Inequalities in Civic Outcomes: A Literature Review</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/publications/posts/2025_civic_education_as_a_tool_to_mitigate_social_inequalities_in.html" class="no-external">
+<div class="listing-date">
+May 1, 2025
+</div>
+<div class="listing-author">
+Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1743476400000" data-listing-file-modified-sort="1777000487197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/publications/posts/2025_curricular_guidelines_and_citizenship_attitudes_in_latin_ame.html" class="no-external">Curricular Guidelines and Citizenship Attitudes in Latin American Students. a Comparative Analysis</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/publications/posts/2025_curricular_guidelines_and_citizenship_attitudes_in_latin_ame.html" class="no-external">
+<div class="listing-date">
+Apr 1, 2025
+</div>
+<div class="listing-author">
+Bascopé, Martín; Bonhomme, Macarena; Cox, Cristián; Castillo, Juan Carlos &amp; Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="button">
+<p><a href="./references/publications/index.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">Todas las publicaciones</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="últimas-presentaciones" class="level2">
+<h2 data-anchor-id="últimas-presentaciones">Últimas presentaciones</h2>
+<div class="section-text">
+<div class="section-container">
+<div class="section-block">
+<div style="text-align: left;">
+<p><br></p>
+<div class="{#references/presentations}">
+
+</div>
+<div id="listing-presentations" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="UHJlc2VudGF0aW9u" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1777000506930" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/presentations/posts/2025_gamson_s_mistrustful_efficacious_political_participation_hyp.html" class="no-external">Gamson’s Mistrustful-Efficacious Political Participation Hypothesis in Adolescents from 24 Countries.</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/presentations/posts/2025_gamson_s_mistrustful_efficacious_political_participation_hyp.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2025
+</div>
+<div class="listing-author">
+Sánchez-Barría, Felipe &amp; Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="UHJlc2VudGF0aW9u" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1777000503003" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/presentations/posts/2025_gender_differences_in_digital_self_efficacy_at_school_across.html" class="no-external">Gender Differences in Digital Self-Efficacy at School across 52 Countries</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/presentations/posts/2025_gender_differences_in_digital_self_efficacy_at_school_across.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2025
+</div>
+<div class="listing-author">
+Miranda, Daniel; Castillo, Juan Carlos; Tobar, Nicolás; Banderas, Ismael Aguayo &amp; Urzúa, Tomás
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="UHJlc2VudGF0aW9u" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1777000504108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/presentations/posts/2025_political_socialization_of_younger_generations_participation.html" class="no-external">Political Socialization of Younger Generations: Participation, Beliefs, Attitudes and Knowledge (1).</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/presentations/posts/2025_political_socialization_of_younger_generations_participation.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2025
+</div>
+<div class="listing-author">
+Miranda, Daniel &amp; Suppers, Janina
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="UHJlc2VudGF0aW9u" data-listing-date-sort="1672542000000" data-listing-file-modified-sort="1777000504063" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/presentations/posts/2023_political_socialization_in_changing_times_generations_and_ag.html" class="no-external">Political Socialization in Changing Times: Generations and Agents.</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/presentations/posts/2023_political_socialization_in_changing_times_generations_and_ag.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2023
+</div>
+<div class="listing-author">
+Miranda, Daniel; Isac, Maria magdalena &amp; Miranda, Natalia
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="UHJlc2VudGF0aW9u" data-listing-date-sort="1672542000000" data-listing-file-modified-sort="1777000506870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./references/presentations/posts/2023_youth_citizen_participation_between_social_reproduction_and_.html" class="no-external">Youth Citizen Participation: Between Social Reproduction and Political Socialization</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./references/presentations/posts/2023_youth_citizen_participation_between_social_reproduction_and_.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2023
+</div>
+<div class="listing-author">
+Miranda, Daniel
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="button">
+<p><a href="./references/presentations/index.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">Todas las presentaciones</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
