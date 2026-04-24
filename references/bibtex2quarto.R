@@ -1,4 +1,40 @@
 # The function: bibtex_2academic
+clean_bibtex_text <- function(x) {
+    x <- as.character(x)
+    x[is.na(x)] <- ""
+    x <- enc2utf8(x)
+    
+    # Comandos LaTeX frecuentes en BibTeX/Zotero
+    x <- stringr::str_replace_all(x, "\\\\textquestiondown", "¿")
+    x <- stringr::str_replace_all(x, "\\\\textexclamdown", "¡")
+    
+    # Acentos LaTeX
+    x <- stringr::str_replace_all(x, "\\\\'\\{?a\\}?", "á")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?e\\}?", "é")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?i\\}?", "í")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?o\\}?", "ó")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?u\\}?", "ú")
+    x <- stringr::str_replace_all(x, "\\\\~\\{?n\\}?", "ñ")
+    
+    x <- stringr::str_replace_all(x, "\\\\'\\{?A\\}?", "Á")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?E\\}?", "É")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?I\\}?", "Í")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?O\\}?", "Ó")
+    x <- stringr::str_replace_all(x, "\\\\'\\{?U\\}?", "Ú")
+    x <- stringr::str_replace_all(x, "\\\\~\\{?N\\}?", "Ñ")
+    
+    # Otros escapes comunes
+    x <- stringr::str_replace_all(x, "\\\\&", "&")
+    x <- stringr::str_replace_all(x, "\\\\_", "_")
+    x <- stringr::str_replace_all(x, "\\\\%", "%")
+    x <- stringr::str_replace_all(x, "\\\\#", "#")
+    
+    # Luego sí: limpiar llaves y backslashes residuales
+    x <- stringr::str_replace_all(x, "[{}]", "")
+    x <- stringr::str_replace_all(x, "\\\\", "")
+    
+    stringr::str_squish(x)
+}
 
 bibtex_2academic <- function(bibfile,
                              outfold,
@@ -126,52 +162,56 @@ bibtex_2academic <- function(bibfile,
       replacement = '\n---\n',
       x = mypubs$annotation
     )
+    mypubs$title      <- clean_bibtex_text(mypubs$title)
+    mypubs$abstract   <- clean_bibtex_text(mypubs$abstract)
+    mypubs$mainref    <- clean_bibtex_text(mypubs$mainref)
+    mypubs$annotation <- clean_bibtex_text(mypubs$annotation)
 
-    mypubs$annotation<- gsub(
-      pattern = ('\\\\'),
-      replacement = '',
-      x = mypubs$annotation
-    )
+    # mypubs$annotation<- gsub(
+    #   pattern = ('\\\\'),
+    #   replacement = '',
+    #   x = mypubs$annotation
+    # )
+    # 
+    # mypubs$abstract<- gsub(
+    #   pattern = ('\\\\'),
+    #   replacement = '',
+    #   x = mypubs$abstract
+    # )
+    # 
+    # mypubs$title <- gsub(
+    #   pattern = ('\\\\'),
+    #   replacement = '',
+    #   x = mypubs$title
+    #)
 
-    mypubs$abstract<- gsub(
-      pattern = ('\\\\'),
-      replacement = '',
-      x = mypubs$abstract
-    )
+    # # Escape internal double-quotes so YAML double-quoted strings stay valid
+    # mypubs$abstract <- gsub('"', '\\"', mypubs$abstract, fixed = TRUE)
+    # mypubs$title    <- gsub('"', '\\"', mypubs$title,    fixed = TRUE)
+    # 
+    # mypubs$mainref<- gsub(
+    #   pattern = ('\\\\'),
+    #   replacement = '',
+    #   x = mypubs$mainref
+    # )
 
-    mypubs$title <- gsub(
-      pattern = ('\\\\'),
-      replacement = '',
-      x = mypubs$title
-    )
-
-    # Escape internal double-quotes so YAML double-quoted strings stay valid
-    mypubs$abstract <- gsub('"', '\\"', mypubs$abstract, fixed = TRUE)
-    mypubs$title    <- gsub('"', '\\"', mypubs$title,    fixed = TRUE)
-
-    mypubs$mainref<- gsub(
-      pattern = ('\\\\'),
-      replacement = '',
-      x = mypubs$mainref
-    )
-
-    mypubs$annotation<- gsub(
-      pattern = ('\\{'),
-      replacement = '',
-      x = mypubs$annotation
-    )
-
-    mypubs$annotation<- gsub(
-      pattern = ('\\}'),
-      replacement = '',
-      x = mypubs$annotation
-    )
-
-    mypubs$annotation<- gsub(
-      pattern = ('\\$'),
-      replacement = '',
-      x = mypubs$annotation
-    )
+    # mypubs$annotation<- gsub(
+    #   pattern = ('\\{'),
+    #   replacement = '',
+    #   x = mypubs$annotation
+    # )
+    # 
+    # mypubs$annotation<- gsub(
+    #   pattern = ('\\}'),
+    #   replacement = '',
+    #   x = mypubs$annotation
+    # )
+    # 
+    # mypubs$annotation<- gsub(
+    #   pattern = ('\\$'),
+    #   replacement = '',
+    #   x = mypubs$annotation
+    # )
 
     # Further customization of annotation for including yaml information in Zotero Extra field
 #    mypubs$annotation <-gsub("url_pdf", "\nurl_pdf",mypubs$annotation )
@@ -253,6 +293,25 @@ bibtex_2academic <- function(bibfile,
                                bibtype == "Misc" ~ "Report",
                                bibtype == "Preprint" ~ "Manuscript",
                                TRUE ~ "0"))
+  
+  
+  
+  yaml_quote <- function(x) {
+      x <- clean_bibtex_text(x)
+      x <- gsub("\\\\", "\\\\\\\\", x)
+      x <- gsub('"', '\\"', x, fixed = TRUE)
+      paste0('"', x, '"')
+  }
+  
+  slugify_filename <- function(x) {
+      x %>%
+          clean_bibtex_text() %>%
+          stringi::stri_trans_general("Latin-ASCII") %>%
+          stringr::str_to_lower() %>%
+          stringr::str_replace_all("[^a-z0-9]+", "_") %>%
+          stringr::str_replace_all("^_|_$", "") %>%
+          stringr::str_sub(1, 60)
+  }
 
   # create a function which populates the md template based on the info
   # about a publication
@@ -271,26 +330,25 @@ bibtex_2academic <- function(bibfile,
     x[["date2"]] <- paste0(x[["year"]], "-",  x[["month"]] , "-", "01" )
 
 
-    filename <- paste(x[["date"]], x[["title"]] %>%
-                        str_replace_all(fixed(" "), "_") %>%
-                        str_remove_all(fixed(":")) %>%
-    										str_remove_all(fixed("?")) %>%
-                        str_remove_all(fixed("%")) %>%
-                        str_sub(1, 20) %>%
-                        paste0(".qmd"), sep = "_")
+    filename <- paste0(
+        x[["date"]],
+        "_",
+        slugify_filename(x[["title"]]),
+        ".qmd"
+    )
     # start writing
     if (!file.exists(file.path(outfold, filename)) | overwrite) {
       fileConn <- file.path(outfold, filename)
       write("---", fileConn)
 
       # Title and date
-      write(paste0("title : \"", x[["title"]], "\""), fileConn, append = T)
+      write(paste0("title: ", yaml_quote(x[["title"]])), fileConn, append = TRUE)
       write(paste0("date : \"", anydate(x[["date2"]]), "\""), fileConn, append = T)
 #      write(paste0("date : \"", x[["year"]], "-",  x[["month"]] , "-", "01" , "\""), fileConn, append = T)
 
       # Authors formatted as "A; B & C" for display in listing and post pages.
       author_inverted <- invert_author_names(x[["author"]])
-      auth_clean <- stringi::stri_trans_general(author_inverted, "latin-ascii")
+      auth_clean <- clean_bibtex_text(author_inverted)
       auth_vec <- trimws(unlist(strsplit(auth_clean, " and ", fixed = TRUE)))
       if (length(auth_vec) <= 1) {
         auth_display <- paste(auth_vec, collapse = "")
@@ -303,7 +361,7 @@ bibtex_2academic <- function(bibfile,
           auth_vec[length(auth_vec)]
         )
       }
-      write(paste0("author : \"", auth_display, "\""), fileConn, append = T)
+      write(paste0("author: ", yaml_quote(auth_display)), fileConn, append = TRUE)
 
       # Publication type. Legend:
       # 0 = Uncategorized, 1 = Conference paper, 2 = Journal article
@@ -339,11 +397,11 @@ bibtex_2academic <- function(bibfile,
       if (!is.na(x[["isbn"]])) publication <- paste0(publication,
                                                     ". ISBN: ", paste0(x[["isbn"]]))
 
-      write(paste0("publication : \"", publication,"\""), fileConn, append = T)
-      write(paste0("publication_short : \"", publication,"\""),fileConn, append = T)
+      write(paste0("publication: ", yaml_quote(publication)), fileConn, append = TRUE)
+      write(paste0("publication_short: ", yaml_quote(publication)), fileConn, append = TRUE)
 
       # Abstract and optional shortened version.
-      write(paste0("abstract : \"", x[["abstract"]], "\""), fileConn, append = T)
+      write(paste0("abstract: ", yaml_quote(x[["abstract"]])), fileConn, append = TRUE)
 #      if (abstract) {
 #        write(paste0("abstract = \"", x[["abstract"]],"\""), fileConn, append = T)
 #      } else {
@@ -518,30 +576,13 @@ bibtex_2academic <- function(bibfile,
 
 # Running the function for publications
 
-my_bibfile <- "references/publications/papers.bib"
+my_bibfile <- "references/publications/publicaciones.bib"
 out_fold   <- "references/publications/posts"
 bibtex_2academic(bibfile  = my_bibfile,
                   outfold   = out_fold,
                   abstract  = TRUE,
                   overwrite = TRUE)
 
-# Running the function for chapters
-
-my_bibfile <- "references/chapters/capitulos-libro.bib"
-out_fold   <- "references/chapters/posts"
-bibtex_2academic(bibfile  = my_bibfile,
-                  outfold   = out_fold,
-                  abstract  = TRUE,
-                  overwrite = TRUE)
-
-# Running the function for chapters
-
-my_bibfile <- "references/informes/informes.bib"
-out_fold   <- "references/informes/posts"
-bibtex_2academic(bibfile  = my_bibfile,
-                  outfold   = out_fold,
-                  abstract  = TRUE,
-                  overwrite = TRUE)
 
 # Running the function for presentations
 

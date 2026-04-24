@@ -1,0 +1,20 @@
+---
+title: "Teaching Tolerance in a Globalized World: Final Remarks"
+date : "2018-01-01"
+author: "Isac, Maria Magdalena; Sandoval-Hernández, Andrés & Miranda, Daniel"
+categories : ["Book Section"]
+publication: "In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching Tolerance in a Globalized World 125--135 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_8](https://doi.org/10.1007/978-3-319-78692-6_8). ISBN: 978-3-319-78692-6"
+publication_short: "In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching Tolerance in a Globalized World 125--135 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_8](https://doi.org/10.1007/978-3-319-78692-6_8). ISBN: 978-3-319-78692-6"
+abstract: "Each of the five empirical studies presented in this report aimed to identify factors and conditions that help schools and teachers to promote tolerance in a globalized world. Each study acknowledged the complex, hierarchical layers of explanatory mechanisms, while focusing on what could be learned from in-depth analysis of data collected by the International Association for the Evaluation of Educational Achievement's International Civic and Citizenship Education Study 2009. In this chapter, key findings are summarized, while acknowledging limitations and caveats, and avenues for further research are identified. The report findings also flag some potential implications for policymakers."
+abstract_short : ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Isac, Maria Magdalena; Sandoval-Hernandez, Andres & Miranda, Daniel (2018). *Teaching Tolerance in a Globalized World: Final Remarks*.  In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching {{Tolerance}} in a {{Globalized World}} 125--135 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_8](https://doi.org/10.1007/978-3-319-78692-6_8). ISBN: 978-3-319-78692-6
+
+:::
+

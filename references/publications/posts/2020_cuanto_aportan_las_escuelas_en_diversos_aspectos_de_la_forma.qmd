@@ -1,0 +1,20 @@
+---
+title: "¿Cuánto Aportan Las Escuelas En Diversos Aspectos de La Formación Ciudadana?: Evidencias Desde ICCS"
+date : "2020-01-01"
+author: "Miranda, Daniel & Carrasco, Diego"
+categories : ["Report"]
+publication: "Centro de medición MIDE UC"
+publication_short: "Centro de medición MIDE UC"
+abstract: "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Carrasco, Diego (2020). *¿Cuánto Aportan Las Escuelas En Diversos Aspectos de La Formación Ciudadana?: Evidencias Desde ICCS*.  Centro de medici\'on MIDE UC
+
+:::
+

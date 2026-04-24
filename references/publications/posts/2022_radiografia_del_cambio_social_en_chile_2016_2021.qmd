@@ -1,0 +1,20 @@
+---
+title: "Radiografía Del Cambio Social En Chile 2016-2021"
+date : "2022-01-01"
+author: "González, Roberto; Bargsted, Matías; Figueiredo, Ana; Miranda, Daniel; Cerda, Edgardo; Plaza, Alejandro & Salas-Lewin, Rocío"
+categories : ["Report"]
+publication: "Centro de estudios del conflicto y cohesión social (COES)"
+publication_short: "Centro de estudios del conflicto y cohesión social (COES)"
+abstract: "Resultados ELSOC 2016-2021"
+abstract_short : ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Gonzalez, Roberto; Bargsted, Matias; Figueiredo, Ana; Miranda, Daniel; Cerda, Edgardo; Plaza, Alejandro & Salas-Lewin, Rocio (2022). *Radiografía Del Cambio Social En Chile 2016-2021*.  Centro de estudios del conflicto y cohesi\'on social (COES)
+
+:::
+

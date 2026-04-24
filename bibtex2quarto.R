@@ -1,7 +1,7 @@
 # The function: bibtex_2academic
 
 bibtex_2academic <- function(bibfile,
-                             outfold,
+                             outfold,>
                              abstract = TRUE,
                              overwrite = FALSE) {
 

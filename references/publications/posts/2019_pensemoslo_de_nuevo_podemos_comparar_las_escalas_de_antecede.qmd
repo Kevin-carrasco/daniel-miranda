@@ -1,0 +1,20 @@
+---
+title: "Pensémoslo de nuevo: ¿ Podemos comparar las escalas de antecedentes socioeconómicos?"
+date : "2019-01-01"
+author: "Sandoval-Hernandez, Andrés; Rutkowski, David & Matta, Tyler"
+categories : ["Journal Article"]
+publication: "Revista de Educación(383). ES: Secretaría General Técnica. Subdirección General de Documentación y Publicaciones [https://doi.org/10.4438/1988-592X-RE-2019-383-400](https://doi.org/10.4438/1988-592X-RE-2019-383-400)"
+publication_short: "Revista de Educación(383). ES: Secretaría General Técnica. Subdirección General de Documentación y Publicaciones [https://doi.org/10.4438/1988-592X-RE-2019-383-400](https://doi.org/10.4438/1988-592X-RE-2019-383-400)"
+abstract: "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andres; Rutkowski, David & Matta, Tyler (2019). *Pensémoslo de nuevo: ¿ Podemos comparar las escalas de antecedentes socioeconómicos?*. Revista de Educación(383). ES: Secretar\'ia General T\'ecnica. Subdirecci\'on General de Documentaci\'on y Publicaciones [https://doi.org/10.4438/1988-592X-RE-2019-383-400](https://doi.org/10.4438/1988-592X-RE-2019-383-400)
+
+:::
+

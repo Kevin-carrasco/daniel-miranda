@@ -1,0 +1,20 @@
+---
+title: "Teaching Tolerance in a Globalized World: An Introduction"
+date : "2018-01-01"
+author: "Isac, Maria Magdalena; Sandoval-Hernández, Andrés & Miranda, Daniel"
+categories : ["Book Section"]
+publication: "In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching Tolerance in a Globalized World 1--10 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_1](https://doi.org/10.1007/978-3-319-78692-6_1). ISBN: 978-3-319-78692-6"
+publication_short: "In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching Tolerance in a Globalized World 1--10 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_1](https://doi.org/10.1007/978-3-319-78692-6_1). ISBN: 978-3-319-78692-6"
+abstract: "The increasing diversity of student populations is a global educational trend. The relatively recent rapid influx of immigrants, refugees and asylum seekers, coupled with issues of increasing intolerance, social exclusion and feelings of alienation, and extremism among young people, are posing complex challenges for educational systems around the world. Education has a key role to play in preparing future generations to address these problems and ensuring that young people acquire the social, civic, and intercultural competences needed for active and successful participation in society. This book presents five empirical studies, designed to examine differing factors and conditions that may help schools and teachers in their endeavors to promote tolerance in a globalized world. The 2009 International Civic and Citizenship Education Study (ICCS) provided the research data. This introductory chapter describes the overall theoretical framework, discusses key constructs, and outlines the aims guiding the five studies, concluding with an overview of all chapters."
+abstract_short : ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Isac, Maria Magdalena; Sandoval-Hernandez, Andres & Miranda, Daniel (2018). *Teaching Tolerance in a Globalized World: An Introduction*.  In Andrés Sandoval-Hernández, Maria Magdalena Isac & Daniel Miranda: Teaching {{Tolerance}} in a {{Globalized World}} 1--10 . Cham: Springer International Publishing [https://doi.org/10.1007/978-3-319-78692-6_1](https://doi.org/10.1007/978-3-319-78692-6_1). ISBN: 978-3-319-78692-6
+
+:::
+

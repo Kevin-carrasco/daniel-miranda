@@ -1,0 +1,20 @@
+---
+title: "Is Democracy Overrated? Latin American Students' Support for Dictatorships"
+date : "2019-01-01"
+author: "Sandoval-Hernandez, Andrés; Miranda, Daniel; Treviño, Ernesto & Schmelkes, S."
+categories : ["Report"]
+publication: "International Association for the Evaluation of Educational Achievement (IEA)"
+publication_short: "International Association for the Evaluation of Educational Achievement (IEA)"
+abstract: "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andres; Miranda, Daniel; Trevino, Ernesto & Schmelkes, S. (2019). *Is Democracy Overrated? Latin American Students' Support for Dictatorships*.  International Association for the Evaluation of Educational Achievement (IEA)
+
+:::
+

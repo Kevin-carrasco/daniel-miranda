@@ -29,8 +29,6 @@ website:
         menu:
           - text: "Publicaciones"
             href: references/publications/index.qmd
-          - text: "Capítulos de libro"
-            href: references/chapters/index.qmd
           - text: "Presentaciones"
             href: references/presentations/index.qmd
       - text: "Docencia"
