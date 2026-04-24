@@ -1,0 +1,20 @@
+---
+title: "When Do Prosocial Persons Become Civic Activists? Intergroup Trust as a Moderator of the Relationship between Prosocial Behaviors and Civic Participation."
+date : "2026-05-01"
+author: "Marinovic, Alejandra; Zava, Federica; Miranda, Daniel & Kanacri, Bernadette Paula Luengo"
+categories : ["Journal Article"]
+publication: "Peace and Conflict: Journal of Peace Psychology, 32(2) 137--150 [https://doi.org/10.1037/pac0000817](https://doi.org/10.1037/pac0000817)"
+publication_short: "Peace and Conflict: Journal of Peace Psychology, 32(2) 137--150 [https://doi.org/10.1037/pac0000817](https://doi.org/10.1037/pac0000817)"
+abstract: "(Abstract not available)"
+abstract_short : ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Marinovic, Alejandra; Zava, Federica; Miranda, Daniel & Kanacri, Bernadette Paula Luengo (2026). *When Do Prosocial Persons Become Civic Activists? Intergroup Trust as a Moderator of the Relationship between Prosocial Behaviors and Civic Participation.*. Peace and Conflict: Journal of Peace Psychology, 32(2) 137--150  [https://doi.org/10.1037/pac0000817](https://doi.org/10.1037/pac0000817)
+
+:::
+
