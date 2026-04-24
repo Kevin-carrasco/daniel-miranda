@@ -1,0 +1,20 @@
+---
+title: "Emergent Social Identity and Group Norms Predict Solidarity Behavior in a Disaster"
+date: "2014-07-01"
+author: "Drury, John; Brown, Rupert; González, Roberto & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "The Symposium: Testing Longitudinal Models of Intergroup Contact in Ethnic Diversity Contexts. 17$^circ$ General Meeting of the European Association of Social Psychology (EASP). Amsterdam"
+publication_short: "The Symposium: Testing Longitudinal Models of Intergroup Contact in Ethnic Diversity Contexts. 17$^circ$ General Meeting of the European Association of Social Psychology (EASP). Amsterdam"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Drury, John; Brown, Rupert; González, Roberto & Miranda, Daniel (2014). *Emergent Social Identity and Group Norms Predict Solidarity Behavior in a Disaster*. The Symposium: Testing Longitudinal Models of Intergroup Contact in Ethnic Diversity Contexts. 17$^circ$ General Meeting of the European Association of Social Psychology (EASP). Amsterdam
+
+:::
+

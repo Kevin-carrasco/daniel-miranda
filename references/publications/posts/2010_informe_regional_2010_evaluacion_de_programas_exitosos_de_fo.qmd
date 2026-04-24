@@ -1,0 +1,20 @@
+---
+title: "Informe Regional 2010: Evaluación de Programas Exitosos de Formación Ciudadana. Sistema Regional de Evaluación y Desarrollo de Competencias Ciudadanas (SREDECC)"
+date: "2010-01-01"
+author: "Martinez, M.L.; González, Roberto; Canales, Luis & Miranda, Daniel"
+categories: ["Report"]
+publication: "Banco Interamericano de Desarrollo (BID)"
+publication_short: "Banco Interamericano de Desarrollo (BID)"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Martinez, M.L.; González, Roberto; Canales, Luis & Miranda, Daniel (2010). *Informe Regional 2010: Evaluación de Programas Exitosos de Formación Ciudadana. Sistema Regional de Evaluación y Desarrollo de Competencias Ciudadanas (SREDECC)*. Banco Interamericano de Desarrollo (BID)
+
+:::
+

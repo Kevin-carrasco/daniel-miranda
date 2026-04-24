@@ -1,0 +1,20 @@
+---
+title: "Affective Polarization and Collective Memory of the Military Coup (Página 129)"
+date: "2024-07-01"
+author: "Lay, Siugmin; Miranda, Daniel; Manzi, Jorge; González, Roberto; Carvacho, Héctor & Haye, A."
+categories: ["Presentation"]
+publication: "The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile"
+publication_short: "The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Lay, Siugmin; Miranda, Daniel; Manzi, Jorge; González, Roberto; Carvacho, Héctor & Haye, A. (2024). *Affective Polarization and Collective Memory of the Military Coup (Página 129)*. The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "The Influence of IEA Civic Education Studies on Policy and Practice in Latin America (Página 78)"
+date: "2021-11-01"
+author: "Sandoval-Hernandez, Andrés"
+categories: ["Presentation"]
+publication: "9th IEA International Research Conference. Dubai, United Arab Emirates"
+publication_short: "9th IEA International Research Conference. Dubai, United Arab Emirates"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andrés (2021). *The Influence of IEA Civic Education Studies on Policy and Practice in Latin America (Página 78)*. 9th IEA International Research Conference. Dubai, United Arab Emirates
+
+:::
+

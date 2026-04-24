@@ -1,0 +1,21 @@
+---
+title: "Sexismo e Igualitarismo: Una Propuesta de Medición Usando ICCS 2016"
+date: "2019-04-01"
+author: "Miranda, Daniel & Muñoz, L"
+categories: ["Presentation"]
+publication: "ACMME - Primer Encuentro Nacional de Métodos y Técnicas En Investigación Social. Rancagua, Chile"
+publication_short: "ACMME - Primer Encuentro Nacional de Métodos y Técnicas En Investigación Social. Rancagua, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/cies-2019.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Muñoz, L (2019). *Sexismo e Igualitarismo: Una Propuesta de Medición Usando ICCS 2016*. ACMME - Primer Encuentro Nacional de Métodos y Técnicas En Investigación Social. Rancagua, Chile
+
+:::
+

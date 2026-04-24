@@ -1,0 +1,20 @@
+---
+title: "The Developing of Intergroup Friendship: Testing a Longitudinal Model"
+date: "2014-07-01"
+author: "González, Roberto; Manzi, Jorge; Tropp, Linda; Lickel, Brian; De Tezanos-Pinto, Pablo; Bernardino, Michelle; Saavedra, Patricio; Miranda, Daniel & Lay, Siugmin"
+categories: ["Presentation"]
+publication: "The Symposium: Testing Longitudinal Models of Intergroup Contact in Ethnic Diversity Contexts. 17$^circ$ General Meeting of the European Association of Social Psychology (EASP). Amsterdam"
+publication_short: "The Symposium: Testing Longitudinal Models of Intergroup Contact in Ethnic Diversity Contexts. 17$^circ$ General Meeting of the European Association of Social Psychology (EASP). Amsterdam"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+González, Roberto; Manzi, Jorge; Tropp, Linda; Lickel, Brian; De Tezanos-Pinto, Pablo; Bernardino, Michelle; Saavedra, Patricio; Miranda, Daniel & Lay, Siugmin (2014). *The Developing of Intergroup Friendship: Testing a Longitudinal Model*. The Symposium: Testing Longitudinal Models of Intergroup Contact in Ethnic Diversity Contexts. 17$^circ$ General Meeting of the European Association of Social Psychology (EASP). Amsterdam
+
+:::
+

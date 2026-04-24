@@ -1,0 +1,20 @@
+---
+title: "Revisitando La ``Hipótesis de Gamson'' En La Participación Política Juvenil En El Chile Actual."
+date: "2023-01-01"
+author: "Sánchez-Barría, Felipe & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "IV Congreso Chileno de Ciencia Política 2023. Santiago, Chile"
+publication_short: "IV Congreso Chileno de Ciencia Política 2023. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sánchez-Barría, Felipe & Miranda, Daniel (2023). *Revisitando La ``Hipótesis de Gamson'' En La Participación Política Juvenil En El Chile Actual.*. IV Congreso Chileno de Ciencia Política 2023. Santiago, Chile
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "A Longitudinal Examination of the Factors That Facilitate and Hinder Support for Conservative and Progressive Social Movements (Página 80)"
+date: "2022-07-01"
+author: "González, Roberto; Chayinska, Maria; Plaza, Alejandro; Bargsted, Matías & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Annual Meeting of International Society of Political Psychology ISPP. Atenas, Grecia"
+publication_short: "Annual Meeting of International Society of Political Psychology ISPP. Atenas, Grecia"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+González, Roberto; Chayinska, Maria; Plaza, Alejandro; Bargsted, Matías & Miranda, Daniel (2022). *A Longitudinal Examination of the Factors That Facilitate and Hinder Support for Conservative and Progressive Social Movements (Página 80)*. Annual Meeting of International Society of Political Psychology ISPP. Atenas, Grecia
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "The Risk of Aggression toward Peruvian Immigrants: The Role of Nationalism, Perceived Intergroup Conflict and Threat in Predicting Prejudice toward Immigrants"
+date: "2012-07-01"
+author: "Miranda, Daniel & González, Roberto"
+categories: ["Presentation"]
+publication: "XXX International Congress of Psychology (ICP). Cape Town, South Africa"
+publication_short: "XXX International Congress of Psychology (ICP). Cape Town, South Africa"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & González, Roberto (2012). *The Risk of Aggression toward Peruvian Immigrants: The Role of Nationalism, Perceived Intergroup Conflict and Threat in Predicting Prejudice toward Immigrants*. XXX International Congress of Psychology (ICP). Cape Town, South Africa
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "Latin American Political Culture and Citizenship Norms"
+date: "2020-03-01"
+author: "Miranda, Daniel; Miranda, Catalina & Muñoz, Loreto"
+categories: ["Presentation"]
+publication: "64th Annual Conference of Comparative and International Education Society. Miami, USA"
+publication_short: "64th Annual Conference of Comparative and International Education Society. Miami, USA"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Miranda, Catalina & Muñoz, Loreto (2020). *Latin American Political Culture and Citizenship Norms*. 64th Annual Conference of Comparative and International Education Society. Miami, USA
+
+:::
+

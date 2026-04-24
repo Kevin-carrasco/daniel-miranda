@@ -1,0 +1,21 @@
+---
+title: "Teaching Tolerance in a Globalized World"
+date: "2018-03-01"
+author: "Sandoval-Hernandez, Andrés; Isac, M. & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "2th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico"
+publication_short: "2th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/8th-IEA-IRC.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andrés; Isac, M. & Miranda, Daniel (2018). *Teaching Tolerance in a Globalized World*. 2th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico
+
+:::
+

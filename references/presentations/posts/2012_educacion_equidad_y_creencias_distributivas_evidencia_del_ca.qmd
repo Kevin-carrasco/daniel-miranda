@@ -1,0 +1,21 @@
+---
+title: "Educación, Equidad y Creencias Distributivas: Evidencia Del Caso Chileno."
+date: "2012-10-01"
+author: "Castillo, Juan Carlos; Madero, Ignacio & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Congreso Nacional de Sociología. Chile"
+publication_short: "Congreso Nacional de Sociología. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Second-international-sociological-association-ISA.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Madero, Ignacio & Miranda, Daniel (2012). *Educación, Equidad y Creencias Distributivas: Evidencia Del Caso Chileno.*. Congreso Nacional de Sociología. Chile
+
+:::
+

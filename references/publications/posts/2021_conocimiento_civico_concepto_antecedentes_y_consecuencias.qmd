@@ -1,0 +1,20 @@
+---
+title: "Conocimiento Cívico: Concepto, Antecedentes y Consecuencias."
+date: "2021-01-01"
+author: "Miranda, Daniel & Herrera-Leighton, Anaís"
+categories: ["Book Section"]
+publication: "Ciudadanía, Juventud y Escuela: Investigación y Debates Para El Chile Del Futuro. Chile"
+publication_short: "Ciudadanía, Juventud y Escuela: Investigación y Debates Para El Chile Del Futuro. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Herrera-Leighton, Anaís (2021). *Conocimiento Cívico: Concepto, Antecedentes y Consecuencias.*. Ciudadanía, Juventud y Escuela: Investigación y Debates Para El Chile Del Futuro. Chile
+
+:::
+

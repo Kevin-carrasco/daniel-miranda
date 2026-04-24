@@ -1,0 +1,20 @@
+---
+title: "Pro-Environmental Dispositions among Secondary School Students: A Study on the Role of the Schools."
+date: "2024-03-01"
+author: "Carrasco, Diego; Miranda, Daniel & Treviño, Ernesto"
+categories: ["Presentation"]
+publication: "67th Annual Conference of Comparative and International Education Society. Miami, USA"
+publication_short: "67th Annual Conference of Comparative and International Education Society. Miami, USA"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Carrasco, Diego; Miranda, Daniel & Treviño, Ernesto (2024). *Pro-Environmental Dispositions among Secondary School Students: A Study on the Role of the Schools.*. 67th Annual Conference of Comparative and International Education Society. Miami, USA
+
+:::
+

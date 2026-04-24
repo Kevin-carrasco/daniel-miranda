@@ -1,0 +1,20 @@
+---
+title: "Partisan Cleavages and Distributive Preferences: A Cross Sectional Time Comparison."
+date: "2011-07-01"
+author: "Castillo, Juan Carlos; Salamovich, A. & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Annual Scientific Meeting of the International Society of Political Psychology -- ISPP. Istanbul"
+publication_short: "Annual Scientific Meeting of the International Society of Political Psychology -- ISPP. Istanbul"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Salamovich, A. & Miranda, Daniel (2011). *Partisan Cleavages and Distributive Preferences: A Cross Sectional Time Comparison.*. Annual Scientific Meeting of the International Society of Political Psychology -- ISPP. Istanbul
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "Religious Identification and Intergroup Contact Jointly Predict Attitudes toward Religious Outgroups."
+date: "2015-07-01"
+author: "Selvanathan, H.; Tropp, Linda; González, Roberto; Lickel, Brian & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "38th ISSP Annual Scientific Meeting ISPP. San Diego, USA"
+publication_short: "38th ISSP Annual Scientific Meeting ISPP. San Diego, USA"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Selvanathan, H.; Tropp, Linda; González, Roberto; Lickel, Brian & Miranda, Daniel (2015). *Religious Identification and Intergroup Contact Jointly Predict Attitudes toward Religious Outgroups.*. 38th ISSP Annual Scientific Meeting ISPP. San Diego, USA
+
+:::
+

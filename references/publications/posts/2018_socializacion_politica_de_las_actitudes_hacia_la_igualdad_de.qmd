@@ -1,0 +1,20 @@
+---
+title: "Socialización Política de Las Actitudes Hacia La Igualdad de Derechos (The Political Socialization of Attitudes toward Equality of Rights)"
+date: "2018-01-01"
+author: "Miranda, Daniel"
+categories: ["Report"]
+publication: ": Serie Documentos de Trabajo COES"
+publication_short: ": Serie Documentos de Trabajo COES"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *Socialización Política de Las Actitudes Hacia La Igualdad de Derechos (The Political Socialization of Attitudes toward Equality of Rights)*. : Serie Documentos de Trabajo COES
+
+:::
+

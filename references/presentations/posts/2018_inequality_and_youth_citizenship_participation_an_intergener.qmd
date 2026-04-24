@@ -1,0 +1,20 @@
+---
+title: "Inequality and Youth Citizenship Participation: An Intergenerational Approach"
+date: "2018-07-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "XIX ISA World Congress of Sociology. Toronto, Canadá"
+publication_short: "XIX ISA World Congress of Sociology. Toronto, Canadá"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *Inequality and Youth Citizenship Participation: An Intergenerational Approach*. XIX ISA World Congress of Sociology. Toronto, Canadá
+
+:::
+

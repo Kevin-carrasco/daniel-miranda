@@ -1,0 +1,20 @@
+---
+title: "Chair En La Sesión: ``Inequality, SES and Segregated Schooling: What Do ILSAs Tell Us?"
+date: "2018-03-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "62th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico"
+publication_short: "62th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *Chair En La Sesión: ``Inequality, SES and Segregated Schooling: What Do ILSAs Tell Us?*. 62th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth: The Role of Norms and Intergroup Contact"
+date: "2017-06-01"
+author: "González, Roberto; Lickel, Brian; Gupta, Manisha; Tropp, Linda; Luengo-Kanacri, Bernadette Paula; Mora, Eduardo; De Tezanos-Pinto, Pablo; Berger, Christian; Valdenegro, Daniel; Cayul, Oscar; Miranda, Daniel; Saavedra, Patricio & Bernardino, Michelle"
+categories: ["Presentation"]
+publication: "Conference of the Society for the Psychological Study of Social Issues. Albuquerque, Mexico"
+publication_short: "Conference of the Society for the Psychological Study of Social Issues. Albuquerque, Mexico"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+González, Roberto; Lickel, Brian; Gupta, Manisha; Tropp, Linda; Luengo-Kanacri, Bernadette Paula; Mora, Eduardo; De Tezanos-Pinto, Pablo; Berger, Christian; Valdenegro, Daniel; Cayul, Oscar; Miranda, Daniel; Saavedra, Patricio & Bernardino, Michelle (2017). *Ethnic Identity Development and Acculturation Preferences among Minority and Majority Youth: The Role of Norms and Intergroup Contact*. Conference of the Society for the Psychological Study of Social Issues. Albuquerque, Mexico
+
+:::
+

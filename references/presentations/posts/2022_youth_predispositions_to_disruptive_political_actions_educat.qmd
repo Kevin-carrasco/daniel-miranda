@@ -1,0 +1,20 @@
+---
+title: "Youth Predispositions to Disruptive Political Actions: Educational Level, Civic Knowledge and Digital Media in Unequal Contexts"
+date: "2022-10-01"
+author: "Miranda, Daniel & Castillo, Juan Carlos"
+categories: ["Presentation"]
+publication: "I Dati INVALSI: Uno Strumento per La Recerca. Roma, Italia"
+publication_short: "I Dati INVALSI: Uno Strumento per La Recerca. Roma, Italia"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Castillo, Juan Carlos (2022). *Youth Predispositions to Disruptive Political Actions: Educational Level, Civic Knowledge and Digital Media in Unequal Contexts*. I Dati INVALSI: Uno Strumento per La Recerca. Roma, Italia
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "Discussant En La Mesa: Research in Students Attitudes and Students Achievement"
+date: "2021-05-01"
+author: "Miranda"
+categories: ["Presentation"]
+publication: "65th Annual Conference of Comparative and International Education Society. Virtual"
+publication_short: "65th Annual Conference of Comparative and International Education Society. Virtual"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda (2021). *Discussant En La Mesa: Research in Students Attitudes and Students Achievement*. 65th Annual Conference of Comparative and International Education Society. Virtual
+
+:::
+

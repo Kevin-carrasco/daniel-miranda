@@ -1,0 +1,20 @@
+---
+title: "Political Identification and the Evolution of Collective Memory of the Military Coup in Chile (Página 129)"
+date: "2024-07-01"
+author: "Manzi, Jorge; González, Roberto; Carvacho, Héctor; Lay, Siugmin; Miranda, Daniel & Haye, A."
+categories: ["Presentation"]
+publication: "The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile"
+publication_short: "The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Manzi, Jorge; González, Roberto; Carvacho, Héctor; Lay, Siugmin; Miranda, Daniel & Haye, A. (2024). *Political Identification and the Evolution of Collective Memory of the Military Coup in Chile (Página 129)*. The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile
+
+:::
+

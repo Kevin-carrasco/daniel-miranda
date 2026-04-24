@@ -1,0 +1,20 @@
+---
+title: "Disposición de Jóvenes a Participar En Acciones Políticas Disruptivas: La Brecha Socioeconómica y de Género En Contextos Desiguales"
+date: "2022-11-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "IX Conferencia Internacional COES: \"El Futuro de Lo Común: Desafíos Para La Convivencia. Chile"
+publication_short: "IX Conferencia Internacional COES: \"El Futuro de Lo Común: Desafíos Para La Convivencia. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2022). *Disposición de Jóvenes a Participar En Acciones Políticas Disruptivas: La Brecha Socioeconómica y de Género En Contextos Desiguales*. IX Conferencia Internacional COES: "El Futuro de Lo Común: Desafíos Para La Convivencia. Chile
+
+:::
+

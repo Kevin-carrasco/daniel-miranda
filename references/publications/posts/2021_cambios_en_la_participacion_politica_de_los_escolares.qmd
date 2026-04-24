@@ -1,0 +1,20 @@
+---
+title: "Cambios En La Participación Política de Los Escolares"
+date: "2021-01-01"
+author: "Miranda, Daniel & Castillo, Juan Carlos"
+categories: ["Book Section"]
+publication: "Saltar El Torniquete: Reflexiones Desde Las Juventudes de Octubre. Chile"
+publication_short: "Saltar El Torniquete: Reflexiones Desde Las Juventudes de Octubre. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Castillo, Juan Carlos (2021). *Cambios En La Participación Política de Los Escolares*. Saltar El Torniquete: Reflexiones Desde Las Juventudes de Octubre. Chile
+
+:::
+

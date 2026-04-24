@@ -1,0 +1,20 @@
+---
+title: "Asociación Entre Participación Online y Offline Durante Las Protestas de Chile 2019"
+date: "2022-01-01"
+author: "Miranda, Daniel; De Tezanos-Pinto, Pablo & Chayinska, María"
+categories: ["Presentation"]
+publication: "VIII Congreso de La Sociedad Científica de Psicología de Chile (SCP). Puerto Natales, Chile"
+publication_short: "VIII Congreso de La Sociedad Científica de Psicología de Chile (SCP). Puerto Natales, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; De Tezanos-Pinto, Pablo & Chayinska, María (2022). *Asociación Entre Participación Online y Offline Durante Las Protestas de Chile 2019*. VIII Congreso de La Sociedad Científica de Psicología de Chile (SCP). Puerto Natales, Chile
+
+:::
+

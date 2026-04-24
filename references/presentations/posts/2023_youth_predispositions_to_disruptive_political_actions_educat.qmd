@@ -1,0 +1,20 @@
+---
+title: "Youth Predispositions to Disruptive Political Actions: Educational Level, Civic Knowledge and Digital Media in Unequal Contexts"
+date: "2023-07-01"
+author: "Miranda, Daniel & Castillo, Juan Carlos"
+categories: ["Presentation"]
+publication: "The 46th Annual Scientific Meeting of International Society of Political Psychology Ihspace0pthspace0ptSPP. Montreal, Canadá"
+publication_short: "The 46th Annual Scientific Meeting of International Society of Political Psychology Ihspace0pthspace0ptSPP. Montreal, Canadá"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Castillo, Juan Carlos (2023). *Youth Predispositions to Disruptive Political Actions: Educational Level, Civic Knowledge and Digital Media in Unequal Contexts*. The 46th Annual Scientific Meeting of International Society of Political Psychology Ihspace0pthspace0ptSPP. Montreal, Canadá
+
+:::
+

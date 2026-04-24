@@ -1,0 +1,20 @@
+---
+title: "Ingroup and Outgroup Norms: Testing a Longitudinal Model of Intergroup Friendship"
+date: "2014-07-01"
+author: "González, Roberto; Manzi, Jorge; Tropp, Linda; Lickel, Brian; De Tezanos-Pinto, Pablo; Bernardino, Michelle; Saavedra, Patricio; Miranda, Daniel & Lay, Siugmin"
+categories: ["Presentation"]
+publication: "ISSP Annual Scientific Meeting. Roma, Italia"
+publication_short: "ISSP Annual Scientific Meeting. Roma, Italia"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+González, Roberto; Manzi, Jorge; Tropp, Linda; Lickel, Brian; De Tezanos-Pinto, Pablo; Bernardino, Michelle; Saavedra, Patricio; Miranda, Daniel & Lay, Siugmin (2014). *Ingroup and Outgroup Norms: Testing a Longitudinal Model of Intergroup Friendship*. ISSP Annual Scientific Meeting. Roma, Italia
+
+:::
+

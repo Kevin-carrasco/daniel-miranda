@@ -1,0 +1,20 @@
+---
+title: "Cross-National Equivalence of Political Participation in Early Adolescence across 24 Countries"
+date: "2022-04-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "66th Annual Conference of Comparative and International Education Society. Minneapolis, USA"
+publication_short: "66th Annual Conference of Comparative and International Education Society. Minneapolis, USA"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2022). *Cross-National Equivalence of Political Participation in Early Adolescence across 24 Countries*. 66th Annual Conference of Comparative and International Education Society. Minneapolis, USA
+
+:::
+

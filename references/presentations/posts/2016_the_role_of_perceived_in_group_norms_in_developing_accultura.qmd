@@ -1,0 +1,20 @@
+---
+title: "The Role of Perceived In-Group Norms in Developing Acculturation Preferences among Majority Members."
+date: "2016-07-01"
+author: "González, Roberto; Brown, Rupert; Manzi, Jorge; Lay, Siugmin; Hassler; Miranda, Daniel; Zagefka, H. & Lickel"
+categories: ["Presentation"]
+publication: "The Annual International Annual Meeting of the Society of Political Psychology (ISPP). Poland"
+publication_short: "The Annual International Annual Meeting of the Society of Political Psychology (ISPP). Poland"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+González, Roberto; Brown, Rupert; Manzi, Jorge; Lay, Siugmin; Hassler; Miranda, Daniel; Zagefka, H. & Lickel (2016). *The Role of Perceived In-Group Norms in Developing Acculturation Preferences among Majority Members.*. The Annual International Annual Meeting of the Society of Political Psychology (ISPP). Poland
+
+:::
+

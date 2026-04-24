@@ -1,0 +1,20 @@
+---
+title: "Political Socialisation and Legitimation of Radical Actions in Adolescents Evidence from Chile (Página 88)"
+date: "2022-07-01"
+author: "Miranda, Daniel & Sánchez-Barría, Felipe"
+categories: ["Presentation"]
+publication: "Annual Meeting of International Society of Political Psychology ISPP. Atenas, Grecia"
+publication_short: "Annual Meeting of International Society of Political Psychology ISPP. Atenas, Grecia"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Sánchez-Barría, Felipe (2022). *Political Socialisation and Legitimation of Radical Actions in Adolescents Evidence from Chile (Página 88)*. Annual Meeting of International Society of Political Psychology ISPP. Atenas, Grecia
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "When Bystanders Care: An Instrumental Motive for Supporting Collective Action"
+date: "2017-07-01"
+author: "Jiménez-Moya, Gloria; Miranda, Daniel; Drury, John; Saavedra, Patricio & González, Roberto"
+categories: ["Presentation"]
+publication: "18th General Meeting of the European Association of Social Psychology (EASP). Granada, España"
+publication_short: "18th General Meeting of the European Association of Social Psychology (EASP). Granada, España"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Jiménez-Moya, Gloria; Miranda, Daniel; Drury, John; Saavedra, Patricio & González, Roberto (2017). *When Bystanders Care: An Instrumental Motive for Supporting Collective Action*. 18th General Meeting of the European Association of Social Psychology (EASP). Granada, España
+
+:::
+

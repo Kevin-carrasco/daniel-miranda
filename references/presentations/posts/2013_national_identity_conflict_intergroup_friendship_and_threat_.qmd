@@ -1,0 +1,20 @@
+---
+title: "National Identity, Conflict, Intergroup Friendship and Threat Predict Chilean's Prejudice toward Immigrants."
+date: "2013-04-01"
+author: "González, Roberto & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Group-Focused Enmity across Borders -- European Approaches & Comparisons. Herrenhausen, Hannover"
+publication_short: "Group-Focused Enmity across Borders -- European Approaches & Comparisons. Herrenhausen, Hannover"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+González, Roberto & Miranda, Daniel (2013). *National Identity, Conflict, Intergroup Friendship and Threat Predict Chilean's Prejudice toward Immigrants.*. Group-Focused Enmity across Borders -- European Approaches & Comparisons. Herrenhausen, Hannover
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "Authoritarianism, Social Dominance, and Trust in Public Institutions"
+date: "2011-07-01"
+author: "Castillo, Juan Carlos; Miranda, Daniel & Torres, Pablo"
+categories: ["Presentation"]
+publication: "Annual Scientific Meeting of the International Society of Political Psychology -- ISPP. Istanbul"
+publication_short: "Annual Scientific Meeting of the International Society of Political Psychology -- ISPP. Istanbul"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel & Torres, Pablo (2011). *Authoritarianism, Social Dominance, and Trust in Public Institutions*. Annual Scientific Meeting of the International Society of Political Psychology -- ISPP. Istanbul
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "The Political Socialization of Attitudes towards the Equality of Rights from a Comparative Perspective"
+date: "2018-07-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "XIX ISA World Congress of Sociology. Toronto, Canadá"
+publication_short: "XIX ISA World Congress of Sociology. Toronto, Canadá"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *The Political Socialization of Attitudes towards the Equality of Rights from a Comparative Perspective*. XIX ISA World Congress of Sociology. Toronto, Canadá
+
+:::
+

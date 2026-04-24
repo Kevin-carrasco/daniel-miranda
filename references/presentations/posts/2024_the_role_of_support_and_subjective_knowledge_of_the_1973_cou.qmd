@@ -1,0 +1,20 @@
+---
+title: "The Role of Support and Subjective Knowledge of the 1973 Coup D'etat Shaping the Trust in Political and Order Institutions"
+date: "2024-07-01"
+author: "Miranda, Daniel; Manzi, Jorge; González, Roberto; Carvacho, Héctor; Lay, Siugmin & Haye, A."
+categories: ["Presentation"]
+publication: "The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile"
+publication_short: "The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Manzi, Jorge; González, Roberto; Carvacho, Héctor; Lay, Siugmin & Haye, A. (2024). *The Role of Support and Subjective Knowledge of the 1973 Coup D'etat Shaping the Trust in Political and Order Institutions*. The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP. Santiago, Chile
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "An Assessment of Measurement Invariance in International Large-Scale Assessments (Ilsas). An Illustration Using Attitudinal Measures Collected in ICCS 2016"
+date: "2021-05-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "65th Annual Conference of Comparative and International Education Society. Virtual"
+publication_short: "65th Annual Conference of Comparative and International Education Society. Virtual"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2021). *An Assessment of Measurement Invariance in International Large-Scale Assessments (Ilsas). An Illustration Using Attitudinal Measures Collected in ICCS 2016*. 65th Annual Conference of Comparative and International Education Society. Virtual
+
+:::
+

@@ -1,0 +1,20 @@
+---
+title: "Latin American Political Culture and Citizenship Norms (Página 58)"
+date: "2021-11-01"
+author: "Miranda, Daniel; Miranda, Catalina & Muñoz, Loreto"
+categories: ["Presentation"]
+publication: "9th IEA International Research Conference. Dubai, United Arab Emirates"
+publication_short: "9th IEA International Research Conference. Dubai, United Arab Emirates"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Miranda, Catalina & Muñoz, Loreto (2021). *Latin American Political Culture and Citizenship Norms (Página 58)*. 9th IEA International Research Conference. Dubai, United Arab Emirates
+
+:::
+

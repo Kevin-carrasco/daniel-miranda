@@ -1,0 +1,20 @@
+---
+title: "La Percepción Desigual de La Desigualdad. Una Comparación de Indicadores de Percepción de Desigualdad Económica"
+date: "2011-01-01"
+author: "Castillo, Juan Carlos; Miranda, Daniel & Carrasco, Diego"
+categories: ["Report"]
+publication: "(1101). Santiago, Chile Centro de medición MIDE UC"
+publication_short: "(1101). Santiago, Chile Centro de medición MIDE UC"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel & Carrasco, Diego (2011). *La Percepción Desigual de La Desigualdad. Una Comparación de Indicadores de Percepción de Desigualdad Económica*. (1101). Santiago, Chile Centro de medición MIDE UC
+
+:::
+

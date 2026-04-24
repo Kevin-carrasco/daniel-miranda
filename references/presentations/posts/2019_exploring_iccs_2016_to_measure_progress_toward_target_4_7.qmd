@@ -1,10 +1,10 @@
 ---
 title: "Exploring ICCS 2016 to Measure Progress toward Target 4.7"
-date: "2019-04-01"
-author: "Sandoval-Hernandez, Andrés; Miranda, Daniel & Carstens, R"
+date: "2019-10-01"
+author: "Miranda, Daniel"
 categories: ["Presentation"]
-publication: "63th Annual Conference of Comparative and International Education Society. San Francisco, USA"
-publication_short: "63th Annual Conference of Comparative and International Education Society. San Francisco, USA"
+publication: "Seminario: La Cittadinanza e l'impegno Cívico Da Diverse Prospettive Di Studio. Roma, Italia"
+publication_short: "Seminario: La Cittadinanza e l'impegno Cívico Da Diverse Prospettive Di Studio. Roma, Italia"
 abstract: "(Abstract not available)"
 abstract_short: ""
 about:
@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/image
 
 ::: {.callout-note title="How to cite this work"}
 
-Sandoval-Hernandez, Andrés; Miranda, Daniel & Carstens, R (2019). *Exploring ICCS 2016 to Measure Progress toward Target 4.7*. 63th Annual Conference of Comparative and International Education Society. San Francisco, USA
+Miranda, Daniel (2019). *Exploring ICCS 2016 to Measure Progress toward Target 4.7*. Seminario: La Cittadinanza e l'impegno Cívico Da Diverse Prospettive Di Studio. Roma, Italia
 
 :::
 

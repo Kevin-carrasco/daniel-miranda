@@ -1,0 +1,20 @@
+---
+title: "Do Differential Role of SDO and RWA in the Support of Social, Political and Individual Human Rights: Evidence from Chile (Página 80)"
+date: "2019-07-01"
+author: "Miranda, Daniel & Castillo, Juan Carlos"
+categories: ["Presentation"]
+publication: "Annual Meeting of International Society of Political Psychology - ISPP. Lisboa, Portugal"
+publication_short: "Annual Meeting of International Society of Political Psychology - ISPP. Lisboa, Portugal"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Castillo, Juan Carlos (2019). *Do Differential Role of SDO and RWA in the Support of Social, Political and Individual Human Rights: Evidence from Chile (Página 80)*. Annual Meeting of International Society of Political Psychology - ISPP. Lisboa, Portugal
+
+:::
+
