@@ -1,0 +1,21 @@
+---
+title: "Exploring ICCS 2016 to Measure Progress toward Target 4.7"
+date: "2019-04-01"
+author: "Sandoval-Hernandez, Andrés; Miranda, Daniel & Carstens, R"
+categories: ["Presentation"]
+publication: "63th Annual Conference of Comparative and International Education Society. San Francisco, USA"
+publication_short: "63th Annual Conference of Comparative and International Education Society. San Francisco, USA"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/cies-2019.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Sandoval-Hernandez, Andrés; Miranda, Daniel & Carstens, R (2019). *Exploring ICCS 2016 to Measure Progress toward Target 4.7*. 63th Annual Conference of Comparative and International Education Society. San Francisco, USA
+
+:::
+

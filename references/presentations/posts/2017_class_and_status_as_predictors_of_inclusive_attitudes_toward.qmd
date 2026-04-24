@@ -1,0 +1,21 @@
+---
+title: "Class and Status as Predictors of Inclusive Attitudes Towards Immigrants, Minorities and Gender"
+date: "2017-06-01"
+author: "Miranda, Daniel & Castillo, Juan Carlos"
+categories: ["Presentation"]
+publication: "7th IEA International Research Conference. Prague, Czech Republic"
+publication_short: "7th IEA International Research Conference. Prague, Czech Republic"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/7th-iea-international-research-conference.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Castillo, Juan Carlos (2017). *Class and Status as Predictors of Inclusive Attitudes Towards Immigrants, Minorities and Gender*. 7th IEA International Research Conference. Prague, Czech Republic
+
+:::
+

@@ -1,0 +1,21 @@
+---
+title: "Trasmisión Intergeneracional de La Desigualdad Política: El Caso de América Latina"
+date: "2016-11-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Annual Conference COES-LSE 2016: Inequalities. Santiago, Chile"
+publication_short: "Annual Conference COES-LSE 2016: Inequalities. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/COES-LSE-2016.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2016). *Trasmisión Intergeneracional de La Desigualdad Política: El Caso de América Latina*. Annual Conference COES-LSE 2016: Inequalities. Santiago, Chile
+
+:::
+

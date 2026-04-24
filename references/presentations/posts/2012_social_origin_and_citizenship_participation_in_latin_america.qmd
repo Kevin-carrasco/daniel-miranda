@@ -1,0 +1,21 @@
+---
+title: "Social Origin and Citizenship Participation in Latin American Schools"
+date: "2012-01-01"
+author: "Castillo, Juan Carlos; Cox, Cristián; Bascopé, Martín; Miranda, Daniel & Escobar, D"
+categories: ["Presentation"]
+publication: "American Educational Research Association (AERA) Annual Meeting. Canadá"
+publication_short: "American Educational Research Association (AERA) Annual Meeting. Canadá"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/AERA2012.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Cox, Cristián; Bascopé, Martín; Miranda, Daniel & Escobar, D (2012). *Social Origin and Citizenship Participation in Latin American Schools*. American Educational Research Association (AERA) Annual Meeting. Canadá
+
+:::
+

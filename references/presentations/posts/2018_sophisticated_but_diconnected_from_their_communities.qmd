@@ -1,0 +1,21 @@
+---
+title: "Sophisticated but Diconnected from Their Communities?"
+date: "2018-10-01"
+author: "Miranda, Daniel & Sandoval-Hernandez, Andrés"
+categories: ["Presentation"]
+publication: "I Dati INVALSI: Uno Strumento per La Recerca. Bari, Italia"
+publication_short: "I Dati INVALSI: Uno Strumento per La Recerca. Bari, Italia"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/invalsi.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Sandoval-Hernandez, Andrés (2018). *Sophisticated but Diconnected from Their Communities?*. I Dati INVALSI: Uno Strumento per La Recerca. Bari, Italia
+
+:::
+

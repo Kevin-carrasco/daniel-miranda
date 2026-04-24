@@ -1,0 +1,21 @@
+---
+title: "Inequality and Citizen Participation: An Intergenerational Approach"
+date: "2018-10-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "La Cittadinanza e l'impegno Cívico Da Diverse Prospettive Di Studio. Roma, Italia"
+publication_short: "La Cittadinanza e l'impegno Cívico Da Diverse Prospettive Di Studio. Roma, Italia"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/no-imagen.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *Inequality and Citizen Participation: An Intergenerational Approach*. La Cittadinanza e l'impegno Cívico Da Diverse Prospettive Di Studio. Roma, Italia
+
+:::
+

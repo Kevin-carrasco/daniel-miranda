@@ -1,0 +1,21 @@
+---
+title: "Desigualdad Económica y Cambios En Las Actitudes de Estudiantes Chilenos Hacia La Participación Política En Chile"
+date: "2012-01-01"
+author: "Castillo, Juan Carlos; Miranda, Daniel; Escobar, J & Bascopé, Martín"
+categories: ["Presentation"]
+publication: "II Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+publication_short: "II Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/II-Congreso-interdisciplinario-de-investigacion-en-educacion-CIIE-2012.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel; Escobar, J & Bascopé, Martín (2012). *Desigualdad Económica y Cambios En Las Actitudes de Estudiantes Chilenos Hacia La Participación Política En Chile*. II Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile
+
+:::
+

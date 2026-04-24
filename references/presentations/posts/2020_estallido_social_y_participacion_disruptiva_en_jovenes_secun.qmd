@@ -1,0 +1,21 @@
+---
+title: "Estallido Social y Participación Disruptiva En Jóvenes Secundarios"
+date: "2020-11-01"
+author: "Miranda, Daniel & Sánchez, F"
+categories: ["Presentation"]
+publication: "VII Conferencia Internacional COES. Chile"
+publication_short: "VII Conferencia Internacional COES. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/VII-COES-2020.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Sánchez, F (2020). *Estallido Social y Participación Disruptiva En Jóvenes Secundarios*. VII Conferencia Internacional COES. Chile
+
+:::
+

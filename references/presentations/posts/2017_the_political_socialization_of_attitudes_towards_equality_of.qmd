@@ -1,0 +1,21 @@
+---
+title: "The Political Socialization of Attitudes towards Equality of Rights in Comparative Perspective"
+date: "2017-11-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Conferencia Internacional COES 2017. Vínculos Sociales y Ciudadanía: Interacciones y Cohesión Social. Santiago, Chile"
+publication_short: "Conferencia Internacional COES 2017. Vínculos Sociales y Ciudadanía: Interacciones y Cohesión Social. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/IV-COES-2017.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2017). *The Political Socialization of Attitudes towards Equality of Rights in Comparative Perspective*. Conferencia Internacional COES 2017. Vínculos Sociales y Ciudadanía: Interacciones y Cohesión Social. Santiago, Chile
+
+:::
+

@@ -1,0 +1,21 @@
+---
+title: "Conocimiento Cívico: Concepto, Antecedentes y Consecuencias"
+date: "2021-10-01"
+author: "Miranda, Daniel & Herrera, Anaís"
+categories: ["Presentation"]
+publication: "IV Congreso Latinoamericano de Medición y Evaluación Educacional. Chile"
+publication_short: "IV Congreso Latinoamericano de Medición y Evaluación Educacional. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/IV-congreso-evaluacion-medicion.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Herrera, Anaís (2021). *Conocimiento Cívico: Concepto, Antecedentes y Consecuencias*. IV Congreso Latinoamericano de Medición y Evaluación Educacional. Chile
+
+:::
+

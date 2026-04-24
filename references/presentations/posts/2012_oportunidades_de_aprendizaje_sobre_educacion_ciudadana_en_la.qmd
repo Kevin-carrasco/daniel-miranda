@@ -1,0 +1,21 @@
+---
+title: "Oportunidades de Aprendizaje Sobre Educación Ciudadana En Latinoamérica"
+date: "2012-01-01"
+author: "Cox, Cristián; Bascopé, Martín; Castillo, Juan Carlos & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "II Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+publication_short: "II Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/II-Congreso-interdisciplinario-de-investigacion-en-educacion-CIIE-2012.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Cox, Cristián; Bascopé, Martín; Castillo, Juan Carlos & Miranda, Daniel (2012). *Oportunidades de Aprendizaje Sobre Educación Ciudadana En Latinoamérica*. II Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile
+
+:::
+

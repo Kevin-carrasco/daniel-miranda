@@ -1,0 +1,21 @@
+---
+title: "¿Cuáles Son Las Fuentes de Sentido En La Vida de Los Jóvenes?."
+date: "2012-08-01"
+author: "Miranda, Daniel & Silva, J"
+categories: ["Presentation"]
+publication: "II Seminario Internacional: Jóvenes, Cultura y Religión UCM. Talca, Chile"
+publication_short: "II Seminario Internacional: Jóvenes, Cultura y Religión UCM. Talca, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/jovenes-cultura-religion.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Silva, J (2012). *¿Cuáles Son Las Fuentes de Sentido En La Vida de Los Jóvenes?.*. II Seminario Internacional: Jóvenes, Cultura y Religión UCM. Talca, Chile
+
+:::
+

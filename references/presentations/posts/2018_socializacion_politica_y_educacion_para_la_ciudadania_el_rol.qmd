@@ -1,0 +1,21 @@
+---
+title: "Socialización Política y Educación Para La Ciudadanía: El Rol de La Familia y de La Escuela"
+date: "2018-11-01"
+author: "Miranda, Daniel; Cox, Cristián; Castillo, Juan Carlos & Jara, Camila"
+categories: ["Presentation"]
+publication: "V Conferencia Internacional COES: Concentraciones. Chile"
+publication_short: "V Conferencia Internacional COES: Concentraciones. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/V-COES-concentraciones.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Cox, Cristián; Castillo, Juan Carlos & Jara, Camila (2018). *Socialización Política y Educación Para La Ciudadanía: El Rol de La Familia y de La Escuela*. V Conferencia Internacional COES: Concentraciones. Chile
+
+:::
+

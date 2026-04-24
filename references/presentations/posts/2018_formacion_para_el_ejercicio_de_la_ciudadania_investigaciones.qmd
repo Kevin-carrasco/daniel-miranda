@@ -1,0 +1,21 @@
+---
+title: "Formación Para El Ejercicio de La Ciudadanía: Investigaciones Locales En Población Juvenil."
+date: "2018-11-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Conferencia Internacional COES 2018. Santiago, Chile"
+publication_short: "Conferencia Internacional COES 2018. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/V-COES-concentraciones.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *Formación Para El Ejercicio de La Ciudadanía: Investigaciones Locales En Población Juvenil.*. Conferencia Internacional COES 2018. Santiago, Chile
+
+:::
+

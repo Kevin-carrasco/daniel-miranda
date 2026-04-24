@@ -1,0 +1,21 @@
+---
+title: "Currículo Nacional y Educación Ciudadana En Latinoamérica"
+date: "2013-01-01"
+author: "Bascopé, Martín; Cox, Cristián; Bonhomme, Macarena; Castillo, Juan Carlos & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "XXIX Congreso Latinoamericano de Sociología (ALAS). Chile"
+publication_short: "XXIX Congreso Latinoamericano de Sociología (ALAS). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/XXIX-congreso-latinoamericano-de-sociologia-alas.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Bascopé, Martín; Cox, Cristián; Bonhomme, Macarena; Castillo, Juan Carlos & Miranda, Daniel (2013). *Currículo Nacional y Educación Ciudadana En Latinoamérica*. XXIX Congreso Latinoamericano de Sociología (ALAS). Chile
+
+:::
+

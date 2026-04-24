@@ -1,0 +1,21 @@
+---
+title: "El Rol de La Familia y La Escuela En La Socialización Política de Las Actitudes Hacia La Igualdad de Género"
+date: "2021-11-01"
+author: "Miranda, Daniel; Iturra, Julio; Herrera, Anaís & Carrasco, Kevin"
+categories: ["Presentation"]
+publication: "VI Seminario Internacional Desigualdad y Movilidad Social En América Latina. México"
+publication_short: "VI Seminario Internacional Desigualdad y Movilidad Social En América Latina. México"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/VI-demosal.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Iturra, Julio; Herrera, Anaís & Carrasco, Kevin (2021). *El Rol de La Familia y La Escuela En La Socialización Política de Las Actitudes Hacia La Igualdad de Género*. VI Seminario Internacional Desigualdad y Movilidad Social En América Latina. México
+
+:::
+

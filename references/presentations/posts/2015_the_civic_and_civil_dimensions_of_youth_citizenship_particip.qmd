@@ -1,0 +1,21 @@
+---
+title: "The Civic and Civil Dimensions of Youth Citizenship Participation in Latin America: An Empirical Test of a Conceptual Model."
+date: "2015-06-01"
+author: "Miranda, Daniel; Castillo, Juan Carlos & Sandoval-Hernandez, Andrés"
+categories: ["Presentation"]
+publication: "6th IEA International Research Conference. Cape Town, South Africa"
+publication_short: "6th IEA International Research Conference. Cape Town, South Africa"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/6th-iea-international-research-conference.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Castillo, Juan Carlos & Sandoval-Hernandez, Andrés (2015). *The Civic and Civil Dimensions of Youth Citizenship Participation in Latin America: An Empirical Test of a Conceptual Model.*. 6th IEA International Research Conference. Cape Town, South Africa
+
+:::
+

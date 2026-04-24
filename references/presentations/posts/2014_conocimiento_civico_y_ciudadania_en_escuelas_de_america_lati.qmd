@@ -1,0 +1,21 @@
+---
+title: "Conocimiento Cívico y Ciudadanía En Escuelas de América Latina"
+date: "2014-01-01"
+author: "Miranda, Daniel; Castillo, Juan Carlos; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín"
+categories: ["Presentation"]
+publication: "III Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+publication_short: "III Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/III-congreso-interdisciplinario-de-investigacion-en-educacion-CIIE.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Castillo, Juan Carlos; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín (2014). *Conocimiento Cívico y Ciudadanía En Escuelas de América Latina*. III Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile
+
+:::
+

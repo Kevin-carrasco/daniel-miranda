@@ -1,0 +1,21 @@
+---
+title: "Measurement Model and Invariance Testing of Scales Measuring Attitudes Towards Diversity in ICCS 2009."
+date: "2017-06-01"
+author: "Miranda, Daniel & Castillo, Juan Carlos"
+categories: ["Presentation"]
+publication: "7th IEA International Research Conference. Prague, Czech Republic"
+publication_short: "7th IEA International Research Conference. Prague, Czech Republic"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/7th-iea-international-research-conference.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Castillo, Juan Carlos (2017). *Measurement Model and Invariance Testing of Scales Measuring Attitudes Towards Diversity in ICCS 2009.*. 7th IEA International Research Conference. Prague, Czech Republic
+
+:::
+

@@ -1,0 +1,21 @@
+---
+title: "Socialización Política de Las Actitudes Hacia La Igualdad de Derechos."
+date: "2018-07-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Conversatorio Colunga-COES. Santiago, Chile"
+publication_short: "Conversatorio Colunga-COES. Santiago, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Colunga-COES.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *Socialización Política de Las Actitudes Hacia La Igualdad de Derechos.*. Conversatorio Colunga-COES. Santiago, Chile
+
+:::
+

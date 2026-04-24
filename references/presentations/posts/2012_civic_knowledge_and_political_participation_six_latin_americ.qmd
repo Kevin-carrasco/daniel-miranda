@@ -1,0 +1,21 @@
+---
+title: "Civic Knowledge and Political Participation: Six Latin-American Countries in Comparative Perspective"
+date: "2012-01-01"
+author: "Castillo, Juan Carlos; Cox, Cristián; Miranda, Daniel; Bascopé, Martín & Escobar, J"
+categories: ["Presentation"]
+publication: "The Second International Sociological Association (ISA) Forum. Argentina"
+publication_short: "The Second International Sociological Association (ISA) Forum. Argentina"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Second-international-sociological-association-ISA.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Cox, Cristián; Miranda, Daniel; Bascopé, Martín & Escobar, J (2012). *Civic Knowledge and Political Participation: Six Latin-American Countries in Comparative Perspective*. The Second International Sociological Association (ISA) Forum. Argentina
+
+:::
+

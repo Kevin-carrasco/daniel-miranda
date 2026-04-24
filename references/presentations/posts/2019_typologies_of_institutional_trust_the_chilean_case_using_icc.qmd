@@ -1,0 +1,21 @@
+---
+title: "Typologies of Institutional Trust: The Chilean Case Using ICCS 2016"
+date: "2019-04-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "63th Annual Conference of Comparative and International Education Society. San Francisco, USA"
+publication_short: "63th Annual Conference of Comparative and International Education Society. San Francisco, USA"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/cies-2019.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2019). *Typologies of Institutional Trust: The Chilean Case Using ICCS 2016*. 63th Annual Conference of Comparative and International Education Society. San Francisco, USA
+
+:::
+

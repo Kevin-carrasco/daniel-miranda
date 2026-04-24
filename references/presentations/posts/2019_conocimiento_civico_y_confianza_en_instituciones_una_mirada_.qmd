@@ -1,0 +1,21 @@
+---
+title: "Conocimiento Cívico y Confianza En Instituciones: Una Mirada Desde Los Jóvenes"
+date: "2019-08-01"
+author: "Miranda, Daniel; Castillo, Juan Carlos & Cumsille, Patricio"
+categories: ["Presentation"]
+publication: "Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+publication_short: "Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/5o-Congreso-Interdisciplinario-de-Investigacion-en-Educacion-CIIE-2019.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Castillo, Juan Carlos & Cumsille, Patricio (2019). *Conocimiento Cívico y Confianza En Instituciones: Una Mirada Desde Los Jóvenes*. Congreso Interdisciplinario de Investigación En Educación (CIIE). Chile
+
+:::
+

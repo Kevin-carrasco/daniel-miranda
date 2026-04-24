@@ -1,0 +1,21 @@
+---
+title: "Social Origin, Civic Knowledge and Citizenship Participation in Latin American Schools"
+date: "2012-01-01"
+author: "Castillo, Juan Carlos; Cox, Cristián; Miranda, Daniel; Bascopé, Martín & Escobar, J"
+categories: ["Presentation"]
+publication: "Congreso Latinoamericano de Medición y Evaluación Educacional (COLMEE). Chile"
+publication_short: "Congreso Latinoamericano de Medición y Evaluación Educacional (COLMEE). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/COLMEE2012.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Cox, Cristián; Miranda, Daniel; Bascopé, Martín & Escobar, J (2012). *Social Origin, Civic Knowledge and Citizenship Participation in Latin American Schools*. Congreso Latinoamericano de Medición y Evaluación Educacional (COLMEE). Chile
+
+:::
+

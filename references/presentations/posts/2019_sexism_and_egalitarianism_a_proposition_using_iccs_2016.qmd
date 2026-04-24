@@ -1,0 +1,21 @@
+---
+title: "Sexism and Egalitarianism a Proposition Using ICCS 2016"
+date: "2019-04-01"
+author: "Miranda, Daniel & Muñoz, L"
+categories: ["Presentation"]
+publication: "Comparative International Education Society Annual Conference (CIES). Estados Unidos"
+publication_short: "Comparative International Education Society Annual Conference (CIES). Estados Unidos"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/cies-2019.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Muñoz, L (2019). *Sexism and Egalitarianism a Proposition Using ICCS 2016*. Comparative International Education Society Annual Conference (CIES). Estados Unidos
+
+:::
+

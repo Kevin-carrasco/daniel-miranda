@@ -1,0 +1,21 @@
+---
+title: "Autoritarismo y Valores Democráticos En Estudiantes Latinoamericanos"
+date: "2013-01-01"
+author: "Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín"
+categories: ["Presentation"]
+publication: "XXIX Congreso Latinoamericano de Sociología (ALAS). Chile"
+publication_short: "XXIX Congreso Latinoamericano de Sociología (ALAS). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/XXIX-congreso-latinoamericano-de-sociologia-alas.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín (2013). *Autoritarismo y Valores Democráticos En Estudiantes Latinoamericanos*. XXIX Congreso Latinoamericano de Sociología (ALAS). Chile
+
+:::
+

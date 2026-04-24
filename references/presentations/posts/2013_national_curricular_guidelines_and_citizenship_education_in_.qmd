@@ -1,0 +1,21 @@
+---
+title: "National Curricular Guidelines and Citizenship Education in Schools in Latin American Countries"
+date: "2013-01-01"
+author: "Bascopé, Martín; Bonhomme, Macarena; Cox, Cristián; Castillo, Juan Carlos & Miranda, Daniel"
+categories: ["Presentation"]
+publication: "5th IEA International Research Conference (IRC). Singapur"
+publication_short: "5th IEA International Research Conference (IRC). Singapur"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/5th-iea-international-research-conference.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Bascopé, Martín; Bonhomme, Macarena; Cox, Cristián; Castillo, Juan Carlos & Miranda, Daniel (2013). *National Curricular Guidelines and Citizenship Education in Schools in Latin American Countries*. 5th IEA International Research Conference (IRC). Singapur
+
+:::
+

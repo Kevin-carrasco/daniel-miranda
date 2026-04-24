@@ -1,0 +1,21 @@
+---
+title: "Mitigating the Participation Gap from the School: The Role of Civic Knowledge and Classroom Climate"
+date: "2013-01-01"
+author: "Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín"
+categories: ["Presentation"]
+publication: "Research Colloquium of the Data Processing and Research Center, International Association for the Evaluation of the Educational Achievement (IEA). Hamburg, Germany"
+publication_short: "Research Colloquium of the Data Processing and Research Center, International Association for the Evaluation of the Educational Achievement (IEA). Hamburg, Germany"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/no-imagen.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín (2013). *Mitigating the Participation Gap from the School: The Role of Civic Knowledge and Classroom Climate*. Research Colloquium of the Data Processing and Research Center, International Association for the Evaluation of the Educational Achievement (IEA). Hamburg, Germany
+
+:::
+

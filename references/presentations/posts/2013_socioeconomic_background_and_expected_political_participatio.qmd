@@ -1,0 +1,21 @@
+---
+title: "Socioeconomic Background and Expected Political Participation in the School: Individual and Contextual Mechanism"
+date: "2013-09-01"
+author: "Miranda, Daniel; Castillo, Juan Carlos; Cox, Cristián; Bascopé, Martín & Bonhomme, Macarena"
+categories: ["Presentation"]
+publication: "Summer School: Rising Inequalities and Their Impacts on Societies"
+publication_short: "Summer School: Rising Inequalities and Their Impacts on Societies"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/no-imagen.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Castillo, Juan Carlos; Cox, Cristián; Bascopé, Martín & Bonhomme, Macarena (2013). *Socioeconomic Background and Expected Political Participation in the School: Individual and Contextual Mechanism*. Summer School: Rising Inequalities and Their Impacts on Societies
+
+:::
+

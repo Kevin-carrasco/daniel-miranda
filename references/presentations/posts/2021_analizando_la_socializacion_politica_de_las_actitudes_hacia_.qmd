@@ -1,0 +1,21 @@
+---
+title: "Analizando La Socialización Política de Las Actitudes Hacia La Igualdad de Género"
+date: "2021-11-01"
+author: "Miranda, Daniel; Iturra, Julio; Herrera, Anaís & Carrasco, Kevin"
+categories: ["Presentation"]
+publication: "VIII Conferencia Internacional COES: Cohesión Social En Tiempos Turbulentos. Chile"
+publication_short: "VIII Conferencia Internacional COES: Cohesión Social En Tiempos Turbulentos. Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/VIII-COES-2021.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Iturra, Julio; Herrera, Anaís & Carrasco, Kevin (2021). *Analizando La Socialización Política de Las Actitudes Hacia La Igualdad de Género*. VIII Conferencia Internacional COES: Cohesión Social En Tiempos Turbulentos. Chile
+
+:::
+

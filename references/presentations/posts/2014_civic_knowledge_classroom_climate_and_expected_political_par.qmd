@@ -1,0 +1,21 @@
+---
+title: "Civic Knowledge, Classroom Climate and Expected Political Participation in Latin American Schools"
+date: "2014-01-01"
+author: "Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín"
+categories: ["Presentation"]
+publication: "American Educational Research Association (AERA) Annual Meeting. Estados Unidos"
+publication_short: "American Educational Research Association (AERA) Annual Meeting. Estados Unidos"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/AERA2014.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín (2014). *Civic Knowledge, Classroom Climate and Expected Political Participation in Latin American Schools*. American Educational Research Association (AERA) Annual Meeting. Estados Unidos
+
+:::
+

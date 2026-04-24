@@ -1,0 +1,21 @@
+---
+title: "Youth Citizenship Participation: An Empirical Test of a Conceptual Model"
+date: "2017-03-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "61th Annual Conference of Comparative and International Education Society. Atlanta, EEUU"
+publication_short: "61th Annual Conference of Comparative and International Education Society. Atlanta, EEUU"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/cies-2017.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2017). *Youth Citizenship Participation: An Empirical Test of a Conceptual Model*. 61th Annual Conference of Comparative and International Education Society. Atlanta, EEUU
+
+:::
+

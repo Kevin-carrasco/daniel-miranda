@@ -1,0 +1,21 @@
+---
+title: "How to Improve Civic and Citizen Knowledge? The Unexplored Role of Academic Performance"
+date: "2021-02-01"
+author: "Meneses, Francisco & Herrera, Anaís"
+categories: ["Presentation"]
+publication: "IV ISA Forum of Sociology. Brasil"
+publication_short: "IV ISA Forum of Sociology. Brasil"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/IV-ISA-forum-sociology.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Meneses, Francisco & Herrera, Anaís (2021). *How to Improve Civic and Citizen Knowledge? The Unexplored Role of Academic Performance*. IV ISA Forum of Sociology. Brasil
+
+:::
+

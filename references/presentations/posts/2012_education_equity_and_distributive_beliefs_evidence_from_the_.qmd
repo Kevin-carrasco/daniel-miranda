@@ -1,0 +1,21 @@
+---
+title: "Education, Equity and Distributive Beliefs: Evidence from the Chilean Case"
+date: "2012-08-01"
+author: "Castillo, Juan Carlos; Madero, Ignacio; Miranda, Daniel & Escobar, J"
+categories: ["Presentation"]
+publication: "International Sociological Association - ISA Forum. Buenos aires, Argentina"
+publication_short: "International Sociological Association - ISA Forum. Buenos aires, Argentina"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Second-international-sociological-association-ISA.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Madero, Ignacio; Miranda, Daniel & Escobar, J (2012). *Education, Equity and Distributive Beliefs: Evidence from the Chilean Case*. International Sociological Association - ISA Forum. Buenos aires, Argentina
+
+:::
+

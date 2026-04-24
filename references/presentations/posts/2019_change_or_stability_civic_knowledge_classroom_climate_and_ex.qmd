@@ -1,0 +1,21 @@
+---
+title: "Change or Stability? Civic Knowledge, Classroom Climate and Expected Political Participation"
+date: "2019-07-01"
+author: "Miranda, Daniel & Castillo, Juan Carlos"
+categories: ["Presentation"]
+publication: "Annual Meeting of International Society of Political Psychology (ISPP). Portugal"
+publication_short: "Annual Meeting of International Society of Political Psychology (ISPP). Portugal"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/ispp-2019.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Castillo, Juan Carlos (2019). *Change or Stability? Civic Knowledge, Classroom Climate and Expected Political Participation*. Annual Meeting of International Society of Political Psychology (ISPP). Portugal
+
+:::
+

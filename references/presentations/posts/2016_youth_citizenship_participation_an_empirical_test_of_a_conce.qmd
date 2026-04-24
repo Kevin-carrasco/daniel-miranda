@@ -1,0 +1,21 @@
+---
+title: "Youth Citizenship Participation: An Empirical Test of a Conceptual Model."
+date: "2016-07-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "Third ISA Forum of Sociology. Vienna, Austria"
+publication_short: "Third ISA Forum of Sociology. Vienna, Austria"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Third-ISA-2016.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2016). *Youth Citizenship Participation: An Empirical Test of a Conceptual Model.*. Third ISA Forum of Sociology. Vienna, Austria
+
+:::
+

@@ -1,0 +1,21 @@
+---
+title: "Desigualdad, Conocimiento Cívico y Expectativas de Participación Política de Estudiantes En Chile"
+date: "2012-01-01"
+author: "Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín"
+categories: ["Presentation"]
+publication: "Congreso Nacional de Sociología (Pre ALAS). Chile"
+publication_short: "Congreso Nacional de Sociología (Pre ALAS). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/prealas2012.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Miranda, Daniel; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín (2012). *Desigualdad, Conocimiento Cívico y Expectativas de Participación Política de Estudiantes En Chile*. Congreso Nacional de Sociología (Pre ALAS). Chile
+
+:::
+

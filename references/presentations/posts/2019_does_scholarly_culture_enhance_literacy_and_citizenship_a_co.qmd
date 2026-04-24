@@ -1,0 +1,21 @@
+---
+title: "Does Scholarly Culture Enhance Literacy and Citizenship? A Comparison Betwen Italy and Chile."
+date: "2019-11-01"
+author: "Miranda, Daniel & Sandoval-Hernandez, Andrés"
+categories: ["Presentation"]
+publication: "I Dati INVALSI: Uno Strumento per La Recerca. Roma, Italia"
+publication_short: "I Dati INVALSI: Uno Strumento per La Recerca. Roma, Italia"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/invalsi.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Sandoval-Hernandez, Andrés (2019). *Does Scholarly Culture Enhance Literacy and Citizenship? A Comparison Betwen Italy and Chile.*. I Dati INVALSI: Uno Strumento per La Recerca. Roma, Italia
+
+:::
+

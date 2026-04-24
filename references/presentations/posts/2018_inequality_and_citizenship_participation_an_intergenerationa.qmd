@@ -1,0 +1,21 @@
+---
+title: "Inequality and Citizenship Participation: An Intergenerational Approach."
+date: "2018-03-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "62th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico"
+publication_short: "62th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/cies-2018.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2018). *Inequality and Citizenship Participation: An Intergenerational Approach.*. 62th Annual Conference of Comparative and International Education Society. Ciudad de Mexico, Mexico
+
+:::
+

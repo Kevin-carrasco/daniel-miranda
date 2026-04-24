@@ -1,0 +1,21 @@
+---
+title: "Sobre Validez de Mediciones Actitudinales En ICCS 2009: Notas de Precaución"
+date: "2018-05-01"
+author: "Miranda, Daniel; Castillo, Juan Carlos & Bonilla, A"
+categories: ["Presentation"]
+publication: "COLMEE 2018. Montevideo, Uruguay"
+publication_short: "COLMEE 2018. Montevideo, Uruguay"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/COLMEE2018.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Castillo, Juan Carlos & Bonilla, A (2018). *Sobre Validez de Mediciones Actitudinales En ICCS 2009: Notas de Precaución*. COLMEE 2018. Montevideo, Uruguay
+
+:::
+

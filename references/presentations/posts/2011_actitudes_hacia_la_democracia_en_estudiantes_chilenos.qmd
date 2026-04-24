@@ -1,0 +1,21 @@
+---
+title: "Actitudes Hacia La Democracia En Estudiantes Chilenos."
+date: "2011-01-01"
+author: "Castillo, Juan Carlos; Cox, Cristián; Miranda, Daniel; Bascopé, Martín; Madero, Ignacio & Escobar, J"
+categories: ["Presentation"]
+publication: "Primer Congreso Nacional de Ciencias Sociales y Educación. Valparaíso, Chile"
+publication_short: "Primer Congreso Nacional de Ciencias Sociales y Educación. Valparaíso, Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/Primer-congreso-ciencias-sociales.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Castillo, Juan Carlos; Cox, Cristián; Miranda, Daniel; Bascopé, Martín; Madero, Ignacio & Escobar, J (2011). *Actitudes Hacia La Democracia En Estudiantes Chilenos.*. Primer Congreso Nacional de Ciencias Sociales y Educación. Valparaíso, Chile
+
+:::
+

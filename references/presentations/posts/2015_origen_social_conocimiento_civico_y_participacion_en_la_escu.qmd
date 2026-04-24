@@ -1,0 +1,21 @@
+---
+title: "Origen Social, Conocimiento Cívico y Participación En La Escuela: El Caso Chileno"
+date: "2015-01-01"
+author: "Miranda, Daniel; Castillo, Juan Carlos; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín"
+categories: ["Presentation"]
+publication: "I Congreso Internacional de Investigación Sobre Educación y Pobreza (CIEP). Chile"
+publication_short: "I Congreso Internacional de Investigación Sobre Educación y Pobreza (CIEP). Chile"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+https://raw.githubusercontent.com/formacionciudadana/web-ciudadania/master/images/conference-images/I-congreso-internacional-investigacion-sobre-educacion-y-pobreza-ciep-2015.jpg
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Castillo, Juan Carlos; Bonhomme, Macarena; Cox, Cristián & Bascopé, Martín (2015). *Origen Social, Conocimiento Cívico y Participación En La Escuela: El Caso Chileno*. I Congreso Internacional de Investigación Sobre Educación y Pobreza (CIEP). Chile
+
+:::
+
