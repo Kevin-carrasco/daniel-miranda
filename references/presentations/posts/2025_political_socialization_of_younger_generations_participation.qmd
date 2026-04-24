@@ -1,0 +1,20 @@
+---
+title: "Political Socialization of Younger Generations: Participation, Beliefs, Attitudes and Knowledge (1)."
+date: "2025-01-01"
+author: "Miranda, Daniel & Suppers, Janina"
+categories: ["Presentation"]
+publication: "5th ISA Forum of Sociology (6-11 July 2025)"
+publication_short: "5th ISA Forum of Sociology (6-11 July 2025)"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel & Suppers, Janina (2025). *Political Socialization of Younger Generations: Participation, Beliefs, Attitudes and Knowledge (1).*. 5th ISA Forum of Sociology (6-11 July 2025)
+
+:::
+

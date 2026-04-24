@@ -1,0 +1,20 @@
+---
+title: "Youth Citizen Participation: Between Social Reproduction and Political Socialization"
+date: "2023-01-01"
+author: "Miranda, Daniel"
+categories: ["Presentation"]
+publication: "XX ISA World Congress of Sociology (June 25-July 1, 2023)"
+publication_short: "XX ISA World Congress of Sociology (June 25-July 1, 2023)"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel (2023). *Youth Citizen Participation: Between Social Reproduction and Political Socialization*. XX ISA World Congress of Sociology (June 25-July 1, 2023)
+
+:::
+

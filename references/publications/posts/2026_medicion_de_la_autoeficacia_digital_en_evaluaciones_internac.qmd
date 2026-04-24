@@ -1,12 +1,12 @@
 ---
 title: "Medición de la autoeficacia digital en evaluaciones internacionales a gran escala: una comparación internacional entre ICILS y PISA"
-date : "2026-03-01"
+date: "2026-03-01"
 author: "Miranda, Daniel; Castillo, Juan Carlos; Urzúa, Tomás; Tobar, Nicolás & Aguayo, Ismael"
-categories : ["Journal Article"]
+categories: ["Journal Article"]
 publication: "Psykhe [https://doi.org/10.7764/psykhe.2025.SCP102618](https://doi.org/10.7764/psykhe.2025.SCP102618)"
 publication_short: "Psykhe [https://doi.org/10.7764/psykhe.2025.SCP102618](https://doi.org/10.7764/psykhe.2025.SCP102618)"
 abstract: "La autoeficacia digital (en adelante, AED), concebida como las expectativas sobre las propias capacidades para aprender y realizar tareas en tecnologías y entornos digitales, es un componente central para promover la formación de competencias digitales. En la literatura es frecuente encontrar una aproximación bidimensional en relación con este concepto: AED general y AED específica. Mientras la AED general abarca la confianza en tareas cotidianas como el procesamiento de textos, la AED especializada implica actividades más avanzadas como la programación. Considerando su relevancia para explicar el desarrollo de competencias digitales y su presencia en estudios educacionales de gran escala en múltiples países, el objetivo del presente estudio es (i) evaluar el enfoque bidimensional de la DSE en estudios internacionales de evaluación a gran escala, y (ii) evaluar la comparabilidad de la medición bidimensional de la DSE entre países y géneros."
-abstract_short : ""
+abstract_short: ""
 about:
   template: marquee
 ---
@@ -14,7 +14,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Miranda, Daniel; Castillo, Juan Carlos; Urzua, Tomas; Tobar, Nicolas & Aguayo, Ismael (2026). *Medición de la autoeficacia digital en evaluaciones internacionales a gran escala: una comparación internacional entre ICILS y PISA*. Psykhe [https://doi.org/10.7764/psykhe.2025.SCP102618](https://doi.org/10.7764/psykhe.2025.SCP102618)
+Miranda, Daniel; Castillo, Juan Carlos; Urzúa, Tomás; Tobar, Nicolás & Aguayo, Ismael (2026). *Medición de la autoeficacia digital en evaluaciones internacionales a gran escala: una comparación internacional entre ICILS y PISA*. Psykhe [https://doi.org/10.7764/psykhe.2025.SCP102618](https://doi.org/10.7764/psykhe.2025.SCP102618)
 
 :::
 

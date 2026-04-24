@@ -1,12 +1,12 @@
 ---
 title: "Inequalities on Willingness to Act Pro-environmentally"
-date : "2025-01-01"
+date: "2025-01-01"
 author: "Miranda, Daniel & Carrasco, Diego"
-categories : ["Book Section"]
+categories: ["Book Section"]
 publication: "In Maria Magdalena Isac, Andrés Sandoval-Hernández & Wanda Sass: Knowledge and Willingness to Act Pro-Environmentally, 16 133--149 . Cham: Springer Nature Switzerland [https://doi.org/10.1007/978-3-031-76033-4_9](https://doi.org/10.1007/978-3-031-76033-4_9). ISBN: 978-3-031-76032-7 978-3-031-76033-4"
 publication_short: "In Maria Magdalena Isac, Andrés Sandoval-Hernández & Wanda Sass: Knowledge and Willingness to Act Pro-Environmentally, 16 133--149 . Cham: Springer Nature Switzerland [https://doi.org/10.1007/978-3-031-76033-4_9](https://doi.org/10.1007/978-3-031-76033-4_9). ISBN: 978-3-031-76032-7 978-3-031-76033-4"
 abstract: "(Abstract not available)"
-abstract_short : ""
+abstract_short: ""
 about:
   template: marquee
 ---
@@ -14,7 +14,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Miranda, Daniel & Carrasco, Diego (2025). *Inequalities on Willingness to Act Pro-environmentally*.  In Maria Magdalena Isac, Andrés Sandoval-Hernández & Wanda Sass: Knowledge and {{Willingness}} to {{Act Pro-Environmentally}}, 16 133--149 . Cham: Springer Nature Switzerland [https://doi.org/10.1007/978-3-031-76033-4_9](https://doi.org/10.1007/978-3-031-76033-4_9). ISBN: 978-3-031-76032-7 978-3-031-76033-4
+Miranda, Daniel & Carrasco, Diego (2025). *Inequalities on Willingness to Act Pro-environmentally*. In Maria Magdalena Isac, Andrés Sandoval-Hernández & Wanda Sass: Knowledge and Willingness to Act Pro-Environmentally, 16 133--149 . Cham: Springer Nature Switzerland [https://doi.org/10.1007/978-3-031-76033-4_9](https://doi.org/10.1007/978-3-031-76033-4_9). ISBN: 978-3-031-76032-7 978-3-031-76033-4
 
 :::
 

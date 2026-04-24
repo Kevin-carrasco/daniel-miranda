@@ -1,12 +1,12 @@
 ---
 title: "What Is Left After the Protest Wave? Tracing Generational Patterns of Political Engagement in the Wake of Chile's Student Movement"
-date : "2026-03-01"
+date: "2026-03-01"
 author: "Donoso, Sofía; Miranda, Daniel & Pavlic, Rodolfo Disi"
-categories : ["Journal Article"]
+categories: ["Journal Article"]
 publication: "The Sociological Quarterly 1--30 [https://doi.org/10.1080/00380253.2026.2649264](https://doi.org/10.1080/00380253.2026.2649264)"
 publication_short: "The Sociological Quarterly 1--30 [https://doi.org/10.1080/00380253.2026.2649264](https://doi.org/10.1080/00380253.2026.2649264)"
 abstract: "(Abstract not available)"
-abstract_short : ""
+abstract_short: ""
 about:
   template: marquee
 ---
@@ -14,7 +14,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Donoso, Sofia; Miranda, Daniel & Pavlic, Rodolfo Disi (2026). *What Is Left After the Protest Wave? Tracing Generational Patterns of Political Engagement in the Wake of Chile's Student Movement*. The Sociological Quarterly 1--30  [https://doi.org/10.1080/00380253.2026.2649264](https://doi.org/10.1080/00380253.2026.2649264)
+Donoso, Sofía; Miranda, Daniel & Pavlic, Rodolfo Disi (2026). *What Is Left After the Protest Wave? Tracing Generational Patterns of Political Engagement in the Wake of Chile's Student Movement*. The Sociological Quarterly 1--30 [https://doi.org/10.1080/00380253.2026.2649264](https://doi.org/10.1080/00380253.2026.2649264)
 
 :::
 

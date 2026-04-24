@@ -1,12 +1,12 @@
 ---
 title: "Comparative Analysis Using ICCS 2016 Data"
-date : "2025-01-01"
+date: "2025-01-01"
 author: "Isac, Maria Magdalena & Miranda, Daniel"
-categories : ["Book Section"]
+categories: ["Book Section"]
 publication: "Research Handbook on Education and Democracy 300 : Edward Elgar Publishing"
 publication_short: "Research Handbook on Education and Democracy 300 : Edward Elgar Publishing"
 abstract: "(Abstract not available)"
-abstract_short : ""
+abstract_short: ""
 about:
   template: marquee
 ---
@@ -14,7 +14,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Isac, Maria Magdalena & Miranda, Daniel (2025). *Comparative Analysis Using ICCS 2016 Data*. Research {{Handbook}} on {{Education}} and {{Democracy}} 300 : Edward Elgar Publishing
+Isac, Maria Magdalena & Miranda, Daniel (2025). *Comparative Analysis Using ICCS 2016 Data*. Research Handbook on Education and Democracy 300 : Edward Elgar Publishing
 
 :::
 

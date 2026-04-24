@@ -1,12 +1,12 @@
 ---
 title: "Civic Engagement and Giving Behaviors: The Role of Empathy and Beliefs about Poverty"
-date : "2016-05-01"
+date: "2016-05-01"
 author: "Kanacri, Bernadette Paula Luengo; González, Roberto; Valdenegro, Daniel; Jiménez-Moya, Gloria; Saavedra, Patricio; Mora, Eduardo Andrés; Miranda, Daniel; Didier, Lucas Silva & Pastorelli, Concetta"
-categories : ["Journal Article"]
+categories: ["Journal Article"]
 publication: "The Journal of Social Psychology, 156(3) 256--271 [https://doi.org/10.1080/00224545.2016.1148006](https://doi.org/10.1080/00224545.2016.1148006)"
 publication_short: "The Journal of Social Psychology, 156(3) 256--271 [https://doi.org/10.1080/00224545.2016.1148006](https://doi.org/10.1080/00224545.2016.1148006)"
 abstract: "(Abstract not available)"
-abstract_short : ""
+abstract_short: ""
 about:
   template: marquee
 ---
@@ -14,7 +14,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Kanacri, Bernadette Paula Luengo; Gonzalez, Roberto; Valdenegro, Daniel; Jimenez-Moya, Gloria; Saavedra, Patricio; Mora, Eduardo Andres; Miranda, Daniel; Didier, Lucas Silva & Pastorelli, Concetta (2016). *Civic Engagement and Giving Behaviors: The Role of Empathy and Beliefs about Poverty*. The Journal of Social Psychology, 156(3) 256--271  [https://doi.org/10.1080/00224545.2016.1148006](https://doi.org/10.1080/00224545.2016.1148006)
+Kanacri, Bernadette Paula Luengo; González, Roberto; Valdenegro, Daniel; Jiménez-Moya, Gloria; Saavedra, Patricio; Mora, Eduardo Andrés; Miranda, Daniel; Didier, Lucas Silva & Pastorelli, Concetta (2016). *Civic Engagement and Giving Behaviors: The Role of Empathy and Beliefs about Poverty*. The Journal of Social Psychology, 156(3) 256--271 [https://doi.org/10.1080/00224545.2016.1148006](https://doi.org/10.1080/00224545.2016.1148006)
 
 :::
 

@@ -1,12 +1,12 @@
 ---
 title: "Civic Education as a Tool to Mitigate Social Inequalities in Civic Outcomes: A Literature Review"
-date : "2025-05-01"
+date: "2025-05-01"
 author: "Miranda, Daniel"
-categories : ["Book Section"]
+categories: ["Book Section"]
 publication: "In Jan Germen Janmaat & Anne Bert Dijkstra: Research Handbook on Education and Democracy 322--341 : Edward Elgar Publishing [https://doi.org/10.4337/9781803928111.00027](https://doi.org/10.4337/9781803928111.00027). ISBN: 978-1-80392-811-1 978-1-80392-810-4"
 publication_short: "In Jan Germen Janmaat & Anne Bert Dijkstra: Research Handbook on Education and Democracy 322--341 : Edward Elgar Publishing [https://doi.org/10.4337/9781803928111.00027](https://doi.org/10.4337/9781803928111.00027). ISBN: 978-1-80392-811-1 978-1-80392-810-4"
 abstract: "(Abstract not available)"
-abstract_short : ""
+abstract_short: ""
 about:
   template: marquee
 ---
@@ -14,7 +14,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Miranda, Daniel (2025). *Civic Education as a Tool to Mitigate Social Inequalities in Civic Outcomes: A Literature Review*.  In Jan Germen Janmaat & Anne Bert Dijkstra: Research {{Handbook}} on {{Education}} and {{Democracy}} 322--341 : Edward Elgar Publishing [https://doi.org/10.4337/9781803928111.00027](https://doi.org/10.4337/9781803928111.00027). ISBN: 978-1-80392-811-1 978-1-80392-810-4
+Miranda, Daniel (2025). *Civic Education as a Tool to Mitigate Social Inequalities in Civic Outcomes: A Literature Review*. In Jan Germen Janmaat & Anne Bert Dijkstra: Research Handbook on Education and Democracy 322--341 : Edward Elgar Publishing [https://doi.org/10.4337/9781803928111.00027](https://doi.org/10.4337/9781803928111.00027). ISBN: 978-1-80392-811-1 978-1-80392-810-4
 
 :::
 

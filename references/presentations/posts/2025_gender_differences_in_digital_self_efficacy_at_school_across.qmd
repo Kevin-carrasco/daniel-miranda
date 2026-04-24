@@ -1,0 +1,20 @@
+---
+title: "Gender Differences in Digital Self-Efficacy at School across 52 Countries"
+date: "2025-01-01"
+author: "Miranda, Daniel; Castillo, Juan Carlos; Tobar, Nicolás; Banderas, Ismael Aguayo & Urzúa, Tomás"
+categories: ["Presentation"]
+publication: "5th ISA Forum of Sociology (6-11 July 2025)"
+publication_short: "5th ISA Forum of Sociology (6-11 July 2025)"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Castillo, Juan Carlos; Tobar, Nicolás; Banderas, Ismael Aguayo & Urzúa, Tomás (2025). *Gender Differences in Digital Self-Efficacy at School across 52 Countries*. 5th ISA Forum of Sociology (6-11 July 2025)
+
+:::
+

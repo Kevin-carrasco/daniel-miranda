@@ -1,0 +1,20 @@
+---
+title: "Political Socialization in Changing Times: Generations and Agents."
+date: "2023-01-01"
+author: "Miranda, Daniel; Isac, Maria magdalena & Miranda, Natalia"
+categories: ["Presentation"]
+publication: "XX ISA World Congress of Sociology (June 25-July 1, 2023)"
+publication_short: "XX ISA World Congress of Sociology (June 25-July 1, 2023)"
+abstract: "(Abstract not available)"
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Miranda, Daniel; Isac, Maria magdalena & Miranda, Natalia (2023). *Political Socialization in Changing Times: Generations and Agents.*. XX ISA World Congress of Sociology (June 25-July 1, 2023)
+
+:::
+

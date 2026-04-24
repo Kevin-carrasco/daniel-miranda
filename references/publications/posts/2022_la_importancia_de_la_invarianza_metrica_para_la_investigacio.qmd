@@ -1,12 +1,12 @@
 ---
 title: "La Importancia de La Invarianza Métrica Para La Investigación En Sociología"
-date : "2022-08-01"
+date: "2022-08-01"
 author: "Miranda, Daniel & Iturra, Julio"
-categories : ["Journal Article"]
+categories: ["Journal Article"]
 publication: "Revista de Sociología, 37(1) [https://doi.org/10.5354/0719-529X.2022.68153](https://doi.org/10.5354/0719-529X.2022.68153)"
 publication_short: "Revista de Sociología, 37(1) [https://doi.org/10.5354/0719-529X.2022.68153](https://doi.org/10.5354/0719-529X.2022.68153)"
 abstract: "Comparar variables latentes presenta importantes desafíos en cuanto a su equivalencia. Usando los datos del estudio ICCS 2016, en la que participaron 24 países, evaluamos la adecuación métrica de concepto de actitudes hacia la igualdad de derechos contrastando un modelo unidimensional (disponible en la documentación original) con un modelo bidimensional. Además, evaluamos los niveles de comparabilidad de las mediciones con análisis factorial confirmatorio multigrupo. Los resultados muestran que el modelo bidimensional logra sustanciales mejoras. Adicionalmente, la evaluación de la invarianza del modelo bidimensional muestra adecuados niveles de comparabilidad (invarianza métrica y escalar). Esto quiere decir que el instrumento especificado en sus dos dimensiones posee una comprensión similar por los participantes de los distintos países de la muestra. Por tanto, se podría comparar los niveles de cada dimensión y la relación de estas dimensiones con otras variables."
-abstract_short : ""
+abstract_short: ""
 about:
   template: marquee
 ---
