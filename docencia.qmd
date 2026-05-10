@@ -8,6 +8,7 @@ toc-title: "Cursos"
 execute: 
   echo: false
   warning: false
+page-layout: full
 ---
 
 ::: {.Docencia}
