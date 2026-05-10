@@ -34,7 +34,7 @@ listing:
   categories: false
   sort-ui: false
   feed: false
-  page-size: 800
+  page-size: 500
 
 - id: presentations
   contents: 
