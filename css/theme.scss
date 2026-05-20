@@ -3,10 +3,10 @@
 
 /*-- scss:defaults --*/
 
-$primary-color: #163754;
-$blue: #163754;
+$primary-color: #26595a;
+$blue: #4e39ec;
 $primary-color-dark: #2c3f51;
-$secondary-color: #56A754;
+$secondary-color: #f3f3f3;
 $secondary-color-trans: rgba(86, 167, 84, 0.2);
 $tertiary-color: #A77B54;
 $link-color: $primary-color;
@@ -323,4 +323,49 @@ img {
   width: 100%;
   height: 100%;
   border: 2px solid #5654A2;
+}
+
+/* transiciones*/
+
+.section-footer1 {
+   background: linear-gradient(to bottom, #ffffff 0%, #26595a 100%);
+   height: 100px;
+}
+
+.section-footer2 {
+   background: linear-gradient(to bottom, #26595a 0%, #ffffff 100%);
+   height: 100px;
+}
+
+.section-footer3 {
+   background: linear-gradient(to bottom, #26595a 0%, #e8e8e8 100%);
+   height: 100px;
+}
+
+.light-bg{
+  background: #ffffff;
+  color: #000000 !important;
+}
+
+.dark-bg {
+  background-color: #26595a!important;
+  color: #ffffff !important;
+}
+
+/*-- section style --*/
+
+.section-container {
+  padding-left: 0em;
+  padding-right:  0em;
+  padding-top: 1em;
+  margin-top: 0em;
+  max-width: 100%;
+  width: 100vw;
+}
+
+.section-block {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 1.1em;
+  box-sizing: border-box;
 }
