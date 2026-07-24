@@ -291,19 +291,69 @@ window.Quarto = {
 </div>
 <!-- ====================== HERO / PORTADA ====================== -->
 <div class="section-text dark-bg">
+<div class="hero-particles-wrapper">
+<div id="particles-js" class="particles-layer" aria-hidden="true">
+
+</div>
+<div class="hero-particles-content">
 <div class="section-container">
 <div class="section-block">
 <div style="text-align: center;">
 <p style="font-size:48px; font-weight:800; margin-bottom: 0.2em; color: #ffffff;">
-SOCIUD
+Socialización Política y Juventudes
 </p>
 <p style="font-size:20px; max-width: 720px; margin: 0 auto; padding-bottom: 1em;">
-Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social: el rol de la escuela, la familia y la desigualdad en la educación ciudadana.
+Grupo de investigación sobre cómo niñas, niños y jóvenes forman sus actitudes y comportamientos políticos: el rol de la escuela, la familia y la desigualdad en la formación ciudadana.
 </p>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+<script>
+window.addEventListener("load", function () {
+  if (window.particlesJS && document.getElementById("particles-js")) {
+    window.particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 90, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#ffffff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.45, "random": true },
+        "size": { "value": 3, "random": true },
+        "line_linked": {
+          "enable": true,
+          "distance": 140,
+          "color": "#ffffff",
+          "opacity": 0.25,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "direction": "top-right",
+          "straight": false,
+          "out_mode": "out"
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" },
+          "resize": true
+        },
+        "modes": {
+          "grab": { "distance": 160, "line_linked": { "opacity": 0.6 } },
+          "push": { "particles_nb": 3 }
+        }
+      },
+      "retina_detect": true
+    });
+  }
+});
+</script>
 <div class="section-footer2">
 
 </div>

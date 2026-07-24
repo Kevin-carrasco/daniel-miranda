@@ -39,18 +39,69 @@ listing:
 <!-- ====================== HERO / PORTADA ====================== -->
 
 ::: {.section-text .dark-bg}
+::: {.hero-particles-wrapper}
+
+<div id="particles-js" class="particles-layer" aria-hidden="true"></div>
+
+::: {.hero-particles-content}
 ::: {.section-container}
 ::: {.section-block}
 ::: {style="text-align: center;"}
 
-<p style="font-size:48px; font-weight:800; margin-bottom: 0.2em; color: #ffffff;">SOCIUD</p>
+<p style="font-size:48px; font-weight:800; margin-bottom: 0.2em; color: #ffffff;">Socialización Política y Juventudes</p>
 
-<p style="font-size:20px; max-width: 720px; margin: 0 auto; padding-bottom: 1em;">Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social: el rol de la escuela, la familia y la desigualdad en la educación ciudadana.</p>
+<p style="font-size:20px; max-width: 720px; margin: 0 auto; padding-bottom: 1em;">Grupo de investigación sobre cómo niñas, niños y jóvenes forman sus actitudes y comportamientos políticos: el rol de la escuela, la familia y la desigualdad en la formación ciudadana.</p>
 
 :::
 :::
 :::
 :::
+:::
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+<script>
+window.addEventListener("load", function () {
+  if (window.particlesJS && document.getElementById("particles-js")) {
+    window.particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 90, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#ffffff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.45, "random": true },
+        "size": { "value": 3, "random": true },
+        "line_linked": {
+          "enable": true,
+          "distance": 140,
+          "color": "#ffffff",
+          "opacity": 0.25,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "direction": "top-right",
+          "straight": false,
+          "out_mode": "out"
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" },
+          "resize": true
+        },
+        "modes": {
+          "grab": { "distance": 160, "line_linked": { "opacity": 0.6 } },
+          "push": { "particles_nb": 3 }
+        }
+      },
+      "retina_detect": true
+    });
+  }
+});
+</script>
 
 <div class="section-footer2">
 
