@@ -2,13 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social">
 
-<title>Daniel Miranda – danielmiranda.com</title>
+<title>SOCIUD</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,11 +41,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ec1ce3b7f708b07249a253120d5e9fdb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ebd193fde289f9dc0845a7179e1f630c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -159,7 +164,7 @@ gtag('config', 'G-HQNG5WQE3X', { 'anonymize_ip': true});
 
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -172,7 +177,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -189,9 +194,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="css/theme.scss">
-<meta property="og:title" content="Daniel Miranda – danielmiranda.com">
+<meta property="og:title" content="SOCIUD">
+<meta property="og:description" content="Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social">
 <meta property="og:image" content="https://www.danielmiranda.com/images/Daniel_Miranda_Fuenzalida.jpg">
-<meta property="og:site_name" content="https://danielmiranda.com">
+<meta property="og:site_name" content="SOCIUD">
 <meta property="og:locale" content="es_ES">
 </head>
 
@@ -203,7 +209,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">danielmiranda.com</span>
+    <span class="navbar-title">SOCIUD</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -212,6 +218,29 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-líneas-de-investigación" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Líneas de investigación</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-líneas-de-investigación">    
+        <li>
+    <a class="dropdown-item" href="./lineas/juventudes.html">
+ <span class="dropdown-text">Juventudes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lineas/socializacion-politica.html">
+ <span class="dropdown-text">Socialización política</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lineas/educacion-ciudadana.html">
+ <span class="dropdown-text">Educación cívica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./lineas/cohesion-social.html">
+ <span class="dropdown-text">Cohesión social</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-investigación" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Investigación</span>
@@ -235,6 +264,10 @@ window.Quarto = {
     <a class="nav-link" href="./proyectos.html"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./equipo.html"> 
+<span class="menu-text">Integrantes</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -248,58 +281,80 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="images/Daniel_Miranda_Fuenzalida.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Daniel Miranda</h1>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:damiranda@uchile.cl" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://danielmiranda.com/cv" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai ai-cv fa-lg"></i></span>
-  </a>
-  <a href="https://github.com/damiranda" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/daniel-miranda-a0677921/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai ai-google-scholar fa-lg"></i></span>
-  </a>
-  <a href="https://www.researchgate.net/profile/Daniel-Miranda-13" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai ai-researchgate fa-lg"></i></span>
-  </a>
-  <a href="https://orcid.org/0000-0002-3143-8502" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai ai-orcid fa-lg"></i></span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>Académico de la Escuela de Psicología de la Universidad de Chile. Psicólogo de la Universidad de Talca, Magíster en Psicología Social-Comunitaria y Doctor en Sociología en la Pontificia Universidad Católica de Chile. Está a cargo del Fondecyt Regular “Actitudes y comportamiento político juvenil: desigualdad, estilos de socialización escolar e influencias intergeneracionales».</p>
-<p>Sus intereses se centran en la socialización política y desigualdad, participación política juvenil, relaciones intergrupales, opinión pública, métodos cuantitativos, modelos de ecuaciones estructurales y modelos multinivel.</p>
-</div></div>
-</div>
 
 <div class="section-footer1">
 
 </div>
+<!-- ====================== HERO / PORTADA ====================== -->
+<div class="section-text dark-bg">
+<div class="section-container">
+<div class="section-block">
+<div style="text-align: center;">
+<p style="font-size:48px; font-weight:800; margin-bottom: 0.2em; color: #ffffff;">
+SOCIUD
+</p>
+<p style="font-size:20px; max-width: 720px; margin: 0 auto; padding-bottom: 1em;">
+Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social: el rol de la escuela, la familia y la desigualdad en la educación ciudadana.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section-footer2">
+
+</div>
+<!-- ====================== LÍNEAS DE INVESTIGACIÓN ====================== -->
+<div class="section-text light-bg">
+<div class="section-container">
+<div class="section-block">
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i style="margin-right: 10px;"></i>Líneas de investigación
+</p>
+<div class="lineas-grid">
+<div class="linea-card">
+<p><i class="bi bi-people-fill linea-icon"></i></p>
+<section id="juventudes" class="level3">
+<h3 class="anchored" data-anchor-id="juventudes">Juventudes</h3>
+<p>Actitudes y comportamiento político juvenil: participación, desigualdad e influencias intergeneracionales.</p>
+<p><a href="./lineas/juventudes.html" class="btn btn-sm" role="button" style="background-color: #26595a; color: white;">Ver línea</a></p>
+</section>
+</div>
+<div class="linea-card">
+<p><i class="bi bi-megaphone-fill linea-icon"></i></p>
+<section id="socialización-política" class="level3">
+<h3 class="anchored" data-anchor-id="socialización-política">Socialización política</h3>
+<p>Cómo la escuela y la familia moldean las orientaciones políticas durante el ciclo vital.</p>
+<p><a href="./lineas/socializacion-politica.html" class="btn btn-sm" role="button" style="background-color: #26595a; color: white;">Ver línea</a></p>
+</section>
+</div>
+<div class="linea-card">
+<p><i class="bi bi-mortarboard-fill linea-icon"></i></p>
+<section id="educación-ciudadana" class="level3">
+<h3 class="anchored" data-anchor-id="educación-ciudadana">Educación ciudadana</h3>
+<p>Educación ciudadana y estudios internacionales a gran escala.</p>
+<p><a href="./lineas/educacion-ciudadana.html" class="btn btn-sm" role="button" style="background-color: #26595a; color: white;">Ver línea</a></p>
+</section>
+</div>
+<div class="linea-card">
+<p><i class="bi bi-diagram-3-fill linea-icon"></i></p>
+<section id="cohesión-social" class="level3">
+<h3 class="anchored" data-anchor-id="cohesión-social">Cohesión social</h3>
+<p>Confianza, tolerancia y disposiciones democráticas como fundamentos de la vida en común.</p>
+<p><a href="./lineas/cohesion-social.html" class="btn btn-sm" role="button" style="background-color: #26595a; color: white;">Ver línea</a></p>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section-footer1">
+
+</div>
+<!-- ====================== ÚLTIMAS PUBLICACIONES ====================== -->
 <div class="section-text dark-bg">
 <div class="section-block">
 <div style="text-align: left;">
@@ -401,7 +456,7 @@ Bascopé, Martín; Bonhomme, Macarena; Cox, Cristián; Castillo, Juan Carlos &am
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <div class="button">
-<p><a href="./references/publications/index.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="background-color: #3c3c3c; margin-top: 0em;">Todas las publicaciones</a></p>
+<p><a href="./references/publications/index.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="background-color: #26595a; margin-top: 0em;">Todas las publicaciones</a></p>
 </div>
 </div>
 </div>
@@ -409,6 +464,7 @@ Bascopé, Martín; Bonhomme, Macarena; Cox, Cristián; Castillo, Juan Carlos &am
 <div class="section-footer2">
 
 </div>
+<!-- ====================== ÚLTIMAS PRESENTACIONES ====================== -->
 <div class="section-text light-bg">
 <div class="section-container">
 <div class="section-block">
@@ -520,10 +576,16 @@ Manzi, Jorge; González, Roberto; Carvacho, Héctor; Lay, Siugmin; Miranda, Dani
 
 
 
-
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -566,13 +628,14 @@ Manzi, Jorge; González, Roberto; Carvacho, Héctor; Lay, Siugmin; Miranda, Dani
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -928,7 +991,7 @@ Manzi, Jorge; González, Roberto; Carvacho, Héctor; Lay, Siugmin; Miranda, Dani
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- <a href="https://www.danielmiranda.com/cv.html">CV</a> &nbsp;<a href="https://github.com/damiranda" target="blank"><i class="bi bi-github"></i></a> &nbsp;<a href="https://www.linkedin.com/in/daniel-miranda-a0677921/" target="blank"><i class="bi bi-linkedin"></i></a> &nbsp;<a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ" target="blank"><i class="ai ai-google-scholar fa-lg"></i></a> &nbsp;<a href="https://www.researchgate.net/profile/Daniel-Miranda-13" target="blank"><i class="ai ai-researchgate fa-lg"></i></a> &nbsp;<a href="https://orcid.org/0000-0002-3143-8502" target="blank"><i class="ai ai-orcid fa-lg"></i></a><br>Site made with <a href="https://github.com/damiranda" target="_blank"><i class="bi bi-git"></i></a>, and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/favicon.png" width="12"> quarto</a><br>© 2026 Daniel Miranda
+ <a href="https://www.danielmiranda.com/cv.html">CV</a> &nbsp;<a href="https://github.com/damiranda" target="blank"><i class="bi bi-github"></i></a> &nbsp;<a href="https://www.linkedin.com/in/daniel-miranda-a0677921/" target="blank"><i class="bi bi-linkedin"></i></a> &nbsp;<a href="https://scholar.google.com/citations?user=vdF2kZcAAAAJ" target="blank"><i class="ai ai-google-scholar fa-lg"></i></a> &nbsp;<a href="https://www.researchgate.net/profile/Daniel-Miranda-13" target="blank"><i class="ai ai-researchgate fa-lg"></i></a> &nbsp;<a href="https://orcid.org/0000-0002-3143-8502" target="blank"><i class="ai ai-orcid fa-lg"></i></a><br>Site made with <a href="https://github.com/damiranda" target="_blank"><i class="bi bi-git"></i></a>, and <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/favicon.png" width="12"> quarto</a><br>© 2026 Socialización Política y Juventudes
   </li>  
 </ul>
     </div>

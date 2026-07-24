@@ -1,0 +1,13 @@
+---
+title: "Educación ciudadana"
+description: "Formación ciudadana y estudios internacionales a gran escala"
+execute: 
+  echo: false
+  warning: false
+---
+
+Esta línea aborda la formación ciudadana en contextos escolares y su evaluación mediante estudios internacionales a gran escala sobre educación cívica y ciudadana, como el Estudio Internacional de Educación Cívica y Ciudadana (ICCS) de la IEA.
+
+## Publicaciones relacionadas
+
+Próximamente.

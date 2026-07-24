@@ -369,3 +369,84 @@ img {
   padding-bottom: 1.1em;
   box-sizing: border-box;
 }
+
+/*-- portada grupo: tarjetas de lineas de investigacion --*/
+
+.lineas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.linea-card {
+  background-color: #ffffff;
+  border: 2px solid #26595a;
+  border-radius: 10px;
+  padding: 1.5em 1.2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.linea-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.linea-card .linea-icon {
+  font-size: 2.2em;
+  color: #26595a;
+}
+
+.linea-card h3 {
+  margin-top: 0.4em;
+  font-size: 1.2em;
+  border-bottom: none;
+}
+
+.linea-card section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.linea-card section p {
+  font-size: 0.95em;
+  flex-grow: 1;
+}
+
+/*-- full-bleed: secciones de color a todo el ancho de la pantalla --*/
+
+.section-text,
+.section-footer1,
+.section-footer2,
+.section-footer3 {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*-- listings sobre fondo oscuro: texto y enlaces en blanco --*/
+
+.dark-bg .quarto-listing a,
+.dark-bg .quarto-listing .listing-title,
+.dark-bg .quarto-listing .listing-subtitle,
+.dark-bg .quarto-listing .listing-date,
+.dark-bg .quarto-listing .listing-author {
+  color: #ffffff !important;
+}
+
+.dark-bg .quarto-listing a:hover {
+  color: #c9dcdc !important;
+}
+
+.dark-bg .quarto-listing .quarto-post {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}

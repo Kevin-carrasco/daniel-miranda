@@ -1,27 +1,9 @@
 ---
-title: "Daniel Miranda"
-image: "images/Daniel_Miranda_Fuenzalida.jpg"
+pagetitle: "SOCIUD"
+description: "Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social"
 execute: 
   echo: false
   warning: false
-about:
-  id: hero-heading
-  template: trestles
-  links:
-    - icon: envelope
-      href: mailto:damiranda@uchile.cl
-    - text: '<i class="ai ai-cv fa-lg"></i>'
-      href: https://danielmiranda.com/cv
-    - icon: github
-      href: https://github.com/damiranda
-    - icon: linkedin
-      href: https://www.linkedin.com/in/daniel-miranda-a0677921/
-    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
-      href: https://scholar.google.com/citations?user=vdF2kZcAAAAJ
-    - text: '<i class="ai ai-researchgate fa-lg"></i>'
-      href: https://www.researchgate.net/profile/Daniel-Miranda-13
-    - text: '<i class="ai ai-orcid fa-lg"></i>'
-      href: https://orcid.org/0000-0002-3143-8502
 page-layout: full
 
 listing:
@@ -50,18 +32,92 @@ listing:
   page-size: 500
 ---
 
-:::{#hero-heading}
+<div class="section-footer1">
 
+</div>
 
-Académico de la Escuela de Psicología de la Universidad de Chile. Psicólogo de la Universidad de Talca, Magíster en Psicología Social-Comunitaria y Doctor en Sociología en la Pontificia Universidad Católica de Chile. Está a cargo del Fondecyt Regular “Actitudes y comportamiento político juvenil: desigualdad, estilos de socialización escolar e influencias intergeneracionales».
+<!-- ====================== HERO / PORTADA ====================== -->
 
-Sus intereses se centran en la socialización política y desigualdad, participación política juvenil, relaciones intergrupales, opinión pública, métodos cuantitativos, modelos de ecuaciones estructurales y modelos multinivel.
+::: {.section-text .dark-bg}
+::: {.section-container}
+::: {.section-block}
+::: {style="text-align: center;"}
 
+<p style="font-size:48px; font-weight:800; margin-bottom: 0.2em; color: #ffffff;">SOCIUD</p>
+
+<p style="font-size:20px; max-width: 720px; margin: 0 auto; padding-bottom: 1em;">Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social: el rol de la escuela, la familia y la desigualdad en la educación ciudadana.</p>
+
+:::
+:::
+:::
+:::
+
+<div class="section-footer2">
+
+</div>
+
+<!-- ====================== LÍNEAS DE INVESTIGACIÓN ====================== -->
+
+::: {.section-text .light-bg}
+::: {.section-container}
+::: {.section-block}
+
+<p align="center" style="font-size:36px; font-weight:bold;">
+<i style="margin-right: 10px;"></i>Líneas de investigación</p>
+
+::: {.lineas-grid}
+
+::: {.linea-card}
+<i class="bi bi-people-fill linea-icon"></i>
+
+### Juventudes
+
+Actitudes y comportamiento político juvenil: participación, desigualdad e influencias intergeneracionales.
+
+[Ver línea](lineas/juventudes.qmd){.btn .btn-sm role="button" style="background-color: #26595a; color: white;"}
+:::
+
+::: {.linea-card}
+<i class="bi bi-megaphone-fill linea-icon"></i>
+
+### Socialización política
+
+Cómo la escuela y la familia moldean las orientaciones políticas durante el ciclo vital.
+
+[Ver línea](lineas/socializacion-politica.qmd){.btn .btn-sm role="button" style="background-color: #26595a; color: white;"}
+:::
+
+::: {.linea-card}
+<i class="bi bi-mortarboard-fill linea-icon"></i>
+
+### Educación ciudadana
+
+Educación ciudadana y estudios internacionales a gran escala.
+
+[Ver línea](lineas/educacion-ciudadana.qmd){.btn .btn-sm role="button" style="background-color: #26595a; color: white;"}
+:::
+
+::: {.linea-card}
+<i class="bi bi-diagram-3-fill linea-icon"></i>
+
+### Cohesión social
+
+Confianza, tolerancia y disposiciones democráticas como fundamentos de la vida en común.
+
+[Ver línea](lineas/cohesion-social.qmd){.btn .btn-sm role="button" style="background-color: #26595a; color: white;"}
+:::
+
+:::
+
+:::
+:::
 :::
 
 <div class="section-footer1">
 
 </div>
+
+<!-- ====================== ÚLTIMAS PUBLICACIONES ====================== -->
 
 ::: {.section-text .dark-bg}
 ::: {.section-block}
@@ -79,7 +135,7 @@ Sus intereses se centran en la socialización política y desigualdad, participa
 :::
 
 ::: {.button}
-[Todas las publicaciones](references/publications/index.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="background-color: #3c3c3c; margin-top: 0em;"}
+[Todas las publicaciones](references/publications/index.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="background-color: #26595a; margin-top: 0em;"}
 :::
 
 
@@ -91,6 +147,7 @@ Sus intereses se centran en la socialización política y desigualdad, participa
 
 </div>
 
+<!-- ====================== ÚLTIMAS PRESENTACIONES ====================== -->
 
 ::: {.section-text .light-bg}
 ::: {.section-container}

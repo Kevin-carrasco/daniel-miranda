@@ -1,0 +1,13 @@
+---
+title: "Socialización política"
+description: "Escuela, familia y formación de orientaciones políticas"
+execute: 
+  echo: false
+  warning: false
+---
+
+Esta línea investiga los procesos mediante los cuales las personas adquieren sus orientaciones políticas a lo largo del ciclo vital, con especial atención al rol de la escuela y la familia como agentes de socialización, y a cómo la desigualdad social condiciona estos procesos.
+
+## Publicaciones relacionadas
+
+Próximamente.

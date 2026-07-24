@@ -1,0 +1,15 @@
+---
+title: "Juventudes"
+description: "Actitudes y comportamiento político juvenil"
+execute: 
+  echo: false
+  warning: false
+---
+
+Esta línea estudia las actitudes y el comportamiento político de niñas, niños y jóvenes: participación política convencional y no convencional, desigualdad en la participación e influencias intergeneracionales en la transmisión de orientaciones políticas.
+
+Entre los proyectos asociados destaca el Fondecyt Regular N° 1240922 "Actitudes y comportamiento político juvenil: desigualdad, estilos de socialización escolar e influencias intergeneracionales".
+
+## Publicaciones relacionadas
+
+Próximamente.

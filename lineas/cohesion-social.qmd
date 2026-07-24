@@ -1,0 +1,13 @@
+---
+title: "Cohesión social"
+description: "Confianza, tolerancia y disposiciones democráticas"
+execute: 
+  echo: false
+  warning: false
+---
+
+Esta línea examina los fundamentos actitudinales de la vida en común: confianza social e institucional, tolerancia, relaciones intergrupales y disposiciones democráticas, y su relación con la desigualdad y la opinión pública.
+
+## Publicaciones relacionadas
+
+Próximamente.

@@ -7,8 +7,8 @@ project:
     - "css"
 
 website:
-  title: "danielmiranda.com"
-  description: "Daniel Miranda"
+  title: "SOCIUD"
+  description: "Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social"
   image: images/Daniel_Miranda_Fuenzalida.jpg
   site-url: https://www.danielmiranda.com
   favicon: images/favicon/favicon.ico
@@ -25,6 +25,16 @@ website:
   navbar:
     background: "#26595a"
     right:
+      - text: "Líneas de investigación"
+        menu:
+          - text: "Juventudes"
+            href: lineas/juventudes.qmd
+          - text: "Socialización política"
+            href: lineas/socializacion-politica.qmd
+          - text: "Educación cívica"
+            href: lineas/educacion-ciudadana.qmd
+          - text: "Cohesión social"
+            href: lineas/cohesion-social.qmd
       - text: "Investigación"
         menu:
           - text: "Publicaciones"
@@ -35,9 +45,11 @@ website:
         href: docencia.qmd
       - text: "Proyectos"
         href: proyectos.qmd
+      - text: "Integrantes"
+        href: equipo.qmd
   page-footer:
     center:
-      - text: "<a href='https://www.danielmiranda.com/cv.html'>CV</a> &nbsp;<a href='https://github.com/damiranda' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://www.linkedin.com/in/daniel-miranda-a0677921/' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com/citations?user=vdF2kZcAAAAJ' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/Daniel-Miranda-13' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a href='https://orcid.org/0000-0002-3143-8502' target='blank'><i class='ai ai-orcid fa-lg'></i></a><br>Site made with <a href='https://github.com/damiranda' target='_blank'><i class='bi bi-git'></i></a>, and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2026 Daniel Miranda"
+      - text: "<a href='https://www.danielmiranda.com/cv.html'>CV</a> &nbsp;<a href='https://github.com/damiranda' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://www.linkedin.com/in/daniel-miranda-a0677921/' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com/citations?user=vdF2kZcAAAAJ' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/Daniel-Miranda-13' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a href='https://orcid.org/0000-0002-3143-8502' target='blank'><i class='ai ai-orcid fa-lg'></i></a><br>Site made with <a href='https://github.com/damiranda' target='_blank'><i class='bi bi-git'></i></a>, and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2026 Socialización Política y Juventudes"
 
 format:
   html:
