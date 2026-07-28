@@ -1,1 +1,1 @@
-Sitemap: https://www.danielmiranda.com/sitemap.xml
+Sitemap: https://kevin-carrasco.github.io/daniel-miranda/sitemap.xml
