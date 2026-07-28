@@ -3,6 +3,8 @@ project:
   output-dir: "docs"
   render:
     - "*.qmd"
+    - "!manual-sitio-web.qmd"
+    - "!Curriculo_Normalizado_Daniel_Miranda.qmd"
   resources:
     - "css"
 
@@ -24,6 +26,7 @@ website:
 
   navbar:
     background: "#26595a"
+#    logo: /images/favicon/favicon.png
     right:
       - text: "Líneas de investigación"
         menu:

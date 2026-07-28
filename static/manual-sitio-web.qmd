@@ -1,0 +1,665 @@
+---
+pagetitle: Manual del sitio web
+author: Kevin Carrasco
+
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format: 
+  revealjs:
+    logo: ../images/favicon/favicon.png
+    slide-number: true
+    theme: presentaciones.scss
+    navigationMode: linear
+    transition: fade    
+    title-slide-attributes:
+      visibility: false
+    auto-play-media: true
+
+editor:
+  render-on-save: true
+---
+
+##  {data-background-color="black"}
+
+::: {.columns .v-center-container}
+::: {.column width="20%"}
+![](../images/favicon/favicon.png){width="80%" fig-align="center"}
+:::
+
+::: {.column width="80%"}
+::: rojo
+### Sitio web del Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social
+**Manual de uso y edición**: cómo funciona Quarto web, cómo funciona este repositorio y cómo modificarlo
+:::
+
+------------------------------------------------------------------------
+
+### **Kevin Carrasco**
+### Universidad de Chile
+### 2026 
+### [sociud.com](https://sociud.com)
+:::
+:::
+
+# ¿Cómo funciona un sitio web en Quarto? {data-background-color="black"}
+
+## La idea general
+
+::: {.incremental}
+
+- Un sitio Quarto es una **carpeta de archivos de texto plano**.
+
+- Cada página del sitio es un archivo **`.qmd`**: texto markdown con un encabezado YAML.
+
+- El comando **`quarto render project`** convierte todos los `.qmd` en páginas HTML.
+
+- El comando **`quarto render document`** convierte el `.qmd` actual en página HTML.
+
+- El resultado es un sitio **estático**: no requiere servidor, base de datos ni programación web.
+
+- GitHub Pages lo publica gratuitamente desde el propio repositorio.
+
+- También se puede publicar en Netlify, Render, Vercel o cualquier servidor web.
+
+- Netlify permite compra de dominios web (ej. .cl, .com, .org)
+
+
+:::
+
+## Los tres componentes
+
+- **`_quarto.yml`**: Configuración global: título, menú de navegación, formato de salida
+
+
+- **Archivos `.qmd`**: El contenido: una página por archivo (portada, integrantes, líneas...)
+
+- **`css/theme.scss`**: La apariencia: colores, tipografías, tarjetas, secciones
+
+
+<br>
+
+Editar el sitio consiste en modificar alguno de estos tres tipos de archivo.
+
+## `_quarto.yml`: la configuración central
+
+```yaml
+project:
+  type: website          # tipo de proyecto
+  output-dir: "docs"     # dónde queda el HTML generado
+
+website:
+  title: "Nombre del sitio"   # aparece en el navbar
+  navbar:
+    right:
+      - text: "Integrantes"   # una entrada del menú
+        href: equipo.qmd      # la página a la que lleva
+
+format:
+  html:
+    theme: default
+    css: css/theme.scss       # hoja de estilos propia
+```
+
+- Todo lo que es **global** (menú, footer, título) se define una sola vez aquí y aplica a todas las páginas.
+
+## Cada página es un archivo `.qmd`
+
+Un `.qmd` tiene dos partes: encabezado YAML y cuerpo markdown.
+
+    ---
+    title: "Juventudes"
+    description: "Actitudes y comportamiento político juvenil"
+    ---
+    
+    Esta línea estudia las actitudes y el comportamiento 
+    político de niñas, niños y jóvenes.
+    
+    ## Publicaciones relacionadas
+    
+    Texto con **negritas**, [enlaces](https://quarto.org) y listas.
+
+- El YAML define metadatos de la página; el cuerpo es el contenido visible.
+
+## El proceso de render
+
+<br>
+
+**`archivos .qmd`** → `quarto render` → **`docs/*.html`**
+
+<br>
+
+::: {.incremental}
+
+- Al ejecutar `quarto render`, Quarto procesa cada `.qmd` mediante Pandoc y escribe el HTML en la carpeta **`docs/`**.
+
+- La carpeta `docs/` es **100% generada**: se sobreescribe completa en cada render.
+
+- Por lo tanto: **nunca se edita `docs/` a mano**. Todo cambio se hace en los archivos fuente.
+
+:::
+
+## Listings: contenido que se genera solo
+
+- Un *listing* es un listado de páginas que Quarto construye automáticamente a partir de una carpeta.
+
+```yaml
+listing:
+- id: publications
+  contents: 
+    - references/publications/posts/*.qmd   # de esta carpeta
+  sort: date desc                           # ordenadas por fecha
+  max-items: 5                              # las 5 más recientes
+```
+
+- Así funcionan **Publicaciones** y **Presentaciones**: cada publicación es un archivo `.qmd` en una carpeta de posts, y el listado se arma solo.
+
+- Agregar una publicación nueva = crear un archivo. No hay que tocar ningún listado.
+
+## Publicación con GitHub Pages
+
+::: {.incremental}
+
+- GitHub Pages está configurado para servir la carpeta **`docs/` de la rama `main`**.
+
+- Cada vez que se hace `git push`, GitHub toma el contenido de `docs/` y actualiza el sitio.
+
+- El despliegue tarda **1 a 2 minutos** después del push.
+
+- Por eso el render es parte del flujo: si no se renderiza antes del push, el sitio publicado no cambia.
+
+:::
+
+## El flujo completo de trabajo
+
+::: {.timeline .mini}
+
+::: {.tl-item}
+[1]{.tl-dot}
+
+::: {.tl-card}
+
+<h4>.... Editar</h4>
+
+Modificar los archivos fuente: `.qmd`, `_quarto.yml` o `theme.scss`
+:::
+:::
+
+::: {.tl-item}
+[2]{.tl-dot}
+
+::: {.tl-card}
+
+<h4>.... Renderizar</h4>
+
+`quarto render` (o `quarto preview` para ver los cambios en vivo)
+:::
+:::
+
+::: {.tl-item}
+[3]{.tl-dot}
+
+::: {.tl-card}
+
+<h4>.... Publicar</h4>
+
+`git add .` → `git commit -m "mensaje"` → `git push`
+:::
+:::
+
+::: {.tl-item}
+[4]{.tl-dot}
+
+::: {.tl-card}
+
+<h4>....  Verificar</h4>
+
+Esperar 1–2 minutos y actualizar
+:::
+:::
+
+:::
+
+# ¿Cómo funciona este repositorio? {data-background-color="black"}
+
+## Mapa del repositorio
+
+```
+daniel-miranda/
+├── _quarto.yml          # configuración: navbar, título, footer
+├── index.qmd            # PORTADA: hero + líneas + últimas publicaciones
+├── equipo.qmd           # Integrantes (PI)
+├── lineas/              # una página por línea de investigación
+│   ├── juventudes.qmd
+│   ├── socializacion-politica.qmd
+│   ├── educacion-civica.qmd
+│   └── cohesion-social.qmd
+├── proyectos.qmd        # Proyectos
+├── docencia.qmd         # Docencia
+├── references/
+│   ├── bibtex2quarto.R        # genera los .qmd desde el .bib
+│   ├── publications/
+│   │   ├── publicaciones.bib  # bibliografía (fuente)
+│   │   └── posts/             # .qmd generados automáticamente
+│   └── presentations/         # ídem para presentaciones
+├── css/theme.scss       # todos los estilos del sitio
+├── js/                  # scripts (particles del hero)
+├── images/              # logos y fotografías
+└── docs/                # ⚠ HTML generado: NO editar
+```
+
+## La portada: `index.qmd`
+
+La portada está construida como una secuencia de **secciones de color**:
+
+::: {.incremental}
+
+- **Hero** (fondo verde): nombre del grupo, bajada y animación de *particles*.
+
+- **Líneas de investigación** (fondo claro): las cuatro tarjetas.
+
+- **Últimas publicaciones** (fondo verde): listing automático, 5 más recientes.
+
+- **Últimas presentaciones** (fondo claro): listing automático.
+
+:::
+
+## Las secciones de color
+
+Cada sección se escribe con *divs* de Pandoc (`:::`) y clases del `theme.scss`:
+
+    ::: {.section-text .dark-bg}     <- sección de fondo verde
+    contenido...
+    :::
+    
+    <div class="section-footer2"></div>   <- degradado verde → blanco
+    
+    ::: {.section-text .light-bg}    <- sección de fondo claro
+    contenido...
+    :::
+    
+    <div class="section-footer1"></div>   <- degradado blanco → verde
+
+- Los `section-footer1/2` son las **transiciones de color** entre secciones: al agregar una sección nueva hay que respetar la alternancia.
+
+## Las tarjetas de líneas
+
+Cada tarjeta es un div con la clase `linea-card`, dentro de la grilla `lineas-grid`:
+
+    ::: {.lineas-grid}
+    
+    ::: {.linea-card}
+    <i class="bi bi-people-fill linea-icon"></i>
+    
+    ### Juventudes
+    
+    Descripción breve de la línea.
+    
+    [Ver línea](lineas/juventudes.qmd){.btn .btn-sm role="button" 
+      style="background-color: #26595a; color: white;"}
+    :::
+    
+    :::
+
+- El ícono es de [Bootstrap Icons](https://icons.getbootstrap.com/): basta cambiar el nombre de la clase (`bi-people-fill`, `bi-megaphone-fill`, etc.).
+
+## `css/theme.scss`: la apariencia
+
+::: {.columns}
+::: {.column width="55%"}
+
+Contiene, en orden:
+
+- Colores y fuentes generales
+- Clases de sección (`dark-bg`, `light-bg`, `section-footer`)
+- Tarjetas de líneas (`linea-card`)
+- *Full-bleed* (secciones a todo el ancho)
+- Listings sobre fondo oscuro
+- Capa de *particles* del hero
+
+:::
+::: {.column width="45%"}
+
+::: {.fragment .fade-up}
+
+**⚠ Advertencia importante**
+
+Las variables SCSS (`$primary-color`) **no funcionan**: los colores deben escribirse en hexadecimal directo (`#26595a`).
+
+:::
+
+:::
+:::
+
+## Integrantes: `equipo.qmd`
+
+- Usa el *template* `about` de Quarto en su variante **trestles**: fotografía a la izquierda, biografía a la derecha, botones de contacto.
+
+```yaml
+about:
+  id: hero-heading
+  template: trestles
+  links:
+    - icon: envelope
+      href: mailto:damiranda@uchile.cl
+    - icon: github
+      href: https://github.com/damiranda
+```
+
+- El cuerpo de la página lleva el nombre, el rol (**Investigador Principal**) y la biografía.
+
+## Publicaciones y presentaciones
+
+- Cada publicación es un archivo `.qmd` en `references/publications/posts/`, con este encabezado:
+
+```yaml
+---
+title: "Título del artículo"
+author: "Miranda, Daniel; Castillo, Juan Carlos"
+date: 2026-05-01
+categories: [Journal Article]
+---
+```
+
+::: {.fragment .fade-up}
+
+- **Pero estos archivos no se escriben a mano**: se generan automáticamente a partir de la bibliografía. Eso lo hace el script `bibtex2quarto.R`.
+
+:::
+
+## `bibtex2quarto.R`: de la bibliografía a las páginas
+
+- El listado de publicaciones **no se mantiene página por página**, sino desde un único archivo **`.bib`** (bibliografía en formato BibTeX).
+
+- El script `references/bibtex2quarto.R` **lee ese `.bib` y genera un `.qmd` por cada referencia** en la carpeta `posts/`.
+
+<br>
+
+**`publicaciones.bib`** → `bibtex2quarto.R` → **`posts/*.qmd`** → listing → **sitio**
+
+<br>
+
+- Así, mantener las publicaciones al día se reduce a **mantener el `.bib`**: el resto es automático.
+
+## ¿Qué hace el script por dentro?
+
+::: {.incremental}
+
+- Lee el `.bib` con `RefManageR` y limpia el texto: convierte los códigos LaTeX (`\'a` → á, `\~n` → ñ) a caracteres normales.
+
+- Clasifica cada referencia en una **categoría** (`Journal Article`, `Book`, `Presentation`...) según su tipo BibTeX.
+
+- Ordena autores, arma la cita completa y crea el **nombre de archivo** a partir del año y el título (`2026_titulo_corto.qmd`).
+
+- Escribe cada `.qmd` con su YAML (`title`, `author`, `date`, `categories`, `abstract`) y un bloque *"How to cite this work"*.
+
+:::
+
+## El vínculo con Zotero
+
+Zotero es el gestor bibliográfico; el `.bib` es el puente hacia el sitio.
+
+::: {.timeline .mini}
+
+::: {.tl-item}
+[1]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Gestionar en Zotero</h4>
+Se mantienen las referencias en una colección de Zotero (la fuente principal)
+:::
+:::
+
+::: {.tl-item}
+[2]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Exportar a BibTeX</h4>
+Exportar la colección como `publicaciones.bib` a `references/publications/` (usar Better BibTeX para exportación automática)
+:::
+:::
+
+::: {.tl-item}
+[3]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Ejecutar el script</h4>
+En R, desde la carpeta del proyecto: `source("references/bibtex2quarto.R")`
+:::
+:::
+
+::: {.tl-item}
+[4]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Render y push</h4>
+Los `.qmd` se regeneran, el listado se actualiza solo
+:::
+:::
+
+:::
+
+## Campos especiales desde Zotero
+
+- El script aprovecha el campo **`annotation`** (nota) de cada referencia para enlaces y contenido extra:
+
+```
+url_pdf: "https://..."          # botón al PDF
+url_slides: "https://..."       # botón a diapositivas
+url_dataset: "https://..."      # botón a datos
+url_project: "https://..."      # botón al proyecto
+```
+
+- También detecta **URLs de imágenes** en la nota y las inserta como portada de la publicación.
+
+- El texto restante de la nota se conserva como descripción libre.
+
+- Todo esto se escribe en Zotero una vez y el script lo traduce a los botones y el formato del sitio.
+
+## ⚠ Cuidado con `overwrite`
+
+- Al final del script, las llamadas usan `overwrite = TRUE`:
+
+```r
+bibtex_2academic(bibfile   = "references/publications/publicaciones.bib",
+                 outfold   = "references/publications/posts",
+                 abstract  = TRUE,
+                 overwrite = TRUE)
+```
+
+- Con `overwrite = TRUE`, **se regeneran todos los `.qmd`** y se pierde cualquier edición hecha a mano en ellos.
+
+- Si se editó un post directamente (no vía Zotero), usar `overwrite = FALSE` para no sobreescribirlo. 
+
+- La recomendación es **editar siempre en Zotero**, no en los `.qmd`.
+
+- Por el contrario, si se modifican los títulos, autores o fechas, puede que el qmd cambie de nombre y se dupliquen las referencias. En ese caso, borrar el `.qmd` antiguo y renderizar de nuevo.
+
+# Cómo hacer modificaciones {data-background-color="black"}
+
+## La regla principal
+
+<br>
+
+::: {.incremental}
+
+- Se editan **solamente** los archivos fuente: `.qmd`, `_quarto.yml`, `css/theme.scss`.
+
+- La carpeta `docs/` **nunca se toca**: es generada y se sobreescribe completa en cada render.
+
+- Después de cualquier edición: `quarto render` → `git push`.
+
+- Si un cambio no se ve en el sitio publicado, revisar en orden: ¿se renderizó? ¿se hizo push? ¿es caché del navegador? (**Ctrl+Shift+R**).
+
+:::
+
+## Cambiar los textos de la portada
+
+- En `index.qmd`, sección del hero (parte superior del archivo):
+
+```html
+<p style="font-size:48px; ...">Socialización Política y Juventudes</p>
+
+<p style="font-size:20px; ...">Grupo de investigación sobre cómo 
+niñas, niños y jóvenes forman sus actitudes...</p>
+```
+
+- El primer `<p>` es el **nombre del grupo**; el segundo, la **bajada**.
+
+- Para cambiar el nombre del sitio completo son **tres lugares**: este hero, el `title` de `_quarto.yml` (navbar) y el `©` del footer (también en `_quarto.yml`).
+
+## Agregar una publicación
+
+La vía recomendada es a través de Zotero, no creando el `.qmd` a mano:
+
+::: {.timeline .mini}
+
+::: {.tl-item}
+[1]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Agregar en Zotero</h4>
+
+Sumar la referencia a la colección y exportar el `.bib` actualizado
+:::
+:::
+
+::: {.tl-item}
+[2]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Ejecutar el script</h4>
+
+`source("references/bibtex2quarto.R")` en R: regenera los `.qmd`
+:::
+:::
+
+::: {.tl-item}
+[3]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Renderizar y publicar</h4>
+
+`quarto render` → push. El listado y la portada se actualizan solos
+:::
+:::
+
+:::
+
+#### Recomendaciones para Zotero
+
+- usar [better bibtex](https://retorque.re/zotero-better-bibtex/installation/) para exportación automática del `.bib` (no manual)
+
+- usar clave de citación `auth.lower+"_"+shorttitle(1).lower+"_"+year` (autor en minúscula + guion bajo + primera palabra del título en minúscula + guion bajo + año) para que el nombre del archivo `.qmd` sea consistente y no se duplique.
+
+## Agregar un integrante
+
+- Por ahora `equipo.qmd` contiene solo al PI con el template *trestles*.
+
+- Para sumar integrantes se recomienda el patrón de columnas que ya usa `proyectos.qmd`:
+
+<!-- -->
+
+    ## Equipo
+    
+    ::: columns
+    ::: {.column width="25%"}
+    ![](images/foto_nombre.jpg){width=150}
+    :::
+    ::: {.column width="75%"}
+    **Nombre Apellido** — Asistente de investigación
+    
+    Breve descripción y enlaces.
+    :::
+    :::
+
+- La fotografía se guarda en `images/`.
+
+## Agregar una línea de investigación
+
+::: {.timeline .mini}
+
+::: {.tl-item}
+[1]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Crear la página</h4>
+
+`lineas/nueva-linea.qmd` con `title` y `description` (copiar una existente como plantilla)
+:::
+:::
+
+::: {.tl-item}
+[2]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Agregar la tarjeta</h4>
+
+En `index.qmd`, duplicar un bloque `::: {.linea-card}` y ajustar ícono, título, texto y enlace
+:::
+:::
+
+::: {.tl-item}
+[3]{.tl-dot}
+
+::: {.tl-card}
+<h4>.... Agregar al menú</h4>
+
+En `_quarto.yml`, nueva entrada bajo el menú "Líneas de investigación"
+:::
+:::
+
+:::
+
+## Cambiar los colores del sitio
+
+- El color institucional (verde `#26595a`) aparece en `css/theme.scss` en: `dark-bg`, bordes de tarjetas, botones y enlaces.
+
+- Para cambiarlo, **buscar y reemplazar el hexadecimal** en `theme.scss` y en los `style=` de los botones de `index.qmd`.
+
+- Recordatorio: siempre valores hexadecimales directos, nunca variables `$`.
+
+## Problemas frecuentes
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| No se ven los cambios | Falta render, push o es caché | Render → push → Ctrl+Shift+R |
+| El color no llega a los bordes | Falta la regla *full-bleed* | Revisar bloque full-bleed en `theme.scss` |
+| Texto oscuro sobre fondo verde | Falta regla de listing en `dark-bg` | Revisar bloque de listings en `theme.scss` |
+| Error al renderizar | Un `:::` sin cerrar | Contar aperturas y cierres del bloque editado |
+| Aparecen elementos duplicados | HTML multilínea parseado por Pandoc | Envolver en ```` ```{=html} ```` |
+
+## Recursos
+
+- Documentación oficial de sitios Quarto: [quarto.org/docs/websites](https://quarto.org/docs/websites/)
+
+- Guía de listings: [quarto.org/docs/websites/website-listings](https://quarto.org/docs/websites/website-listings.html)
+
+- Páginas *about*: [quarto.org/docs/websites/website-about](https://quarto.org/docs/websites/website-about.html)
+
+- Repositorio de referencia del diseño: [github.com/lisa-coes/lisa-coes](https://github.com/lisa-coes/lisa-coes)
+
+##  {data-background-color="black"}
+
+::: {.columns .v-center-container}
+::: {.column width="20%"}
+![](../images/favicon/favicon.png){width="80%" fig-align="right"}
+:::
+
+::: {.column width="80%"}
+::: rojo
+Sitio web del grupo de investigación
+:::
+
+------------------------------------------------------------------------
+
+### **Kevin Carrasco**
+### Universidad de Chile
+### 2026
+### [sociud.com](https://sociud.com)
+:::
+:::

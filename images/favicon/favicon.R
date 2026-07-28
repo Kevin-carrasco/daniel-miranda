@@ -15,7 +15,8 @@ hexagon_vertices <- function(center_x, center_y, radius) {
 
 # Make plot 
 
-favicon <- ggplot() + 
+favicon <- 
+    ggplot() + 
     # Make outer hexagon
     geom_polygon(
         data = round(hexagon_vertices(0, 0, 3), 6), 
@@ -30,10 +31,10 @@ favicon <- ggplot() +
     ) +
     # Add J
     geom_text(
-      aes(x = 0, y = 0, label = 'D'), 
+      aes(x = 0, y = 0, label = 'SOCIUD'), 
       hjust = 0.5, 
-      nudge_y = 0.7,
-      size = 90,
+      nudge_y = 0.1,
+      size = 24,
       family = 'Raleway', 
       fontface = 'bold', 
       color = 'white'
