@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="manual-sitio-web_files/libs/clipboard/clipboard.min.js"></script>
+<script src="manual-sitio-web_files/libs/quarto-html/tabby.min.js"></script>
+<script src="manual-sitio-web_files/libs/quarto-html/popper.min.js"></script>
+<script src="manual-sitio-web_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="manual-sitio-web_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="manual-sitio-web_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="manual-sitio-web_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.38">
+
+  <meta name="author" content="Kevin Carrasco">
+  <title>Manual del sitio web</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="manual-sitio-web_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="manual-sitio-web_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="manual-sitio-web_files/libs/revealjs/dist/theme/quarto-c1e39225afc1b2f4af7fd1df49eece50.css">
+  <link href="manual-sitio-web_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="manual-sitio-web_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="manual-sitio-web_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="manual-sitio-web_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="section" class="slide level2" data-background-color="black">
+<h2></h2>
+<div class="columns v-center-container">
+<div class="column" style="width:20%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/favicon/favicon.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:80%;">
+<section id="sitio-web-del-grupo-de-investigación-sobre-socialización-política-ciudadanía-juventudes-y-cohesión-social" class="rojo">
+<h3>Sitio web del Grupo de investigación sobre socialización política, ciudadanía, juventudes, y cohesión social</h3>
+<p><strong>Manual de uso y edición</strong>: cómo funciona Quarto web, cómo funciona este repositorio y cómo modificarlo</p>
+</section>
+<hr>
+<h3 id="kevin-carrasco"><strong>Kevin Carrasco</strong></h3>
+<h3 id="universidad-de-chile">Universidad de Chile</h3>
+<h3 id="section-1">2026</h3>
+<h3 id="sociud.com"><a href="https://sociud.com">sociud.com</a></h3>
+</div></div>
+</section>
+<section>
+<section id="cómo-funciona-un-sitio-web-en-quarto" class="title-slide slide level1 center" data-background-color="black">
+<h1>¿Cómo funciona un sitio web en Quarto?</h1>
+
+</section>
+<section id="la-idea-general" class="slide level2">
+<h2>La idea general</h2>
+<ul>
+<li class="fragment"><p>Un sitio Quarto es una <strong>carpeta de archivos de texto plano</strong>.</p></li>
+<li class="fragment"><p>Cada página del sitio es un archivo <strong><code>.qmd</code></strong>: texto markdown con un encabezado YAML.</p></li>
+<li class="fragment"><p>El comando <strong><code>quarto render project</code></strong> convierte todos los <code>.qmd</code> en páginas HTML.</p></li>
+<li class="fragment"><p>El comando <strong><code>quarto render document</code></strong> convierte el <code>.qmd</code> actual en página HTML.</p></li>
+<li class="fragment"><p>El resultado es un sitio <strong>estático</strong>: no requiere servidor, base de datos ni programación web.</p></li>
+<li class="fragment"><p>GitHub Pages lo publica gratuitamente desde el propio repositorio.</p></li>
+<li class="fragment"><p>También se puede publicar en Netlify, Render, Vercel o cualquier servidor web.</p></li>
+<li class="fragment"><p>Netlify permite compra de dominios web (ej. .cl, .com, .org)</p></li>
+</ul>
+</section>
+<section id="los-tres-componentes" class="slide level2">
+<h2>Los tres componentes</h2>
+<ul>
+<li><p><strong><code>_quarto.yml</code></strong>: Configuración global: título, menú de navegación, formato de salida</p></li>
+<li><p><strong>Archivos <code>.qmd</code></strong>: El contenido: una página por archivo (portada, integrantes, líneas…)</p></li>
+<li><p><strong><code>css/theme.scss</code></strong>: La apariencia: colores, tipografías, tarjetas, secciones</p></li>
+</ul>
+<p><br></p>
+<p>Editar el sitio consiste en modificar alguno de estos tres tipos de archivo.</p>
+</section>
+<section id="quarto.yml-la-configuración-central" class="slide level2">
+<h2><code>_quarto.yml</code>: la configuración central</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href=""></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb1-2"><a href=""></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span><span class="co">          # tipo de proyecto</span></span>
+<span id="cb1-3"><a href=""></a><span class="at">  </span><span class="fu">output-dir</span><span class="kw">:</span><span class="at"> </span><span class="st">"docs"</span><span class="co">     # dónde queda el HTML generado</span></span>
+<span id="cb1-4"><a href=""></a></span>
+<span id="cb1-5"><a href=""></a><span class="fu">website</span><span class="kw">:</span></span>
+<span id="cb1-6"><a href=""></a><span class="at">  </span><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Nombre del sitio"</span><span class="co">   # aparece en el navbar</span></span>
+<span id="cb1-7"><a href=""></a><span class="at">  </span><span class="fu">navbar</span><span class="kw">:</span></span>
+<span id="cb1-8"><a href=""></a><span class="at">    </span><span class="fu">right</span><span class="kw">:</span></span>
+<span id="cb1-9"><a href=""></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Integrantes"</span><span class="co">   # una entrada del menú</span></span>
+<span id="cb1-10"><a href=""></a><span class="at">        </span><span class="fu">href</span><span class="kw">:</span><span class="at"> equipo.qmd</span><span class="co">      # la página a la que lleva</span></span>
+<span id="cb1-11"><a href=""></a></span>
+<span id="cb1-12"><a href=""></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb1-13"><a href=""></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb1-14"><a href=""></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb1-15"><a href=""></a><span class="at">    </span><span class="fu">css</span><span class="kw">:</span><span class="at"> css/theme.scss</span><span class="co">       # hoja de estilos propia</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Todo lo que es <strong>global</strong> (menú, footer, título) se define una sola vez aquí y aplica a todas las páginas.</li>
+</ul>
+</section>
+<section id="cada-página-es-un-archivo-.qmd" class="slide level2">
+<h2>Cada página es un archivo <code>.qmd</code></h2>
+<p>Un <code>.qmd</code> tiene dos partes: encabezado YAML y cuerpo markdown.</p>
+<pre><code>---
+title: "Juventudes"
+description: "Actitudes y comportamiento político juvenil"
+---
+
+Esta línea estudia las actitudes y el comportamiento 
+político de niñas, niños y jóvenes.
+
+## Publicaciones relacionadas
+
+Texto con **negritas**, [enlaces](https://quarto.org) y listas.</code></pre>
+<ul>
+<li>El YAML define metadatos de la página; el cuerpo es el contenido visible.</li>
+</ul>
+</section>
+<section id="el-proceso-de-render" class="slide level2">
+<h2>El proceso de render</h2>
+<p><br></p>
+<p><strong><code>archivos .qmd</code></strong> → <code>quarto render</code> → <strong><code>docs/*.html</code></strong></p>
+<p><br></p>
+<ul>
+<li class="fragment"><p>Al ejecutar <code>quarto render</code>, Quarto procesa cada <code>.qmd</code> mediante Pandoc y escribe el HTML en la carpeta <strong><code>docs/</code></strong>.</p></li>
+<li class="fragment"><p>La carpeta <code>docs/</code> es <strong>100% generada</strong>: se sobreescribe completa en cada render.</p></li>
+<li class="fragment"><p>Por lo tanto: <strong>nunca se edita <code>docs/</code> a mano</strong>. Todo cambio se hace en los archivos fuente.</p></li>
+</ul>
+</section>
+<section id="listings-contenido-que-se-genera-solo" class="slide level2">
+<h2>Listings: contenido que se genera solo</h2>
+<ul>
+<li>Un <em>listing</em> es un listado de páginas que Quarto construye automáticamente a partir de una carpeta.</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href=""></a><span class="fu">listing</span><span class="kw">:</span></span>
+<span id="cb3-2"><a href=""></a><span class="kw">-</span><span class="at"> </span><span class="fu">id</span><span class="kw">:</span><span class="at"> publications</span></span>
+<span id="cb3-3"><a href=""></a><span class="at">  </span><span class="fu">contents</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb3-4"><a href=""></a><span class="at">    </span><span class="kw">-</span><span class="at"> references/publications/posts/*.qmd</span><span class="co">   # de esta carpeta</span></span>
+<span id="cb3-5"><a href=""></a><span class="at">  </span><span class="fu">sort</span><span class="kw">:</span><span class="at"> date desc</span><span class="co">                           # ordenadas por fecha</span></span>
+<span id="cb3-6"><a href=""></a><span class="at">  </span><span class="fu">max-items</span><span class="kw">:</span><span class="at"> </span><span class="dv">5</span><span class="co">                              # las 5 más recientes</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><p>Así funcionan <strong>Publicaciones</strong> y <strong>Presentaciones</strong>: cada publicación es un archivo <code>.qmd</code> en una carpeta de posts, y el listado se arma solo.</p></li>
+<li><p>Agregar una publicación nueva = crear un archivo. No hay que tocar ningún listado.</p></li>
+</ul>
+</section>
+<section id="publicación-con-github-pages" class="slide level2">
+<h2>Publicación con GitHub Pages</h2>
+<ul>
+<li class="fragment"><p>GitHub Pages está configurado para servir la carpeta <strong><code>docs/</code> de la rama <code>main</code></strong>.</p></li>
+<li class="fragment"><p>Cada vez que se hace <code>git push</code>, GitHub toma el contenido de <code>docs/</code> y actualiza el sitio.</p></li>
+<li class="fragment"><p>El despliegue tarda <strong>1 a 2 minutos</strong> después del push.</p></li>
+<li class="fragment"><p>Por eso el render es parte del flujo: si no se renderiza antes del push, el sitio publicado no cambia.</p></li>
+</ul>
+</section>
+<section id="el-flujo-completo-de-trabajo" class="slide level2">
+<h2>El flujo completo de trabajo</h2>
+<div class="timeline mini">
+<div class="tl-item">
+<p><span class="tl-dot">1</span></p>
+<div class="tl-card">
+<h4>
+…. Editar
+</h4>
+<p>Modificar los archivos fuente: <code>.qmd</code>, <code>_quarto.yml</code> o <code>theme.scss</code></p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">2</span></p>
+<div class="tl-card">
+<h4>
+…. Renderizar
+</h4>
+<p><code>quarto render</code> (o <code>quarto preview</code> para ver los cambios en vivo)</p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">3</span></p>
+<div class="tl-card">
+<h4>
+…. Publicar
+</h4>
+<p><code>git add .</code> → <code>git commit -m "mensaje"</code> → <code>git push</code></p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">4</span></p>
+<div class="tl-card">
+<h4>
+…. Verificar
+</h4>
+<p>Esperar 1–2 minutos y actualizar</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="cómo-funciona-este-repositorio" class="title-slide slide level1 center" data-background-color="black">
+<h1>¿Cómo funciona este repositorio?</h1>
+
+</section>
+<section id="mapa-del-repositorio" class="slide level2">
+<h2>Mapa del repositorio</h2>
+<pre><code>daniel-miranda/
+├── _quarto.yml          # configuración: navbar, título, footer
+├── index.qmd            # PORTADA: hero + líneas + últimas publicaciones
+├── equipo.qmd           # Integrantes (PI)
+├── lineas/              # una página por línea de investigación
+│   ├── juventudes.qmd
+│   ├── socializacion-politica.qmd
+│   ├── educacion-civica.qmd
+│   └── cohesion-social.qmd
+├── proyectos.qmd        # Proyectos
+├── docencia.qmd         # Docencia
+├── references/
+│   ├── bibtex2quarto.R        # genera los .qmd desde el .bib
+│   ├── publications/
+│   │   ├── publicaciones.bib  # bibliografía (fuente)
+│   │   └── posts/             # .qmd generados automáticamente
+│   └── presentations/         # ídem para presentaciones
+├── css/theme.scss       # todos los estilos del sitio
+├── js/                  # scripts (particles del hero)
+├── images/              # logos y fotografías
+└── docs/                # ⚠ HTML generado: NO editar</code></pre>
+</section>
+<section id="la-portada-index.qmd" class="slide level2">
+<h2>La portada: <code>index.qmd</code></h2>
+<p>La portada está construida como una secuencia de <strong>secciones de color</strong>:</p>
+<ul>
+<li class="fragment"><p><strong>Hero</strong> (fondo verde): nombre del grupo, bajada y animación de <em>particles</em>.</p></li>
+<li class="fragment"><p><strong>Líneas de investigación</strong> (fondo claro): las cuatro tarjetas.</p></li>
+<li class="fragment"><p><strong>Últimas publicaciones</strong> (fondo verde): listing automático, 5 más recientes.</p></li>
+<li class="fragment"><p><strong>Últimas presentaciones</strong> (fondo claro): listing automático.</p></li>
+</ul>
+</section>
+<section id="las-secciones-de-color" class="slide level2">
+<h2>Las secciones de color</h2>
+<p>Cada sección se escribe con <em>divs</em> de Pandoc (<code>:::</code>) y clases del <code>theme.scss</code>:</p>
+<pre><code>::: {.section-text .dark-bg}     &lt;- sección de fondo verde
+contenido...
+:::
+
+&lt;div class="section-footer2"&gt;&lt;/div&gt;   &lt;- degradado verde → blanco
+
+::: {.section-text .light-bg}    &lt;- sección de fondo claro
+contenido...
+:::
+
+&lt;div class="section-footer1"&gt;&lt;/div&gt;   &lt;- degradado blanco → verde</code></pre>
+<ul>
+<li>Los <code>section-footer1/2</code> son las <strong>transiciones de color</strong> entre secciones: al agregar una sección nueva hay que respetar la alternancia.</li>
+</ul>
+</section>
+<section id="las-tarjetas-de-líneas" class="slide level2">
+<h2>Las tarjetas de líneas</h2>
+<p>Cada tarjeta es un div con la clase <code>linea-card</code>, dentro de la grilla <code>lineas-grid</code>:</p>
+<pre><code>::: {.lineas-grid}
+
+::: {.linea-card}
+&lt;i class="bi bi-people-fill linea-icon"&gt;&lt;/i&gt;
+
+### Juventudes
+
+Descripción breve de la línea.
+
+[Ver línea](lineas/juventudes.qmd){.btn .btn-sm role="button" 
+  style="background-color: #26595a; color: white;"}
+:::
+
+:::</code></pre>
+<ul>
+<li>El ícono es de <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a>: basta cambiar el nombre de la clase (<code>bi-people-fill</code>, <code>bi-megaphone-fill</code>, etc.).</li>
+</ul>
+</section>
+<section id="csstheme.scss-la-apariencia" class="slide level2">
+<h2><code>css/theme.scss</code>: la apariencia</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p>Contiene, en orden:</p>
+<ul>
+<li>Colores y fuentes generales</li>
+<li>Clases de sección (<code>dark-bg</code>, <code>light-bg</code>, <code>section-footer</code>)</li>
+<li>Tarjetas de líneas (<code>linea-card</code>)</li>
+<li><em>Full-bleed</em> (secciones a todo el ancho)</li>
+<li>Listings sobre fondo oscuro</li>
+<li>Capa de <em>particles</em> del hero</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="fragment fade-up">
+<p><strong>⚠ Advertencia importante</strong></p>
+<p>Las variables SCSS (<code>$primary-color</code>) <strong>no funcionan</strong>: los colores deben escribirse en hexadecimal directo (<code>#26595a</code>).</p>
+</div>
+</div></div>
+</section>
+<section id="integrantes-equipo.qmd" class="slide level2">
+<h2>Integrantes: <code>equipo.qmd</code></h2>
+<ul>
+<li>Usa el <em>template</em> <code>about</code> de Quarto en su variante <strong>trestles</strong>: fotografía a la izquierda, biografía a la derecha, botones de contacto.</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb7-1"><a href=""></a><span class="fu">about</span><span class="kw">:</span></span>
+<span id="cb7-2"><a href=""></a><span class="at">  </span><span class="fu">id</span><span class="kw">:</span><span class="at"> hero-heading</span></span>
+<span id="cb7-3"><a href=""></a><span class="at">  </span><span class="fu">template</span><span class="kw">:</span><span class="at"> trestles</span></span>
+<span id="cb7-4"><a href=""></a><span class="at">  </span><span class="fu">links</span><span class="kw">:</span></span>
+<span id="cb7-5"><a href=""></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">icon</span><span class="kw">:</span><span class="at"> envelope</span></span>
+<span id="cb7-6"><a href=""></a><span class="at">      </span><span class="fu">href</span><span class="kw">:</span><span class="at"> mailto:damiranda@uchile.cl</span></span>
+<span id="cb7-7"><a href=""></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">icon</span><span class="kw">:</span><span class="at"> github</span></span>
+<span id="cb7-8"><a href=""></a><span class="at">      </span><span class="fu">href</span><span class="kw">:</span><span class="at"> https://github.com/damiranda</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>El cuerpo de la página lleva el nombre, el rol (<strong>Investigador Principal</strong>) y la biografía.</li>
+</ul>
+</section>
+<section id="publicaciones-y-presentaciones" class="slide level2">
+<h2>Publicaciones y presentaciones</h2>
+<ul>
+<li>Cada publicación es un archivo <code>.qmd</code> en <code>references/publications/posts/</code>, con este encabezado:</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb8-1"><a href=""></a><span class="pp">---</span></span>
+<span id="cb8-2"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Título del artículo"</span></span>
+<span id="cb8-3"><a href=""></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Miranda, Daniel; Castillo, Juan Carlos"</span></span>
+<span id="cb8-4"><a href=""></a><span class="fu">date</span><span class="kw">:</span><span class="at"> 2026-05-01</span></span>
+<span id="cb8-5"><a href=""></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">Journal Article</span><span class="kw">]</span></span>
+<span id="cb8-6"><a href=""></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="fragment fade-up">
+<ul>
+<li><strong>Pero estos archivos no se escriben a mano</strong>: se generan automáticamente a partir de la bibliografía. Eso lo hace el script <code>bibtex2quarto.R</code>.</li>
+</ul>
+</div>
+</section>
+<section id="bibtex2quarto.r-de-la-bibliografía-a-las-páginas" class="slide level2">
+<h2><code>bibtex2quarto.R</code>: de la bibliografía a las páginas</h2>
+<ul>
+<li><p>El listado de publicaciones <strong>no se mantiene página por página</strong>, sino desde un único archivo <strong><code>.bib</code></strong> (bibliografía en formato BibTeX).</p></li>
+<li><p>El script <code>references/bibtex2quarto.R</code> <strong>lee ese <code>.bib</code> y genera un <code>.qmd</code> por cada referencia</strong> en la carpeta <code>posts/</code>.</p></li>
+</ul>
+<p><br></p>
+<p><strong><code>publicaciones.bib</code></strong> → <code>bibtex2quarto.R</code> → <strong><code>posts/*.qmd</code></strong> → listing → <strong>sitio</strong></p>
+<p><br></p>
+<ul>
+<li>Así, mantener las publicaciones al día se reduce a <strong>mantener el <code>.bib</code></strong>: el resto es automático.</li>
+</ul>
+</section>
+<section id="qué-hace-el-script-por-dentro" class="slide level2">
+<h2>¿Qué hace el script por dentro?</h2>
+<ul>
+<li class="fragment"><p>Lee el <code>.bib</code> con <code>RefManageR</code> y limpia el texto: convierte los códigos LaTeX (<code>\'a</code> → á, <code>\~n</code> → ñ) a caracteres normales.</p></li>
+<li class="fragment"><p>Clasifica cada referencia en una <strong>categoría</strong> (<code>Journal Article</code>, <code>Book</code>, <code>Presentation</code>…) según su tipo BibTeX.</p></li>
+<li class="fragment"><p>Ordena autores, arma la cita completa y crea el <strong>nombre de archivo</strong> a partir del año y el título (<code>2026_titulo_corto.qmd</code>).</p></li>
+<li class="fragment"><p>Escribe cada <code>.qmd</code> con su YAML (<code>title</code>, <code>author</code>, <code>date</code>, <code>categories</code>, <code>abstract</code>) y un bloque <em>“How to cite this work”</em>.</p></li>
+</ul>
+</section>
+<section id="el-vínculo-con-zotero" class="slide level2">
+<h2>El vínculo con Zotero</h2>
+<p>Zotero es el gestor bibliográfico; el <code>.bib</code> es el puente hacia el sitio.</p>
+<div class="timeline mini">
+<div class="tl-item">
+<p><span class="tl-dot">1</span></p>
+<div class="tl-card">
+<h4>
+…. Gestionar en Zotero
+</h4>
+<p>Se mantienen las referencias en una colección de Zotero (la fuente principal)</p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">2</span></p>
+<div class="tl-card">
+<h4>
+…. Exportar a BibTeX
+</h4>
+<p>Exportar la colección como <code>publicaciones.bib</code> a <code>references/publications/</code> (usar Better BibTeX para exportación automática)</p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">3</span></p>
+<div class="tl-card">
+<h4>
+…. Ejecutar el script
+</h4>
+<p>En R, desde la carpeta del proyecto: <code>source("references/bibtex2quarto.R")</code></p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">4</span></p>
+<div class="tl-card">
+<h4>
+…. Render y push
+</h4>
+<p>Los <code>.qmd</code> se regeneran, el listado se actualiza solo</p>
+</div>
+</div>
+</div>
+</section>
+<section id="campos-especiales-desde-zotero" class="slide level2">
+<h2>Campos especiales desde Zotero</h2>
+<ul>
+<li>El script aprovecha el campo <strong><code>annotation</code></strong> (nota) de cada referencia para enlaces y contenido extra:</li>
+</ul>
+<pre><code>url_pdf: "https://..."          # botón al PDF
+url_slides: "https://..."       # botón a diapositivas
+url_dataset: "https://..."      # botón a datos
+url_project: "https://..."      # botón al proyecto</code></pre>
+<ul>
+<li><p>También detecta <strong>URLs de imágenes</strong> en la nota y las inserta como portada de la publicación.</p></li>
+<li><p>El texto restante de la nota se conserva como descripción libre.</p></li>
+<li><p>Todo esto se escribe en Zotero una vez y el script lo traduce a los botones y el formato del sitio.</p></li>
+</ul>
+</section>
+<section id="cuidado-con-overwrite" class="slide level2">
+<h2>⚠ Cuidado con <code>overwrite</code></h2>
+<ul>
+<li>Al final del script, las llamadas usan <code>overwrite = TRUE</code>:</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href=""></a><span class="fu">bibtex_2academic</span>(<span class="at">bibfile   =</span> <span class="st">"references/publications/publicaciones.bib"</span>,</span>
+<span id="cb10-2"><a href=""></a>                 <span class="at">outfold   =</span> <span class="st">"references/publications/posts"</span>,</span>
+<span id="cb10-3"><a href=""></a>                 <span class="at">abstract  =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb10-4"><a href=""></a>                 <span class="at">overwrite =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><p>Con <code>overwrite = TRUE</code>, <strong>se regeneran todos los <code>.qmd</code></strong> y se pierde cualquier edición hecha a mano en ellos.</p></li>
+<li><p>Si se editó un post directamente (no vía Zotero), usar <code>overwrite = FALSE</code> para no sobreescribirlo.</p></li>
+<li><p>La recomendación es <strong>editar siempre en Zotero</strong>, no en los <code>.qmd</code>.</p></li>
+<li><p>Por el contrario, si se modifican los títulos, autores o fechas, puede que el qmd cambie de nombre y se dupliquen las referencias. En ese caso, borrar el <code>.qmd</code> antiguo y renderizar de nuevo.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="cómo-hacer-modificaciones" class="title-slide slide level1 center" data-background-color="black">
+<h1>Cómo hacer modificaciones</h1>
+
+</section>
+<section id="la-regla-principal" class="slide level2">
+<h2>La regla principal</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><p>Se editan <strong>solamente</strong> los archivos fuente: <code>.qmd</code>, <code>_quarto.yml</code>, <code>css/theme.scss</code>.</p></li>
+<li class="fragment"><p>La carpeta <code>docs/</code> <strong>nunca se toca</strong>: es generada y se sobreescribe completa en cada render.</p></li>
+<li class="fragment"><p>Después de cualquier edición: <code>quarto render</code> → <code>git push</code>.</p></li>
+<li class="fragment"><p>Si un cambio no se ve en el sitio publicado, revisar en orden: ¿se renderizó? ¿se hizo push? ¿es caché del navegador? (<strong>Ctrl+Shift+R</strong>).</p></li>
+</ul>
+</section>
+<section id="cambiar-los-textos-de-la-portada" class="slide level2">
+<h2>Cambiar los textos de la portada</h2>
+<ul>
+<li>En <code>index.qmd</code>, sección del hero (parte superior del archivo):</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb11-1"><a href=""></a><span class="dt">&lt;</span><span class="kw">p</span><span class="ot"> style</span><span class="op">=</span><span class="st">"font-size:48px; ..."</span><span class="dt">&gt;</span>Socialización Política y Juventudes<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb11-2"><a href=""></a></span>
+<span id="cb11-3"><a href=""></a><span class="dt">&lt;</span><span class="kw">p</span><span class="ot"> style</span><span class="op">=</span><span class="st">"font-size:20px; ..."</span><span class="dt">&gt;</span>Grupo de investigación sobre cómo </span>
+<span id="cb11-4"><a href=""></a>niñas, niños y jóvenes forman sus actitudes...<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><p>El primer <code>&lt;p&gt;</code> es el <strong>nombre del grupo</strong>; el segundo, la <strong>bajada</strong>.</p></li>
+<li><p>Para cambiar el nombre del sitio completo son <strong>tres lugares</strong>: este hero, el <code>title</code> de <code>_quarto.yml</code> (navbar) y el <code>©</code> del footer (también en <code>_quarto.yml</code>).</p></li>
+</ul>
+</section>
+<section id="agregar-una-publicación" class="slide level2">
+<h2>Agregar una publicación</h2>
+<p>La vía recomendada es a través de Zotero, no creando el <code>.qmd</code> a mano:</p>
+<div class="timeline mini">
+<div class="tl-item">
+<p><span class="tl-dot">1</span></p>
+<div class="tl-card">
+<h4>
+…. Agregar en Zotero
+</h4>
+<p>Sumar la referencia a la colección y exportar el <code>.bib</code> actualizado</p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">2</span></p>
+<div class="tl-card">
+<h4>
+…. Ejecutar el script
+</h4>
+<p><code>source("references/bibtex2quarto.R")</code> en R: regenera los <code>.qmd</code></p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">3</span></p>
+<div class="tl-card">
+<h4>
+…. Renderizar y publicar
+</h4>
+<p><code>quarto render</code> → push. El listado y la portada se actualizan solos</p>
+</div>
+</div>
+</div>
+<h4 id="recomendaciones-para-zotero">Recomendaciones para Zotero</h4>
+<ul>
+<li><p>usar <a href="https://retorque.re/zotero-better-bibtex/installation/">better bibtex</a> para exportación automática del <code>.bib</code> (no manual)</p></li>
+<li><p>usar clave de citación <code>auth.lower+"_"+shorttitle(1).lower+"_"+year</code> (autor en minúscula + guion bajo + primera palabra del título en minúscula + guion bajo + año) para que el nombre del archivo <code>.qmd</code> sea consistente y no se duplique.</p></li>
+</ul>
+</section>
+<section id="agregar-un-integrante" class="slide level2">
+<h2>Agregar un integrante</h2>
+<ul>
+<li><p>Por ahora <code>equipo.qmd</code> contiene solo al PI con el template <em>trestles</em>.</p></li>
+<li><p>Para sumar integrantes se recomienda el patrón de columnas que ya usa <code>proyectos.qmd</code>:</p></li>
+</ul>
+<!-- -->
+<pre><code>## Equipo
+
+::: columns
+::: {.column width="25%"}
+![](images/foto_nombre.jpg){width=150}
+:::
+::: {.column width="75%"}
+**Nombre Apellido** — Asistente de investigación
+
+Breve descripción y enlaces.
+:::
+:::</code></pre>
+<ul>
+<li>La fotografía se guarda en <code>images/</code>.</li>
+</ul>
+</section>
+<section id="agregar-una-línea-de-investigación" class="slide level2">
+<h2>Agregar una línea de investigación</h2>
+<div class="timeline mini">
+<div class="tl-item">
+<p><span class="tl-dot">1</span></p>
+<div class="tl-card">
+<h4>
+…. Crear la página
+</h4>
+<p><code>lineas/nueva-linea.qmd</code> con <code>title</code> y <code>description</code> (copiar una existente como plantilla)</p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">2</span></p>
+<div class="tl-card">
+<h4>
+…. Agregar la tarjeta
+</h4>
+<p>En <code>index.qmd</code>, duplicar un bloque <code>::: {.linea-card}</code> y ajustar ícono, título, texto y enlace</p>
+</div>
+</div>
+<div class="tl-item">
+<p><span class="tl-dot">3</span></p>
+<div class="tl-card">
+<h4>
+…. Agregar al menú
+</h4>
+<p>En <code>_quarto.yml</code>, nueva entrada bajo el menú “Líneas de investigación”</p>
+</div>
+</div>
+</div>
+</section>
+<section id="cambiar-los-colores-del-sitio" class="slide level2">
+<h2>Cambiar los colores del sitio</h2>
+<ul>
+<li><p>El color institucional (verde <code>#26595a</code>) aparece en <code>css/theme.scss</code> en: <code>dark-bg</code>, bordes de tarjetas, botones y enlaces.</p></li>
+<li><p>Para cambiarlo, <strong>buscar y reemplazar el hexadecimal</strong> en <code>theme.scss</code> y en los <code>style=</code> de los botones de <code>index.qmd</code>.</p></li>
+<li><p>Recordatorio: siempre valores hexadecimales directos, nunca variables <code>$</code>.</p></li>
+</ul>
+</section>
+<section id="problemas-frecuentes" class="slide level2">
+<h2>Problemas frecuentes</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Síntoma</th>
+<th>Causa probable</th>
+<th>Solución</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No se ven los cambios</td>
+<td>Falta render, push o es caché</td>
+<td>Render → push → Ctrl+Shift+R</td>
+</tr>
+<tr class="even">
+<td>El color no llega a los bordes</td>
+<td>Falta la regla <em>full-bleed</em></td>
+<td>Revisar bloque full-bleed en <code>theme.scss</code></td>
+</tr>
+<tr class="odd">
+<td>Texto oscuro sobre fondo verde</td>
+<td>Falta regla de listing en <code>dark-bg</code></td>
+<td>Revisar bloque de listings en <code>theme.scss</code></td>
+</tr>
+<tr class="even">
+<td>Error al renderizar</td>
+<td>Un <code>:::</code> sin cerrar</td>
+<td>Contar aperturas y cierres del bloque editado</td>
+</tr>
+<tr class="odd">
+<td>Aparecen elementos duplicados</td>
+<td>HTML multilínea parseado por Pandoc</td>
+<td>Envolver en <code>```{=html}</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="recursos" class="slide level2">
+<h2>Recursos</h2>
+<ul>
+<li><p>Documentación oficial de sitios Quarto: <a href="https://quarto.org/docs/websites/">quarto.org/docs/websites</a></p></li>
+<li><p>Guía de listings: <a href="https://quarto.org/docs/websites/website-listings.html">quarto.org/docs/websites/website-listings</a></p></li>
+<li><p>Páginas <em>about</em>: <a href="https://quarto.org/docs/websites/website-about.html">quarto.org/docs/websites/website-about</a></p></li>
+<li><p>Repositorio de referencia del diseño: <a href="https://github.com/lisa-coes/lisa-coes">github.com/lisa-coes/lisa-coes</a></p></li>
+</ul>
+</section>
+<section id="section-2" class="slide level2" data-background-color="black">
+<h2></h2>
+<div class="columns v-center-container">
+<div class="column" style="width:20%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="../images/favicon/favicon.png" class="quarto-figure quarto-figure-right" style="width:80.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:80%;">
+<div class="rojo">
+<p>Sitio web del grupo de investigación</p>
+</div>
+<hr>
+<h3 id="kevin-carrasco-1"><strong>Kevin Carrasco</strong></h3>
+<h3 id="universidad-de-chile-1">Universidad de Chile</h3>
+<h3 id="section-3">2026</h3>
+<h3 id="sociud.com-1"><a href="https://sociud.com">sociud.com</a></h3>
+</div></div>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="../images/favicon/favicon.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="manual-sitio-web_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="manual-sitio-web_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: true,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

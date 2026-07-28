@@ -15,12 +15,13 @@ hexagon_vertices <- function(center_x, center_y, radius) {
 
 # Make plot 
 
-favicon <- ggplot() + 
+favicon <- 
+    ggplot() + 
     # Make outer hexagon
     geom_polygon(
         data = round(hexagon_vertices(0, 0, 3), 6), 
         aes(x = x, y = y), 
-        fill = '#26595a'
+        fill = '#13393b'
     ) +
     # Make inner hexagon
     geom_polygon(

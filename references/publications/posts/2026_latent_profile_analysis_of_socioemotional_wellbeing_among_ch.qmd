@@ -1,0 +1,20 @@
+---
+title: "Latent Profile Analysis of Socioemotional Wellbeing among Chilean Adolescents"
+date: "2026-05-01"
+author: "Varela, Jorge J.; Miranda, Daniel; Hidalgo, Roy; Chuecas, Josefina & Cubillos, Montserrat"
+categories: ["Journal Article"]
+publication: "Applied Research in Quality of Life [https://doi.org/10.1007/s11482-026-10604-8](https://doi.org/10.1007/s11482-026-10604-8)"
+publication_short: "Applied Research in Quality of Life [https://doi.org/10.1007/s11482-026-10604-8](https://doi.org/10.1007/s11482-026-10604-8)"
+abstract: "Socioemotional skills are crucial facets of adolescent development---one approach to studying them is covitality. Covitality is a meta-construct in the framework of positive mental health that arises from the synergistic inter-relationship between diverse traits or first-order personal indicators associated with mental health, well-being, and positive school adjustment. Previous studies have examined the positive effects of covitality; however, further research needs to explore underlying covitality patterns. This study hypothesized that covitality dimensions would be related to some school experiences, like bullying behavior and life satisfaction levels. The sample included 1,384 Chilean students (52.4% female) between 5th and 9th grades. A series of Latent Profiles Analyses (LPA) identified an optimal four-class solution. The four ordered profiles range from low-risk to high covitality. The four covitality profiles differed in all dimensions by sex, age, bullying behavior, and life satisfaction. The results provide helpful information to better identify the Chilean students' covitality profiles, informing prevention programs and specific interventions."
+abstract_short: ""
+about:
+  template: marquee
+---
+
+
+::: {.callout-note title="How to cite this work"}
+
+Varela, Jorge J.; Miranda, Daniel; Hidalgo, Roy; Chuecas, Josefina & Cubillos, Montserrat (2026). *Latent Profile Analysis of Socioemotional Wellbeing among Chilean Adolescents*. Applied Research in Quality of Life [https://doi.org/10.1007/s11482-026-10604-8](https://doi.org/10.1007/s11482-026-10604-8)
+
+:::
+
