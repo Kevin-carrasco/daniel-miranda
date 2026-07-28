@@ -14,9 +14,6 @@ $body-bg: #f2f6f9;
 $body-color: $primary-color-dark;
 $footer-bg: $primary-color;
 $footer-fg: white;
-$navbar-bg: #26595a;
-$navbar-fg: #ffffff;
-$navbar-hl: $secondary-color;
 $dropdown-link-color: $primary-color;
 $navbar-font-family: "Raleway";
 $headings-font-family: "Raleway";
@@ -24,13 +21,10 @@ $headings-color: $primary-color-dark;
 $font-family-base: "Raleway";
 $code-block-bg: white;
 $code-block-border: false;
-$code-block-border-right: $navbar-bg !important;
 $code-block-border-radius: 5px;
 $code-color: black;
 $code-bg: $code-block-bg;
 $code-border-radius: 25px; 
-$tabset-border-color: $navbar-bg;
-$border-color: $navbar-bg;
 $link-color: $primary-color;
 $link-hover-color: $secondary-color;
 $pagination-active-bg: $primary-color;
@@ -149,7 +143,6 @@ hr {
 }
 
 .panel-tabset [role="tablist"] {
-  border-bottom: 5px solid $tabset-border-color;
   list-style: none;
   margin: 0;
   padding-bottom: 5px;
@@ -157,8 +150,6 @@ hr {
 }
 
 .panel-tabset [role="tab"] {
-  border: 1px solid $tabset-border-color;
-  border-top-color: $tabset-border-color;
   display: block;
   padding: 1em 1em;
   text-decoration: none;
@@ -170,12 +161,12 @@ hr {
 }
 
 .panel-tabset [role="tab"][aria-selected="true"] {
-  background-color: $navbar-bg;
+
   color: $body-bg;
 }
 
 details > summary {
-  color: $navbar-bg;
+
   font-size: 1em;
   border-radius: 20px;
   background-color: $code-bg;
