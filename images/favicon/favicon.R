@@ -15,19 +15,18 @@ hexagon_vertices <- function(center_x, center_y, radius) {
 
 # Make plot 
 
-favicon <- 
-    ggplot() + 
+favicon <- ggplot() + 
     # Make outer hexagon
     geom_polygon(
         data = round(hexagon_vertices(0, 0, 3), 6), 
         aes(x = x, y = y), 
-        fill = '#2c3f51'
+        fill = '#26595a'
     ) +
     # Make inner hexagon
     geom_polygon(
       data = round(hexagon_vertices(0, 0, 2.7), 6), 
       aes(x = x, y = y), 
-      fill = '#5480a7'
+      fill = "#26595a"
     ) +
     # Add J
     geom_text(
@@ -47,9 +46,13 @@ favicon <-
     )
 
 ggsave(
-  'favicon.pdf', favicon, height = 6, width = 6, 
-  bg = "transparent", device = cairo_pdf
+    "favicon.png",
+    favicon,
+    height = 6,
+    width = 6,
+    bg = "transparent",
+    dpi = 300
 )
-renderthis::to_png('favicon.pdf', 'favicon.png', density = 300)
+#renderthis::to_png('favicon.pdf', 'favicon.png', density = 300)
 favicon <- image_scale(image_read('favicon.png'), '32')
 image_write(favicon, path = "favicon.ico", format = "png")
