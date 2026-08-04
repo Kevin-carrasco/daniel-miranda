@@ -28,10 +28,10 @@ website:
     background: "#26595a"
 #    logo: /images/favicon/favicon.png
     right:
+      - text: "Integrantes"
+        href: equipo.qmd
       - text: "Líneas de investigación"
         menu:
-          - text: "Integrantes"
-            href: equipo.qmd
 #          - text: "Juventudes"
 #            href: lineas/juventudes.qmd
           - text: "Socialización política"

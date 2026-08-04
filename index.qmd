@@ -48,9 +48,9 @@ listing:
 ::: {.section-block}
 ::: {style="text-align: center;"}
 
-<p style="font-size:48px; font-weight:800; margin-bottom: 0.2em; color: #ffffff;">Socialización Política y Juventudes</p>
+<p style="font-size:48px; font-weight:800; margin-bottom: 0.2em; color: #ffffff;">Socialización Política y Ciudadanía</p>
 
-<p style="font-size:20px; max-width: 720px; margin: 0 auto; padding-bottom: 1em;">Grupo de investigación sobre cómo niñas, niños y jóvenes forman sus actitudes y comportamientos políticos: el rol de la escuela, la familia y la desigualdad en la formación ciudadana.</p>
+<p style="font-size:20px; max-width: 720px; margin: 0 auto; padding-bottom: 1em;">Grupo de investigación sobre cómo niñas, niños y jóvenes forman sus actitudes y comportamientos políticos: el rol de la escuela, la familia y la desigualdad en la educación ciudadana.</p>
 
 :::
 :::
@@ -118,15 +118,7 @@ window.addEventListener("load", function () {
 
 ::: {.lineas-grid}
 
-::: {.linea-card}
-<i class="bi bi-people-fill linea-icon"></i>
 
-### Juventudes
-
-Actitudes y comportamiento político juvenil: participación, desigualdad e influencias intergeneracionales.
-
-[Ver línea](lineas/juventudes.qmd){.btn .btn-sm role="button" style="background-color: #26595a; color: white;"}
-:::
 
 ::: {.linea-card}
 <i class="bi bi-megaphone-fill linea-icon"></i>
